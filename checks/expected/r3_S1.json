@@ -1,0 +1,46 @@
+{
+ "section": "S1",
+ "result": {
+  "stone_reduced": [
+   1,
+   2,
+   3,
+   9,
+   10,
+   18,
+   24
+  ],
+  "P53": [
+   1,
+   2,
+   3,
+   9,
+   10,
+   18,
+   24
+  ],
+  "tit_branch_values": {
+   "2": {
+    "roots": 4,
+    "distinct_branch_values": 2
+   },
+   "3": {
+    "roots": 8,
+    "distinct_branch_values": 4
+   },
+   "4": {
+    "roots": 16,
+    "distinct_branch_values": 8
+   },
+   "5": {
+    "roots": 32,
+    "distinct_branch_values": 16
+   },
+   "6": {
+    "roots": 64,
+    "distinct_branch_values": 32
+   }
+  }
+ },
+ "fails": []
+}

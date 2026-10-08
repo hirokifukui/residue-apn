@@ -1,0 +1,40 @@
+{
+ "C2": {
+  "natural_k2": {
+   "perm": true,
+   "unit_off_rho_ok": true,
+   "top_ok": true,
+   "rowmax_le": true,
+   "max_rho": 64,
+   "max_2R_not_top": 0,
+   "Delta": 64
+  },
+  "random_lift_k2": {
+   "perm": true,
+   "unit_off_rho_ok": true,
+   "top_ok": true,
+   "rowmax_le": true,
+   "max_rho": 64,
+   "max_2R_not_top": 0,
+   "Delta": 64
+  },
+  "natural_k3": {
+   "perm": true,
+   "unit_off_rho_ok": true,
+   "top_ok": true,
+   "rowmax_le": true,
+   "max_rho": 128,
+   "max_2R_not_top": 2048,
+   "Delta": 2048
+  },
+  "random_lift_k3": {
+   "perm": true,
+   "unit_off_rho_ok": true,
+   "top_ok": true,
+   "rowmax_le": true,
+   "max_rho": 128,
+   "max_2R_not_top": 2048,
+   "Delta": 2048
+  }
+ }
+}

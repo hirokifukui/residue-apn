@@ -1,0 +1,21 @@
+digraph blueprint {
+  graph [rankdir=LR, ranksep=0.5, nodesep=0.15, fontsize=10, labelloc=t,
+         label="Reference graph of the paper: an arrow A -> B means that the statement or a proof of B cites the earlier statement A by \\ref.\nIt is extracted from the source; it is not a complete proof-dependency graph and not the Lean import graph."];
+  node [shape=box, style=filled, fontsize=10];
+  "def:opt" [fillcolor=white, label="def:opt\n[Def]"];
+  "lem:O" [fillcolor=palegreen, label="lem:O\n[F]"];
+  "thm:A" [fillcolor=palegreen, label="thm:A\n[F]"];
+  "lem:LW" [fillcolor=lightblue, label="lem:LW\n[L + M]"];
+  "cor:P" [fillcolor=lightyellow, label="cor:P\n[M]"];
+  "thm:B" [fillcolor=lightcyan, label="thm:B\n[F (items (1)-(3), root multiplicities) + M]"];
+  "rem:tit" [fillcolor=white, label="rem:tit\n[Rem]"];
+  "prop:C" [fillcolor=lightcyan, label="prop:C\n[F (identity) + M]"];
+  "prop:lift" [fillcolor=lightcyan, label="prop:lift\n[F (abstract finite local ring) + M]"];
+  "thm:R" [fillcolor=lightcyan, label="thm:R\n[F (abstract finite local ring) + M]"];
+  "prop:W" [fillcolor=lightcyan, label="prop:W\n[F (after the normalisation) + M]"];
+  "lem:O" -> "thm:A";
+  "lem:LW" -> "cor:P";
+  "thm:A" -> "thm:B";
+  "thm:A" -> "rem:tit";
+  "thm:A" -> "prop:C";
+}

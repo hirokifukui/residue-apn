@@ -1,0 +1,39 @@
+digraph lean_imports {
+  graph [rankdir=TB, ranksep=0.3, nodesep=0.2, fontsize=10, labelloc=t,
+         label="Lean module import graph of ResidueAPN: an arrow A -> B means that module B imports module A.\nRead from the import lines of the sources; it is not the paper's reference graph."];
+  node [shape=box, fontsize=9];
+  "ResidueAPN.All";
+  "ResidueAPN.Basic";
+  "ResidueAPN.Family";
+  "ResidueAPN.LemmaO";
+  "ResidueAPN.PropW";
+  "ResidueAPN.Ring";
+  "ResidueAPN.Shared.Definitions";
+  "ResidueAPN.Shared.QuadraticAPN";
+  "ResidueAPN.Shared.ReducedRepresentative";
+  "ResidueAPN.Support";
+  "ResidueAPN.TheoremA";
+  "ResidueAPN.TheoremR";
+  "ResidueAPN.ThmA";
+  "ResidueAPN.ThmAImage";
+  "ResidueAPN.ThmB";
+  "ResidueAPN.LemmaO" -> "ResidueAPN.All";
+  "ResidueAPN.PropW" -> "ResidueAPN.All";
+  "ResidueAPN.TheoremA" -> "ResidueAPN.All";
+  "ResidueAPN.TheoremR" -> "ResidueAPN.All";
+  "ResidueAPN.ThmB" -> "ResidueAPN.All";
+  "ResidueAPN.Shared.QuadraticAPN" -> "ResidueAPN.Basic";
+  "ResidueAPN.Shared.ReducedRepresentative" -> "ResidueAPN.Basic";
+  "ResidueAPN.Basic" -> "ResidueAPN.Family";
+  "ResidueAPN.ThmAImage" -> "ResidueAPN.LemmaO";
+  "ResidueAPN.ThmAImage" -> "ResidueAPN.PropW";
+  "ResidueAPN.Basic" -> "ResidueAPN.Ring";
+  "ResidueAPN.Shared.Definitions" -> "ResidueAPN.Shared.QuadraticAPN";
+  "ResidueAPN.ThmA" -> "ResidueAPN.Support";
+  "ResidueAPN.ThmAImage" -> "ResidueAPN.TheoremA";
+  "ResidueAPN.Ring" -> "ResidueAPN.TheoremR";
+  "ResidueAPN.TheoremA" -> "ResidueAPN.TheoremR";
+  "ResidueAPN.Family" -> "ResidueAPN.ThmA";
+  "ResidueAPN.Support" -> "ResidueAPN.ThmAImage";
+  "ResidueAPN.TheoremA" -> "ResidueAPN.ThmB";
+}

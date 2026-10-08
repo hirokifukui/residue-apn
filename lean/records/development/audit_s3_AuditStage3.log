@@ -1,0 +1,265 @@
+@lemma_2_2 : ∀ {F : Type u_1} [inst : Field F] [inst_1 : Fintype F] [inst_2 : DecidableEq F]
+  [inst_3 :
+    @CharP F
+      (@AddGroupWithOne.toAddMonoidWithOne F
+        (@Ring.toAddGroupWithOne F (@DivisionRing.toRing F (@Field.toDivisionRing F inst))))
+      (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))]
+  {m : Nat},
+  @Eq Nat (@Fintype.card F inst_1)
+      (@HPow.hPow Nat Nat Nat (@instHPow Nat Nat (@Monoid.toPow Nat Nat.instMonoid))
+        (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))) m) →
+    @Odd Nat Nat.instSemiring m →
+      ∀
+        {p :
+          @Polynomial (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+            (@DivisionSemiring.toSemiring (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+              (@Semifield.toDivisionSemiring (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                (@Field.toSemifield (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                  (@ZMod.instField (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))) Nat.fact_prime_two))))},
+        IsQuadSupp m p →
+          Iff
+            (@IsDerivOptimal F inst inst_1 inst_2
+              (@Polynomial.map (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))) F
+                (@DivisionSemiring.toSemiring (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                  (@Semifield.toDivisionSemiring (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                    (@Field.toSemifield (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                      (@ZMod.instField (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))) Nat.fact_prime_two))))
+                (@DivisionSemiring.toSemiring F (@Semifield.toDivisionSemiring F (@Field.toSemifield F inst)))
+                (@c2 F inst inst_3) p))
+            (And
+              (@Eq (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                (@coeff (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                  (@DivisionSemiring.toSemiring (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                    (@Semifield.toDivisionSemiring (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                      (@Field.toSemifield (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                        (@ZMod.instField (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))
+                          Nat.fact_prime_two))))
+                  p (@OfNat.ofNat Nat (nat_lit 1) (instOfNatNat (nat_lit 1))))
+                (@OfNat.ofNat (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))) (nat_lit 1)
+                  (@One.toOfNat1 (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                    (@AddMonoidWithOne.toOne (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                      (@AddGroupWithOne.toAddMonoidWithOne
+                        (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                        (@Ring.toAddGroupWithOne (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                          (@DivisionRing.toRing (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                            (@Field.toDivisionRing (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                              (@ZMod.instField (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))
+                                Nat.fact_prime_two)))))))))
+              (@Eq
+                (@Polynomial (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                  (@DivisionSemiring.toSemiring (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                    (@Semifield.toDivisionSemiring (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                      (@Field.toSemifield (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                        (@ZMod.instField (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))
+                          Nat.fact_prime_two)))))
+                (@EuclideanDomain.gcd
+                  (@Polynomial (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                    (@DivisionSemiring.toSemiring (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                      (@Semifield.toDivisionSemiring (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                        (@Field.toSemifield (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                          (@ZMod.instField (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))
+                            Nat.fact_prime_two)))))
+                  (@instEuclideanDomain (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                    (@ZMod.instField (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))) Nat.fact_prime_two))
+                  (fun a b =>
+                    @instDecidableEq (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                      (@DivisionSemiring.toSemiring (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                        (@Semifield.toDivisionSemiring (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                          (@Field.toSemifield (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                            (@ZMod.instField (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))
+                              Nat.fact_prime_two))))
+                      (ZMod.decidableEq (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))) a b)
+                  (kappaOf m p)
+                  (@HSub.hSub
+                    (@Polynomial (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                      (@DivisionSemiring.toSemiring (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                        (@Semifield.toDivisionSemiring (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                          (@Field.toSemifield (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                            (@ZMod.instField (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))
+                              Nat.fact_prime_two)))))
+                    (@Polynomial (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                      (@DivisionSemiring.toSemiring (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                        (@Semifield.toDivisionSemiring (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                          (@Field.toSemifield (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                            (@ZMod.instField (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))
+                              Nat.fact_prime_two)))))
+                    (@Polynomial (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                      (@DivisionSemiring.toSemiring (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                        (@Semifield.toDivisionSemiring (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                          (@Field.toSemifield (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                            (@ZMod.instField (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))
+                              Nat.fact_prime_two)))))
+                    (@instHSub
+                      (@Polynomial (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                        (@DivisionSemiring.toSemiring (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                          (@Semifield.toDivisionSemiring
+                            (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                            (@Field.toSemifield (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                              (@ZMod.instField (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))
+                                Nat.fact_prime_two)))))
+                      (@instSub (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                        (@DivisionRing.toRing (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                          (@Field.toDivisionRing (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                            (@ZMod.instField (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))
+                              Nat.fact_prime_two)))))
+                    (@HPow.hPow
+                      (@Polynomial (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                        (@DivisionSemiring.toSemiring (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                          (@Semifield.toDivisionSemiring
+                            (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                            (@Field.toSemifield (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                              (@ZMod.instField (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))
+                                Nat.fact_prime_two)))))
+                      Nat
+                      (@Polynomial (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                        (@DivisionSemiring.toSemiring (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                          (@Semifield.toDivisionSemiring
+                            (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                            (@Field.toSemifield (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                              (@ZMod.instField (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))
+                                Nat.fact_prime_two)))))
+                      (@instHPow
+                        (@Polynomial (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                          (@DivisionSemiring.toSemiring (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                            (@Semifield.toDivisionSemiring
+                              (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                              (@Field.toSemifield (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                (@ZMod.instField (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))
+                                  Nat.fact_prime_two)))))
+                        Nat
+                        (@Monoid.toPow
+                          (@Polynomial (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                            (@DivisionSemiring.toSemiring
+                              (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                              (@Semifield.toDivisionSemiring
+                                (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                (@Field.toSemifield (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                  (@ZMod.instField (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))
+                                    Nat.fact_prime_two)))))
+                          (@Semiring.toMonoid
+                            (@Polynomial (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                              (@DivisionSemiring.toSemiring
+                                (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                (@Semifield.toDivisionSemiring
+                                  (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                  (@Field.toSemifield (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                    (@ZMod.instField (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))
+                                      Nat.fact_prime_two)))))
+                            (@semiring (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                              (@DivisionSemiring.toSemiring
+                                (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                (@Semifield.toDivisionSemiring
+                                  (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                  (@Field.toSemifield (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                    (@ZMod.instField (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))
+                                      Nat.fact_prime_two))))))))
+                      (@X (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                        (@DivisionSemiring.toSemiring (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                          (@Semifield.toDivisionSemiring
+                            (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                            (@Field.toSemifield (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                              (@ZMod.instField (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))
+                                Nat.fact_prime_two)))))
+                      m)
+                    (@OfNat.ofNat
+                      (@Polynomial (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                        (@DivisionSemiring.toSemiring (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                          (@Semifield.toDivisionSemiring
+                            (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                            (@Field.toSemifield (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                              (@ZMod.instField (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))
+                                Nat.fact_prime_two)))))
+                      (nat_lit 1)
+                      (@One.toOfNat1
+                        (@Polynomial (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                          (@DivisionSemiring.toSemiring (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                            (@Semifield.toDivisionSemiring
+                              (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                              (@Field.toSemifield (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                (@ZMod.instField (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))
+                                  Nat.fact_prime_two)))))
+                        (@instOne (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                          (@DivisionSemiring.toSemiring (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                            (@Semifield.toDivisionSemiring
+                              (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                              (@Field.toSemifield (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                (@ZMod.instField (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))
+                                  Nat.fact_prime_two)))))))))
+                (@HAdd.hAdd
+                  (@Polynomial (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                    (@DivisionSemiring.toSemiring (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                      (@Semifield.toDivisionSemiring (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                        (@Field.toSemifield (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                          (@ZMod.instField (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))
+                            Nat.fact_prime_two)))))
+                  (@Polynomial (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                    (@DivisionSemiring.toSemiring (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                      (@Semifield.toDivisionSemiring (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                        (@Field.toSemifield (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                          (@ZMod.instField (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))
+                            Nat.fact_prime_two)))))
+                  (@Polynomial (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                    (@DivisionSemiring.toSemiring (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                      (@Semifield.toDivisionSemiring (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                        (@Field.toSemifield (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                          (@ZMod.instField (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))
+                            Nat.fact_prime_two)))))
+                  (@instHAdd
+                    (@Polynomial (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                      (@DivisionSemiring.toSemiring (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                        (@Semifield.toDivisionSemiring (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                          (@Field.toSemifield (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                            (@ZMod.instField (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))
+                              Nat.fact_prime_two)))))
+                    (@instAdd (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                      (@DivisionSemiring.toSemiring (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                        (@Semifield.toDivisionSemiring (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                          (@Field.toSemifield (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                            (@ZMod.instField (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))
+                              Nat.fact_prime_two))))))
+                  (@X (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                    (@DivisionSemiring.toSemiring (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                      (@Semifield.toDivisionSemiring (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                        (@Field.toSemifield (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                          (@ZMod.instField (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))
+                            Nat.fact_prime_two)))))
+                  (@OfNat.ofNat
+                    (@Polynomial (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                      (@DivisionSemiring.toSemiring (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                        (@Semifield.toDivisionSemiring (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                          (@Field.toSemifield (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                            (@ZMod.instField (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))
+                              Nat.fact_prime_two)))))
+                    (nat_lit 1)
+                    (@One.toOfNat1
+                      (@Polynomial (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                        (@DivisionSemiring.toSemiring (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                          (@Semifield.toDivisionSemiring
+                            (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                            (@Field.toSemifield (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                              (@ZMod.instField (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))
+                                Nat.fact_prime_two)))))
+                      (@instOne (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                        (@DivisionSemiring.toSemiring (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                          (@Semifield.toDivisionSemiring
+                            (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                            (@Field.toSemifield (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                              (@ZMod.instField (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))
+                                Nat.fact_prime_two))))))))))
+def ResidueAPN.IsQuadSupp : ℕ → (ZMod 2)[X] → Prop :=
+fun m p => ∀ n ∈ p.support, n = 0 ∨ (∃ i < m, n = 2 ^ i) ∨ ∃ i j, i < j ∧ j < m ∧ n = 2 ^ i + 2 ^ j
+def ResidueAPN.kappaOf : ℕ → (ZMod 2)[X] → (ZMod 2)[X] :=
+fun m p => ∑ j ∈ Ico 1 m, (monomial j) (p.coeff (1 + 2 ^ j))
+def ResidueAPN.linMap.{u_1} : {F : Type u_1} → [inst : Field F] → [CharP F 2] → (ZMod 2)[X] → F → F :=
+fun {F} [Field F] [CharP F 2] κ x => κ.sum fun i c => (c2 F) c * x ^ 2 ^ i
+@[reducible] def ResidueAPN.c2.{u_2} : (F : Type u_2) → [inst : Field F] → [CharP F 2] → ZMod 2 →+* F :=
+fun F [Field F] [CharP F 2] => ZMod.castHom c2._proof_1 F
+def ResidueAPN.kerL.{u_1} : {F : Type u_1} →
+  [inst : Field F] → [Fintype F] → [DecidableEq F] → [CharP F 2] → (ZMod 2)[X] → Finset F :=
+fun {F} [Field F] [Fintype F] [DecidableEq F] [CharP F 2] κ => {x | linMap κ x = 0}
+'ResidueAPN.lemma_2_2' depends on axioms: [propext, Classical.choice, Quot.sound]
+'lemma_2_2_restated' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ResidueAPN.lemma_2_2_core' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ResidueAPN.derivative_quadratic' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ResidueAPN.card_kerL_of_dvd' depends on axioms: [propext, Classical.choice, Quot.sound]
+EXIT=0

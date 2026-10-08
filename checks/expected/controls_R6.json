@@ -1,0 +1,67 @@
+{
+ "C4a": {
+  "P53_on_F128_image_size": 79,
+  "P73_perm": true,
+  "P75_perm": true,
+  "codes_6_15": [
+   100,
+   100
+  ],
+  "collision_value": 50,
+  "first_collision": [
+   2,
+   61
+  ]
+ },
+ "C4b": {
+  "e=1": {
+   "DU": 2,
+   "derivative_zeros": 0,
+   "fibre_sizes": [
+    2
+   ],
+   "gcd": 1,
+   "n_branch_values": 1,
+   "n_roots_g_e": 2,
+   "perm": true
+  },
+  "e=2": {
+   "DU": 2,
+   "derivative_zeros": 0,
+   "fibre_sizes": [
+    2
+   ],
+   "gcd": 1,
+   "n_branch_values": 2,
+   "n_roots_g_e": 4,
+   "perm": true
+  },
+  "e=3": {
+   "DU": 8,
+   "derivative_zeros": 0,
+   "fibre_sizes": [
+    8
+   ],
+   "gcd": 3,
+   "n_branch_values": 4,
+   "n_roots_g_e": 8,
+   "perm": true
+  },
+  "e=4": {
+   "DU": 2,
+   "derivative_zeros": 0,
+   "fibre_sizes": [
+    2
+   ],
+   "gcd": 1,
+   "n_branch_values": 8,
+   "n_roots_g_e": 16,
+   "perm": true
+  }
+ },
+ "C4c": {
+  "ok": true,
+  "pairs_checked": 928
+ },
+ "fails": []
+}

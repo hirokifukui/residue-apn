@@ -1,0 +1,95 @@
+{
+ "section": "S2",
+ "result": {
+  "sparse_pairs": 1003,
+  "gcd_pairs": 318,
+  "smax": 16,
+  "field": {
+   "5,3": {
+    "perm": true,
+    "du": 2,
+    "opt": true,
+    "ok": true
+   },
+   "7,3": {
+    "perm": true,
+    "du": 2,
+    "opt": true,
+    "ok": true
+   },
+   "7,5": {
+    "perm": true,
+    "du": 2,
+    "opt": true,
+    "ok": true
+   },
+   "9,5": {
+    "perm": true,
+    "du": 2,
+    "opt": true,
+    "ok": true
+   },
+   "9,7": {
+    "perm": true,
+    "du": 2,
+    "opt": true,
+    "ok": true
+   },
+   "11,3": {
+    "perm": true,
+    "du": 2,
+    "opt": true,
+    "ok": true
+   },
+   "11,5": {
+    "perm": true,
+    "du": 2,
+    "opt": true,
+    "ok": true
+   },
+   "11,7": {
+    "perm": true,
+    "du": 2,
+    "opt": true,
+    "ok": true
+   },
+   "11,9": {
+    "perm": true,
+    "du": 2,
+    "opt": true,
+    "ok": true
+   },
+   "13,3": {
+    "perm": true,
+    "du": 2,
+    "opt": true,
+    "ok": true
+   },
+   "13,5": {
+    "perm": true,
+    "du": 2,
+    "opt": true,
+    "ok": true
+   },
+   "13,7": {
+    "perm": true,
+    "du": 2,
+    "opt": true,
+    "ok": true
+   },
+   "13,9": {
+    "perm": true,
+    "du": 2,
+    "opt": true,
+    "ok": true
+   },
+   "13,11": {
+    "perm": true,
+    "du": 2,
+    "opt": true,
+    "ok": true
+   }
+  }
+ },
+ "fails": []
+}

@@ -1,0 +1,202 @@
+⚠ [8494/8508] Replayed ResidueAPN.Shared.QuadraticAPN
+warning: ResidueAPN/Shared/QuadraticAPN.lean:174:12: Variable name `a` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [8495/8508] Replayed ResidueAPN.Shared.ReducedRepresentative
+warning: ResidueAPN/Shared/ReducedRepresentative.lean:50:0: automatically included section variable(s) unused in theorem `ResidueAPN.eq_of_degree_lt_of_eval_eq`:
+  [DecidableEq F]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq F] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: ResidueAPN/Shared/ReducedRepresentative.lean:73:0: automatically included section variable(s) unused in theorem `ResidueAPN.eval_X_pow_card_sub_X`:
+  [DecidableEq F]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq F] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: ResidueAPN/Shared/ReducedRepresentative.lean:77:0: automatically included section variable(s) unused in theorem `ResidueAPN.derivative_X_pow_card_sub_X`:
+  [DecidableEq F]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq F] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [8496/8508] Replayed ResidueAPN.Basic
+warning: ResidueAPN/Basic.lean:53:0: automatically included section variable(s) unused in theorem `ResidueAPN.pow_two_pow_mul_of_fixed`:
+  [CharP F 2]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [CharP F 2] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [8498/8508] Replayed ResidueAPN.ThmA
+warning: ResidueAPN/ThmA.lean:26:0: automatically included section variable(s) unused in theorem `ResidueAPN.eval_polT_frob`:
+  [Fintype F]
+  [DecidableEq F]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype F] [DecidableEq F] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: ResidueAPN/ThmA.lean:42:0: automatically included section variable(s) unused in theorem `ResidueAPN.eval_polV_sq`:
+  [Fintype F]
+  [DecidableEq F]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype F] [DecidableEq F] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: ResidueAPN/ThmA.lean:42:30: Variable name `hr` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: ResidueAPN/ThmA.lean:81:0: automatically included section variable(s) unused in theorem `ResidueAPN.natDegree_polV_le`:
+  [Fintype F]
+  [DecidableEq F]
+  [CharP F 2]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype F] [DecidableEq F] [CharP F 2] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: ResidueAPN/ThmA.lean:131:0: automatically included section variable(s) unused in theorem `ResidueAPN.frob_injective`:
+  [Fintype F]
+  [DecidableEq F]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype F] [DecidableEq F] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: ResidueAPN/ThmA.lean:138:0: automatically included section variable(s) unused in theorem `ResidueAPN.evalT_add`:
+  [Fintype F]
+  [DecidableEq F]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype F] [DecidableEq F] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: ResidueAPN/ThmA.lean:143:0: automatically included section variable(s) unused in theorem `ResidueAPN.evalT_sq_add`:
+  [Fintype F]
+  [DecidableEq F]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype F] [DecidableEq F] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: ResidueAPN/ThmA.lean:188:0: automatically included section variable(s) unused in theorem `ResidueAPN.cube_injective`:
+  [CharP F 2]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [CharP F 2] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: ResidueAPN/ThmA.lean:224:0: automatically included section variable(s) unused in theorem `ResidueAPN.isAPN_comp`:
+  [CharP F 2]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [CharP F 2] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: ResidueAPN/ThmA.lean:263:78: Variable name `hmodd` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: ResidueAPN/ThmA.lean:278:0: automatically included section variable(s) unused in theorem `ResidueAPN.evalD_eq`:
+  [DecidableEq F]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq F] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [8499/8508] Replayed ResidueAPN.Support
+warning: ResidueAPN/Support.lean:65:19: Variable name `hr` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: ResidueAPN/Support.lean:90:26: Variable name `hr` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: ResidueAPN/Support.lean:105:21: Variable name `hr` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: ResidueAPN/Support.lean:105:34: Variable name `hrm` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: ResidueAPN/Support.lean:181:17: Variable name `a` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: ResidueAPN/Support.lean:181:21: Variable name `b` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [8500/8508] Replayed ResidueAPN.ThmAImage
+warning: ResidueAPN/ThmAImage.lean:25:0: automatically included section variable(s) unused in theorem `ResidueAPN.absTr_add`:
+  [Fintype F]
+  [DecidableEq F]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype F] [DecidableEq F] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: ResidueAPN/ThmAImage.lean:28:0: automatically included section variable(s) unused in theorem `ResidueAPN.absTr_sq`:
+  [DecidableEq F]
+  [CharP F 2]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq F] [CharP F 2] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: ResidueAPN/ThmAImage.lean:65:0: automatically included section variable(s) unused in theorem `ResidueAPN.card_absTr_zero_le`:
+  [CharP F 2]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [CharP F 2] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [8503/8508] Replayed ResidueAPN.ThmB
+warning: ResidueAPN/ThmB.lean:155:0: automatically included section variable(s) unused in theorem `ResidueAPN.rootMultiplicity_pow'`:
+  [CharP K 2]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [CharP K 2] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [8504/8508] Replayed ResidueAPN.Ring
+warning: ResidueAPN/Ring.lean:31:0: automatically included section variable(s) unused in theorem `ResidueAPN.taylor_diff`:
+  [Fintype R]
+  [DecidableEq R]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype R] [DecidableEq R] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: ResidueAPN/Ring.lean:36:0: automatically included section variable(s) unused in theorem `ResidueAPN.eval_map_hom`:
+  [Fintype R]
+  [DecidableEq R]
+  [Fintype F]
+  [DecidableEq F]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype R] [DecidableEq R] [Fintype F] [DecidableEq F] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: ResidueAPN/Ring.lean:66:0: automatically included section variable(s) unused in theorem `ResidueAPN.card_fibre`:
+  [DecidableEq R]
+  [Fintype F]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq R] [Fintype F] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [8505/8508] Replayed ResidueAPN.TheoremR
+warning: ResidueAPN/TheoremR.lean:21:18: Variable name `hrm` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: ResidueAPN/TheoremR.lean:31:18: Variable name `hrm` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+✔ [8506/8508] Built ResidueAPN.All (2.9s)
+✔ [8507/8508] Built ResidueAPN (2.9s)
+Build completed successfully (8508 jobs).
+EXIT=0

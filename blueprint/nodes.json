@@ -1,0 +1,241 @@
+[
+ {
+  "label": "def:opt",
+  "env": "definition",
+  "trust": "Def",
+  "uses": [],
+  "forward_refs": [],
+  "trust_note": "definition; the Lean definitions are read against the paper in MEANING_MAP.md (every nonempty fibre has two elements = the fibre through each point has two elements).",
+  "lean": [],
+  "lean_defs": [
+   "ResidueAPN.IsDerivOptimal",
+   "ResidueAPN.IsOptimalAPNPerm",
+   "ResidueAPN.IsAPN"
+  ],
+  "statement_sha256": "b6a84bd0394bc61a1f264ccd31eb34224469f73f4903f70f97150b2c0565db27",
+  "proofs": [],
+  "context_sha256": [
+   "bdb9cf8c13146187f1d45ccbc929c306a7ea3866167c3bc2892cc5f629681975"
+  ]
+ },
+ {
+  "label": "lem:O",
+  "env": "lemma",
+  "trust": "F",
+  "uses": [],
+  "forward_refs": [],
+  "trust_note": "formal (stage 3, session R11) for every polynomial over F_2 with quadratic support (IsQuadSupp: exponents 0, 2^i, 2^i+2^j, i<j<m) over F = F_{2^m}, m odd; display (1) for F_2 coefficients is derivative_quadratic; gcd is EuclideanDomain.gcd in F_2[t] (its only unit is 1, so this is the monic gcd). The formal proof does not use a normal basis: #ker phi(sigma) = 2^(deg phi) for phi dividing t^m-1, from a root bound and #ker (phi psi)(sigma) <= #ker phi(sigma) #ker psi(sigma); ker kappa(sigma) = ker g(sigma) by Bezout. The hypothesis 'reduced' is not needed.",
+  "lean": [
+   "ResidueAPN.lemma_2_2",
+   "ResidueAPN.lemma_2_2_core",
+   "ResidueAPN.derivative_quadratic",
+   "ResidueAPN.card_kerL_of_dvd"
+  ],
+  "lean_defs": [],
+  "statement_sha256": "0fb2f385d0119dfe81186957a08b67e42c495dceac2cc47bbbaabfd5341d6832",
+  "proofs": [
+   "e8c446cc4746dea382955b36ccb6d5c3b74899c8fae18c5843a4af1c3099b539"
+  ],
+  "context_sha256": [
+   "e2ea08799d0acfb3d2cfc3064121efb290bf0788382a46ed180d1a778f46fe7c"
+  ]
+ },
+ {
+  "label": "thm:A",
+  "env": "theorem",
+  "trust": "F",
+  "uses": [
+   "lem:O"
+  ],
+  "forward_refs": [],
+  "trust_note": "all four items; Tr is written as the sum of Frobenius powers (absTr).",
+  "lean": [
+   "ResidueAPN.theorem_3_1",
+   "ResidueAPN.polP_eq_sum_supp",
+   "ResidueAPN.card_suppP",
+   "ResidueAPN.natDegree_polP",
+   "ResidueAPN.eval_polP",
+   "ResidueAPN.isOptimalAPNPerm_P",
+   "ResidueAPN.image_evalD"
+  ],
+  "lean_defs": [],
+  "statement_sha256": "9dd359867456b8ec93666989493731917d889f1a4f952998522f3a8c0d7b3f7a",
+  "proofs": [
+   "e93b8394acda08e5158f9ffc9d5c6796089d2b8a6959178f9e08bd0940ef1491"
+  ],
+  "context_sha256": [
+   "97ff4d389a19e9be5b71527df5a8bf8ea3be9800ac8f7609b64ae59e7f4231bd"
+  ]
+ },
+ {
+  "label": "lem:LW",
+  "env": "lemma",
+  "trust": "L + M",
+  "uses": [],
+  "forward_refs": [],
+  "trust_note": "cited (Li-Wang, DCC 2011, Thm. 4); self-contained proof in the paper; not formalized. Not required: Section 3 comparison, not a dependency of the formal statements of A, B, C, R, W (GPT R7).",
+  "lean": [],
+  "lean_defs": [],
+  "statement_sha256": "57f4987cec82058911b3fac409f6019ced8071b813028df5be09378732910f44",
+  "proofs": [
+   "8f834464a886a8aea8d92e4c76cb962ea6aff710d3ccbe1a5ba069f776177789"
+  ],
+  "context_sha256": [
+   "97d1372988833e09b91964b0f1a1443db56b5f65de85977ce8180fd32d73614a"
+  ]
+ },
+ {
+  "label": "cor:P",
+  "env": "corollary",
+  "trust": "M",
+  "uses": [
+   "lem:LW"
+  ],
+  "forward_refs": [],
+  "trust_note": "not formalized; not required (see Lemma 3.2).",
+  "lean": [],
+  "lean_defs": [],
+  "statement_sha256": "fa1dd42e40f4965fe8f3ffe5cfd1c65b5cda625396b7bb26ab6b9490909addac",
+  "proofs": [
+   "480aa1b5dd5645da2ef6edbb96d0c02bb1c73b4ed245f1e428a4b5985ba94e4c"
+  ],
+  "context_sha256": [
+   "80cf336f48da9d85282d0cc6fa3cba520dc2d673be7871d47bbf5697686a3957"
+  ]
+ },
+ {
+  "label": "thm:B",
+  "env": "theorem",
+  "trust": "F (items (1)-(3), root multiplicities) + M",
+  "uses": [
+   "thm:A"
+  ],
+  "forward_refs": [],
+  "trust_note": "formal: P' = g^l, P+1 = g^l E, g separable with 2^s roots in F_{2^{2s}} minus (F_{2^s} union F_q), gcd(g,E)=1 over F_2, P = 1 at the roots, multiplicity l as a root of P+1 and of P'. Paper only: reading these multiplicities as ramification indices / different exponents of P^1 -> P^1, the point at infinity (Riemann-Hurwitz), the fibre over 1.",
+  "lean": [
+   "ResidueAPN.derivative_polP_eq_pow",
+   "ResidueAPN.polP_add_one_eq_pow",
+   "ResidueAPN.separable_polG",
+   "ResidueAPN.root_fixed_two_s",
+   "ResidueAPN.root_not_fixed_s",
+   "ResidueAPN.root_not_fixed_of_coprime",
+   "ResidueAPN.card_roots_polG",
+   "ResidueAPN.isCoprime_polG_polE",
+   "ResidueAPN.multiplicity_at_root",
+   "ResidueAPN.derivative_eval_eq_zero_iff"
+  ],
+  "lean_defs": [],
+  "statement_sha256": "3dc5496e3ba626d6e956a33f0e6d7676dd868dc0b2671e11a9d8f92272d61c65",
+  "proofs": [
+   "f54240cb2d458d81452582481d1ea7c78782c72dd62bf0705e8e32a957028fa0"
+  ],
+  "context_sha256": [
+   "b63d144bdcad8e143ef6bc90614a4088d41fc08e3c6e80963aeec25d6d65d729"
+  ]
+ },
+ {
+  "label": "rem:tit",
+  "env": "remark",
+  "trust": "Rem",
+  "uses": [
+   "thm:A"
+  ],
+  "forward_refs": [],
+  "trust_note": "remark with a computation; not formalized.",
+  "lean": [],
+  "lean_defs": [],
+  "statement_sha256": "6a4b33fca9c08b79a3c490a09cee59d0d6a8dc555bf76e363b7e522f1ee825d7",
+  "proofs": [],
+  "context_sha256": [
+   "9e1841dd37c5f77e1ca5489c2e37f4a095e7cc794f1a09753c30f20a62938aa0"
+  ]
+ },
+ {
+  "label": "prop:C",
+  "env": "proposition",
+  "trust": "F (identity) + M",
+  "uses": [
+   "thm:A"
+  ],
+  "forward_refs": [],
+  "trust_note": "the identity in Z[X] and its image in every commutative ring are formal; the operation count is paper only.",
+  "lean": [
+   "ResidueAPN.proposition_5_1",
+   "ResidueAPN.lift_reduces"
+  ],
+  "lean_defs": [],
+  "statement_sha256": "bdce533e9b71b854660a0e55dc31a3abbae3c1cf2562f6babf444eb7b6ef8361",
+  "proofs": [
+   "45e9e32e8446a63b9a0a1c895d18177dc24baf9d5fffa51b9cd222965d66c24c"
+  ],
+  "context_sha256": [
+   "8852a84bb0a88bc9624c14c3a274f4452b8f1978fefa266b6908fdfe2bebdb69"
+  ]
+ },
+ {
+  "label": "prop:lift",
+  "env": "proposition",
+  "trust": "F (abstract finite local ring) + M",
+  "uses": [],
+  "forward_refs": [],
+  "trust_note": "formal for every finite commutative ring R with a surjection pi onto F such that elements outside ker pi are units; that GR(2^k,m) is such a ring is paper level (Galois rings are not in Mathlib).",
+  "lean": [
+   "ResidueAPN.prop_6_1",
+   "ResidueAPN.prop_6_1_family"
+  ],
+  "lean_defs": [],
+  "statement_sha256": "47ad346dca3f18b2215fdf332b5238c3f35dd233054f8025d544f55862f98c71",
+  "proofs": [
+   "707e7cf38579360924ebef35aea2b841f77e1edbb45976c283cc63f9c48efb1d"
+  ],
+  "context_sha256": [
+   "3ed7eb45bf17f2e33ef406156e3d45a63d2a6343213ec39bff8464853fdb22c2"
+  ]
+ },
+ {
+  "label": "thm:R",
+  "env": "theorem",
+  "trust": "F (abstract finite local ring) + M",
+  "uses": [],
+  "forward_refs": [],
+  "trust_note": "(1) for pi(alpha) outside {0,1} = ker K; (2) for alpha in ker pi with annihilator ker pi (nonzero top-ideal elements of GR(2^k,m), k>=2); the count 2 q^(k-1) is 2 #(ker pi), and #R = #F #(ker pi). card_fibre: every fibre of pi has #(ker pi) elements. Paper only (GR_BRIDGE.md): the Galois-ring instance (B1-B4); the number (q-2)q^(k-1) of directions in (1), which is (q-2)#(ker pi) with #(ker pi) = q^(k-1); the RS-cited bounds after the theorem.",
+  "lean": [
+   "ResidueAPN.thm_6_2_unit",
+   "ResidueAPN.thm_6_2_unit_family",
+   "ResidueAPN.thm_6_2_top",
+   "ResidueAPN.thm_6_2_top_family",
+   "ResidueAPN.card_ker_mul",
+   "ResidueAPN.card_fibre"
+  ],
+  "lean_defs": [],
+  "statement_sha256": "68f4e265fdf636df4166e4dc38607ff7e7ffd55191a20abfc51465df40fb8e37",
+  "proofs": [
+   "f91735ac8dd4a4a7da4cbf52623292268d0a87ad46784fa0b4c861a33182b55c"
+  ],
+  "context_sha256": [
+   "e08b8334e299c314e9afd150fdf49b83f7020cfccf3ab62dfa06d74d770010df",
+   "e4d7a59326bed1c4c584461f13590565bb7ac966d7826702c3638bc5a41a18ec"
+  ]
+ },
+ {
+  "label": "prop:W",
+  "env": "proposition",
+  "trust": "F (after the normalisation) + M",
+  "uses": [],
+  "forward_refs": [],
+  "trust_note": "the normalisation c p(rho x) before the proposition is a hypothesis of propW (Tr(p(y+1)+p(y)) = 1); the normalisation argument itself is paper only.",
+  "lean": [
+   "ResidueAPN.propW",
+   "ResidueAPN.det_B_ne_zero"
+  ],
+  "lean_defs": [],
+  "statement_sha256": "d51287b9532a6cbbf4881714092aefe280f2fa3b6805c9fb6b36440fbaa3aaed",
+  "proofs": [
+   "c405c67368e323d920c1a81afe6392c9031d526636d71bfb00135058cd7fbccb"
+  ],
+  "context_sha256": [
+   "44da85b42f3279f376fe2319376fee3995cfc51329214c71f9017b26c561f936",
+   "d572e76012796c2635f399ec2efaae1d9b6c1a74877ff086717cbb3db7301f36"
+  ]
+ }
+]

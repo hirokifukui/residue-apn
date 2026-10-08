@@ -1,0 +1,15 @@
+{
+  "result": "PASS",
+  "time": "2026-10-07T12:05:03Z",
+  "host": "Studio",
+  "project": "/Users/hiroki/lean/residue_apn_portable_R12/lean/residue_apn_portable",
+  "math_source_digest": "c1844f5479439c4edffbfb4c3c5a7427f13c21b45bb7eef3edc75076889ffdda",
+  "math_source_files": 16,
+  "lean_toolchain": "leanprover/lean4:v4.31.0-rc1",
+  "mathlib_rev": "d568c8c09630de097a046763c17b9ea99f95f950",
+  "lean4checker_rev_observed": "91a7f0e8e9dffe927089f5a6edcfeeb8a0e07709",
+  "module_checked_fresh": "ResidueAPN.All",
+  "final_declarations": 33,
+  "axiom_lines": 53,
+  "stages": "inputs 0;config 0;src_before 0;fetch 0;build 0;audit_AuditStage1 0;audit_AuditStage2 0;audit_AuditStage3 0;audit_AuditAxiomsAll 0;axioms 0;checker 0;src_after 0;"
+}

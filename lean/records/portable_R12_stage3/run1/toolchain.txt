@@ -1,0 +1,4 @@
+lean_toolchain_file leanprover/lean4:v4.31.0-rc1
+Lake version 5.0.0-src+fd00994 (Lean version 4.31.0-rc1)
+Darwin Studio 25.4.0 Darwin Kernel Version 25.4.0: Thu Mar 19 19:26:07 PDT 2026; root:xnu-12377.101.15~1/RELEASE_ARM64_T6031 arm64
+checker /Users/hiroki/lean/lean4checker/.lake/build/bin/lean4checker rev 91a7f0e8e9dffe927089f5a6edcfeeb8a0e07709

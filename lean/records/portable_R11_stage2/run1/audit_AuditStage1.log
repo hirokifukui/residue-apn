@@ -1,0 +1,1182 @@
+# 2026-10-07T11:23:26Z audit_AuditStage1: lake env lean audit/AuditStage1.lean
+@theorem_3_1 : ∀ {F : Type u_1} [inst : Field F] [inst_1 : Fintype F] [inst_2 : DecidableEq F]
+  [inst_3 :
+    @CharP F
+      (@AddGroupWithOne.toAddMonoidWithOne F
+        (@Ring.toAddGroupWithOne F (@DivisionRing.toRing F (@Field.toDivisionRing F inst))))
+      (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))]
+  {m r : Nat},
+  @Eq Nat (@Fintype.card F inst_1)
+      (@HPow.hPow Nat Nat Nat (@instHPow Nat Nat (@Monoid.toPow Nat Nat.instMonoid))
+        (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))) m) →
+    @LE.le Nat instLENat (@OfNat.ofNat Nat (nat_lit 5) (instOfNatNat (nat_lit 5))) m →
+      @Odd Nat Nat.instSemiring m →
+        @LE.le Nat instLENat (@OfNat.ofNat Nat (nat_lit 3) (instOfNatNat (nat_lit 3))) r →
+          @LT.lt Nat instLTNat r m →
+            @Odd Nat Nat.instSemiring r →
+              r.Coprime m →
+                And
+                  (∀ (e : Nat),
+                    @Eq (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                      (@coeff (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                        (@CommSemiring.toSemiring (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                          (@CommRing.toCommSemiring (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                            (ZMod.commRing (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))))
+                        (@polP (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                          (ZMod.commRing (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))) m r)
+                        e)
+                      (@ite (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                        (@Membership.mem Nat (Finset Nat) (@SetLike.instMembership (Finset Nat) Nat (@instSetLike Nat))
+                          (suppP m r) e)
+                        (@decidableMem Nat instDecidableEqNat e (suppP m r))
+                        (@OfNat.ofNat (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))) (nat_lit 1)
+                          (@One.toOfNat1 (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                            (@AddMonoidWithOne.toOne (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                              (@AddGroupWithOne.toAddMonoidWithOne
+                                (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                (@Ring.toAddGroupWithOne
+                                  (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                  (@DivisionRing.toRing (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                    (@Field.toDivisionRing
+                                      (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                      (@ZMod.instField (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))
+                                        Nat.fact_prime_two))))))))
+                        (@OfNat.ofNat (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))) (nat_lit 0)
+                          (@Zero.toOfNat0 (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                            (@MulZeroClass.toZero (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                              (@instMulZeroClassOfSemiring
+                                (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                (@DivisionSemiring.toSemiring
+                                  (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                  (@Semifield.toDivisionSemiring
+                                    (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                    (@Field.toSemifield (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                      (@ZMod.instField (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))
+                                        Nat.fact_prime_two))))))))))
+                  (And
+                    (@Eq Nat (@card Nat (suppP m r))
+                      (@HSub.hSub Nat Nat Nat (@instHSub Nat instSubNat)
+                        (@HMul.hMul Nat Nat Nat (@instHMul Nat instMulNat)
+                          (@OfNat.ofNat Nat (nat_lit 3) (instOfNatNat (nat_lit 3))) r)
+                        (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))))
+                    (And
+                      (@Eq Nat
+                        (@natDegree (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                          (@CommSemiring.toSemiring (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                            (@CommRing.toCommSemiring (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                              (ZMod.commRing (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))))
+                          (@polP (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                            (ZMod.commRing (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))) m r))
+                        (@HMul.hMul Nat Nat Nat (@instHMul Nat instMulNat)
+                          (@OfNat.ofNat Nat (nat_lit 3) (instOfNatNat (nat_lit 3)))
+                          (@HPow.hPow Nat Nat Nat (@instHPow Nat Nat (@Monoid.toPow Nat Nat.instMonoid))
+                            (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))
+                            (@HSub.hSub Nat Nat Nat (@instHSub Nat instSubNat) m
+                              (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))))))
+                      (And
+                        (@Eq
+                          (@Polynomial F
+                            (@DivisionSemiring.toSemiring F
+                              (@Semifield.toDivisionSemiring F (@Field.toSemifield F inst))))
+                          (@Polynomial.map (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))) F
+                            (@DivisionSemiring.toSemiring
+                              (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                              (@Semifield.toDivisionSemiring
+                                (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                (@Field.toSemifield (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                  (@ZMod.instField (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))
+                                    Nat.fact_prime_two))))
+                            (@DivisionSemiring.toSemiring F
+                              (@Semifield.toDivisionSemiring F (@Field.toSemifield F inst)))
+                            (@ZMod.castHom (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))
+                              (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))) ⋯ F
+                              (@DivisionRing.toRing F (@Field.toDivisionRing F inst)) inst_3)
+                            (@polP (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                              (ZMod.commRing (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))) m r))
+                          (@rep F inst inst_1 inst_2 fun x =>
+                            @HPow.hPow F Nat F
+                              (@instHPow F Nat
+                                (@Monoid.toPow F
+                                  (@Semiring.toMonoid F
+                                    (@DivisionSemiring.toSemiring F
+                                      (@Semifield.toDivisionSemiring F (@Field.toSemifield F inst))))))
+                              (@HPow.hPow F Nat F
+                                (@instHPow F Nat
+                                  (@Monoid.toPow F
+                                    (@Semiring.toMonoid F
+                                      (@DivisionSemiring.toSemiring F
+                                        (@Semifield.toDivisionSemiring F (@Field.toSemifield F inst))))))
+                                (@eval F
+                                  (@CommSemiring.toSemiring F (@CommRing.toCommSemiring F (@Field.toCommRing F inst))) x
+                                  (@polT F (@Field.toCommRing F inst) r))
+                                (@OfNat.ofNat Nat (nat_lit 3) (instOfNatNat (nat_lit 3))))
+                              (@HPow.hPow Nat Nat Nat (@instHPow Nat Nat (@Monoid.toPow Nat Nat.instMonoid))
+                                (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))
+                                (@HSub.hSub Nat Nat Nat (@instHSub Nat instSubNat) m
+                                  (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))))))
+                        (And
+                          (∀ (x : F),
+                            @Eq F
+                              (@eval F
+                                (@CommSemiring.toSemiring F (@CommRing.toCommSemiring F (@Field.toCommRing F inst))) x
+                                (@polP F (@Field.toCommRing F inst) m r))
+                              (@HPow.hPow F Nat F
+                                (@instHPow F Nat
+                                  (@Monoid.toPow F
+                                    (@Semiring.toMonoid F
+                                      (@DivisionSemiring.toSemiring F
+                                        (@Semifield.toDivisionSemiring F (@Field.toSemifield F inst))))))
+                                (@HPow.hPow F Nat F
+                                  (@instHPow F Nat
+                                    (@Monoid.toPow F
+                                      (@Semiring.toMonoid F
+                                        (@DivisionSemiring.toSemiring F
+                                          (@Semifield.toDivisionSemiring F (@Field.toSemifield F inst))))))
+                                  (@eval F
+                                    (@CommSemiring.toSemiring F (@CommRing.toCommSemiring F (@Field.toCommRing F inst)))
+                                    x (@polT F (@Field.toCommRing F inst) r))
+                                  (@OfNat.ofNat Nat (nat_lit 3) (instOfNatNat (nat_lit 3))))
+                                (@HPow.hPow Nat Nat Nat (@instHPow Nat Nat (@Monoid.toPow Nat Nat.instMonoid))
+                                  (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))
+                                  (@HSub.hSub Nat Nat Nat (@instHSub Nat instSubNat) m
+                                    (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))))))
+                          (And
+                            (@Function.Bijective F F fun x =>
+                              @eval F
+                                (@CommSemiring.toSemiring F (@CommRing.toCommSemiring F (@Field.toCommRing F inst))) x
+                                (@polP F (@Field.toCommRing F inst) m r))
+                            (And
+                              (@IsAPN F inst inst_1 inst_2 fun x =>
+                                @eval F
+                                  (@CommSemiring.toSemiring F (@CommRing.toCommSemiring F (@Field.toCommRing F inst))) x
+                                  (@polP F (@Field.toCommRing F inst) m r))
+                              (And
+                                (@Eq
+                                  (@Polynomial (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                    (@CommSemiring.toSemiring
+                                      (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                      (@CommRing.toCommSemiring
+                                        (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                        (ZMod.commRing (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))))))
+                                  (@DFunLike.coe
+                                    (@LinearMap (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                      (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                      (@CommSemiring.toSemiring
+                                        (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                        (@CommRing.toCommSemiring
+                                          (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                          (ZMod.commRing (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))))
+                                      (@CommSemiring.toSemiring
+                                        (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                        (@CommRing.toCommSemiring
+                                          (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                          (ZMod.commRing (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))))
+                                      (@RingHom.id (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                        (@Semiring.toNonAssocSemiring
+                                          (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                          (@CommSemiring.toSemiring
+                                            (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                            (@CommRing.toCommSemiring
+                                              (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                              (ZMod.commRing
+                                                (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))))))
+                                      (@Polynomial (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                        (@CommSemiring.toSemiring
+                                          (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                          (@CommRing.toCommSemiring
+                                            (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                            (ZMod.commRing (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))))))
+                                      (@Polynomial (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                        (@CommSemiring.toSemiring
+                                          (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                          (@CommRing.toCommSemiring
+                                            (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                            (ZMod.commRing (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))))))
+                                      (@NonUnitalNonAssocSemiring.toAddCommMonoid
+                                        (@Polynomial (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                          (@CommSemiring.toSemiring
+                                            (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                            (@CommRing.toCommSemiring
+                                              (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                              (ZMod.commRing
+                                                (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))))))
+                                        (@NonAssocSemiring.toNonUnitalNonAssocSemiring
+                                          (@Polynomial (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                            (@CommSemiring.toSemiring
+                                              (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                              (@CommRing.toCommSemiring
+                                                (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                                (ZMod.commRing
+                                                  (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))))))
+                                          (@Semiring.toNonAssocSemiring
+                                            (@Polynomial
+                                              (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                              (@CommSemiring.toSemiring
+                                                (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                                (@CommRing.toCommSemiring
+                                                  (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                                  (ZMod.commRing
+                                                    (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))))))
+                                            (@semiring (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                              (@CommSemiring.toSemiring
+                                                (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                                (@CommRing.toCommSemiring
+                                                  (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                                  (ZMod.commRing
+                                                    (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))))))))
+                                      (@NonUnitalNonAssocSemiring.toAddCommMonoid
+                                        (@Polynomial (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                          (@CommSemiring.toSemiring
+                                            (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                            (@CommRing.toCommSemiring
+                                              (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                              (ZMod.commRing
+                                                (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))))))
+                                        (@NonAssocSemiring.toNonUnitalNonAssocSemiring
+                                          (@Polynomial (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                            (@CommSemiring.toSemiring
+                                              (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                              (@CommRing.toCommSemiring
+                                                (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                                (ZMod.commRing
+                                                  (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))))))
+                                          (@Semiring.toNonAssocSemiring
+                                            (@Polynomial
+                                              (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                              (@CommSemiring.toSemiring
+                                                (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                                (@CommRing.toCommSemiring
+                                                  (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                                  (ZMod.commRing
+                                                    (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))))))
+                                            (@semiring (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                              (@CommSemiring.toSemiring
+                                                (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                                (@CommRing.toCommSemiring
+                                                  (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                                  (ZMod.commRing
+                                                    (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))))))))
+                                      (@module (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                        (@CommSemiring.toSemiring
+                                          (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                          (@CommRing.toCommSemiring
+                                            (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                            (ZMod.commRing (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))))
+                                        (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                        (@CommSemiring.toSemiring
+                                          (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                          (@CommRing.toCommSemiring
+                                            (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                            (ZMod.commRing (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))))
+                                        (@Semiring.toModule
+                                          (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                          (@CommSemiring.toSemiring
+                                            (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                            (@CommRing.toCommSemiring
+                                              (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                              (ZMod.commRing
+                                                (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))))))
+                                      (@module (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                        (@CommSemiring.toSemiring
+                                          (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                          (@CommRing.toCommSemiring
+                                            (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                            (ZMod.commRing (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))))
+                                        (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                        (@CommSemiring.toSemiring
+                                          (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                          (@CommRing.toCommSemiring
+                                            (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                            (ZMod.commRing (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))))
+                                        (@Semiring.toModule
+                                          (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                          (@CommSemiring.toSemiring
+                                            (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                            (@CommRing.toCommSemiring
+                                              (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                              (ZMod.commRing
+                                                (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))))))))
+                                    (@Polynomial (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                      (@CommSemiring.toSemiring
+                                        (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                        (@CommRing.toCommSemiring
+                                          (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                          (ZMod.commRing (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))))))
+                                    (fun x =>
+                                      @Polynomial (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                        (@CommSemiring.toSemiring
+                                          (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                          (@CommRing.toCommSemiring
+                                            (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                            (ZMod.commRing (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))))))
+                                    (@LinearMap.instFunLike
+                                      (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                      (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                      (@Polynomial (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                        (@CommSemiring.toSemiring
+                                          (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                          (@CommRing.toCommSemiring
+                                            (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                            (ZMod.commRing (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))))))
+                                      (@Polynomial (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                        (@CommSemiring.toSemiring
+                                          (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                          (@CommRing.toCommSemiring
+                                            (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                            (ZMod.commRing (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))))))
+                                      (@CommSemiring.toSemiring
+                                        (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                        (@CommRing.toCommSemiring
+                                          (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                          (ZMod.commRing (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))))
+                                      (@CommSemiring.toSemiring
+                                        (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                        (@CommRing.toCommSemiring
+                                          (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                          (ZMod.commRing (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))))
+                                      (@NonUnitalNonAssocSemiring.toAddCommMonoid
+                                        (@Polynomial (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                          (@CommSemiring.toSemiring
+                                            (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                            (@CommRing.toCommSemiring
+                                              (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                              (ZMod.commRing
+                                                (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))))))
+                                        (@NonAssocSemiring.toNonUnitalNonAssocSemiring
+                                          (@Polynomial (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                            (@CommSemiring.toSemiring
+                                              (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                              (@CommRing.toCommSemiring
+                                                (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                                (ZMod.commRing
+                                                  (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))))))
+                                          (@Semiring.toNonAssocSemiring
+                                            (@Polynomial
+                                              (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                              (@CommSemiring.toSemiring
+                                                (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                                (@CommRing.toCommSemiring
+                                                  (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                                  (ZMod.commRing
+                                                    (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))))))
+                                            (@semiring (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                              (@CommSemiring.toSemiring
+                                                (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                                (@CommRing.toCommSemiring
+                                                  (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                                  (ZMod.commRing
+                                                    (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))))))))
+                                      (@NonUnitalNonAssocSemiring.toAddCommMonoid
+                                        (@Polynomial (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                          (@CommSemiring.toSemiring
+                                            (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                            (@CommRing.toCommSemiring
+                                              (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                              (ZMod.commRing
+                                                (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))))))
+                                        (@NonAssocSemiring.toNonUnitalNonAssocSemiring
+                                          (@Polynomial (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                            (@CommSemiring.toSemiring
+                                              (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                              (@CommRing.toCommSemiring
+                                                (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                                (ZMod.commRing
+                                                  (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))))))
+                                          (@Semiring.toNonAssocSemiring
+                                            (@Polynomial
+                                              (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                              (@CommSemiring.toSemiring
+                                                (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                                (@CommRing.toCommSemiring
+                                                  (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                                  (ZMod.commRing
+                                                    (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))))))
+                                            (@semiring (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                              (@CommSemiring.toSemiring
+                                                (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                                (@CommRing.toCommSemiring
+                                                  (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                                  (ZMod.commRing
+                                                    (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))))))))
+                                      (@module (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                        (@CommSemiring.toSemiring
+                                          (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                          (@CommRing.toCommSemiring
+                                            (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                            (ZMod.commRing (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))))
+                                        (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                        (@CommSemiring.toSemiring
+                                          (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                          (@CommRing.toCommSemiring
+                                            (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                            (ZMod.commRing (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))))
+                                        (@Semiring.toModule
+                                          (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                          (@CommSemiring.toSemiring
+                                            (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                            (@CommRing.toCommSemiring
+                                              (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                              (ZMod.commRing
+                                                (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))))))
+                                      (@module (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                        (@CommSemiring.toSemiring
+                                          (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                          (@CommRing.toCommSemiring
+                                            (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                            (ZMod.commRing (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))))
+                                        (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                        (@CommSemiring.toSemiring
+                                          (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                          (@CommRing.toCommSemiring
+                                            (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                            (ZMod.commRing (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))))
+                                        (@Semiring.toModule
+                                          (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                          (@CommSemiring.toSemiring
+                                            (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                            (@CommRing.toCommSemiring
+                                              (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                              (ZMod.commRing
+                                                (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))))))
+                                      (@RingHom.id (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                        (@Semiring.toNonAssocSemiring
+                                          (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                          (@CommSemiring.toSemiring
+                                            (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                            (@CommRing.toCommSemiring
+                                              (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                              (ZMod.commRing
+                                                (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))))))))
+                                    (@derivative (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                      (@CommSemiring.toSemiring
+                                        (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                        (@CommRing.toCommSemiring
+                                          (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                          (ZMod.commRing (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))))))
+                                    (@polP (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                      (ZMod.commRing (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))) m r))
+                                  (@polD (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                    (ZMod.commRing (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))) m r))
+                                (And
+                                  (@IsOptimalAPNPerm F inst inst_1 inst_2 inst_3 fun x =>
+                                    @eval F
+                                      (@CommSemiring.toSemiring F
+                                        (@CommRing.toCommSemiring F (@Field.toCommRing F inst)))
+                                      x (@polP F (@Field.toCommRing F inst) m r))
+                                  (And
+                                    (∀ (x y : F),
+                                      Iff
+                                        (@Eq F
+                                          (@eval F
+                                            (@CommSemiring.toSemiring F
+                                              (@CommRing.toCommSemiring F (@Field.toCommRing F inst)))
+                                            y (@polD F (@Field.toCommRing F inst) m r))
+                                          (@eval F
+                                            (@CommSemiring.toSemiring F
+                                              (@CommRing.toCommSemiring F (@Field.toCommRing F inst)))
+                                            x (@polD F (@Field.toCommRing F inst) m r)))
+                                        (Or (@Eq F y x)
+                                          (@Eq F y
+                                            (@HAdd.hAdd F F F
+                                              (@instHAdd F
+                                                (@Distrib.toAdd F
+                                                  (@instDistribOfSemiring F
+                                                    (@DivisionSemiring.toSemiring F
+                                                      (@Semifield.toDivisionSemiring F (@Field.toSemifield F inst))))))
+                                              x
+                                              (@OfNat.ofNat F (nat_lit 1)
+                                                (@One.toOfNat1 F
+                                                  (@AddMonoidWithOne.toOne F
+                                                    (@AddGroupWithOne.toAddMonoidWithOne F
+                                                      (@Ring.toAddGroupWithOne F
+                                                        (@DivisionRing.toRing F (@Field.toDivisionRing F inst)))))))))))
+                                    (And
+                                      (@Eq (Finset F)
+                                        (@image F F inst_2
+                                          (fun x =>
+                                            @eval F
+                                              (@CommSemiring.toSemiring F
+                                                (@CommRing.toCommSemiring F (@Field.toCommRing F inst)))
+                                              x (@polD F (@Field.toCommRing F inst) m r))
+                                          (@univ F inst_1))
+                                        {y |
+                                          @Eq F
+                                            (@absTr F inst m
+                                              (@HAdd.hAdd F F F
+                                                (@instHAdd F
+                                                  (@Distrib.toAdd F
+                                                    (@instDistribOfSemiring F
+                                                      (@DivisionSemiring.toSemiring F
+                                                        (@Semifield.toDivisionSemiring F
+                                                          (@Field.toSemifield F inst))))))
+                                                y
+                                                (@OfNat.ofNat F (nat_lit 1)
+                                                  (@One.toOfNat1 F
+                                                    (@AddMonoidWithOne.toOne F
+                                                      (@AddGroupWithOne.toAddMonoidWithOne F
+                                                        (@Ring.toAddGroupWithOne F
+                                                          (@DivisionRing.toRing F (@Field.toDivisionRing F inst)))))))))
+                                            (@OfNat.ofNat F (nat_lit 0)
+                                              (@Zero.toOfNat0 F
+                                                (@MulZeroClass.toZero F
+                                                  (@instMulZeroClassOfSemiring F
+                                                    (@DivisionSemiring.toSemiring F
+                                                      (@Semifield.toDivisionSemiring F
+                                                        (@Field.toSemifield F inst)))))))})
+                                      (And
+                                        (@Eq
+                                          (@Polynomial (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                            (@CommSemiring.toSemiring
+                                              (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                              (@CommRing.toCommSemiring
+                                                (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                                (ZMod.commRing
+                                                  (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))))))
+                                          (@HAdd.hAdd
+                                            (@Polynomial
+                                              (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                              (@CommSemiring.toSemiring
+                                                (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                                (@CommRing.toCommSemiring
+                                                  (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                                  (ZMod.commRing
+                                                    (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))))))
+                                            (@Polynomial
+                                              (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                              (@CommSemiring.toSemiring
+                                                (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                                (@CommRing.toCommSemiring
+                                                  (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                                  (ZMod.commRing
+                                                    (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))))))
+                                            (@Polynomial
+                                              (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                              (@CommSemiring.toSemiring
+                                                (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                                (@CommRing.toCommSemiring
+                                                  (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                                  (ZMod.commRing
+                                                    (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))))))
+                                            (@instHAdd
+                                              (@Polynomial
+                                                (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                                (@CommSemiring.toSemiring
+                                                  (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                                  (@CommRing.toCommSemiring
+                                                    (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                                    (ZMod.commRing
+                                                      (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))))))
+                                              (@instAdd (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                                (@CommSemiring.toSemiring
+                                                  (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                                  (@CommRing.toCommSemiring
+                                                    (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                                    (ZMod.commRing
+                                                      (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))))))
+                                            (@polP (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                              (ZMod.commRing (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                              m r)
+                                            (@OfNat.ofNat
+                                              (@Polynomial
+                                                (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                                (@CommSemiring.toSemiring
+                                                  (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                                  (@CommRing.toCommSemiring
+                                                    (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                                    (ZMod.commRing
+                                                      (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))))))
+                                              (nat_lit 1)
+                                              (@One.toOfNat1
+                                                (@Polynomial
+                                                  (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                                  (@CommSemiring.toSemiring
+                                                    (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                                    (@CommRing.toCommSemiring
+                                                      (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                                      (ZMod.commRing
+                                                        (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))))))
+                                                (@instOne
+                                                  (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                                  (@CommSemiring.toSemiring
+                                                    (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                                    (@CommRing.toCommSemiring
+                                                      (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                                      (ZMod.commRing
+                                                        (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))))))))
+                                          (@HMul.hMul
+                                            (@Polynomial
+                                              (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                              (@CommSemiring.toSemiring
+                                                (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                                (@CommRing.toCommSemiring
+                                                  (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                                  (ZMod.commRing
+                                                    (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))))))
+                                            (@Polynomial
+                                              (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                              (@CommSemiring.toSemiring
+                                                (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                                (@CommRing.toCommSemiring
+                                                  (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                                  (ZMod.commRing
+                                                    (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))))))
+                                            (@Polynomial
+                                              (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                              (@CommSemiring.toSemiring
+                                                (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                                (@CommRing.toCommSemiring
+                                                  (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                                  (ZMod.commRing
+                                                    (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))))))
+                                            (@instHMul
+                                              (@Polynomial
+                                                (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                                (@CommSemiring.toSemiring
+                                                  (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                                  (@CommRing.toCommSemiring
+                                                    (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                                    (ZMod.commRing
+                                                      (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))))))
+                                              (@instMul (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                                (@CommSemiring.toSemiring
+                                                  (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                                  (@CommRing.toCommSemiring
+                                                    (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                                    (ZMod.commRing
+                                                      (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))))))
+                                            (@polD (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                              (ZMod.commRing (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                              m r)
+                                            (@polE (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                              (ZMod.commRing (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                              m r)))
+                                        (@Eq
+                                          (@Polynomial (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                            (@CommSemiring.toSemiring
+                                              (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                              (@CommRing.toCommSemiring
+                                                (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                                (ZMod.commRing
+                                                  (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))))))
+                                          (@DFunLike.coe
+                                            (@LinearMap (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                              (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                              (@CommSemiring.toSemiring
+                                                (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                                (@CommRing.toCommSemiring
+                                                  (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                                  (ZMod.commRing
+                                                    (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))))
+                                              (@CommSemiring.toSemiring
+                                                (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                                (@CommRing.toCommSemiring
+                                                  (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                                  (ZMod.commRing
+                                                    (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))))
+                                              (@RingHom.id
+                                                (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                                (@Semiring.toNonAssocSemiring
+                                                  (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                                  (@CommSemiring.toSemiring
+                                                    (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                                    (@CommRing.toCommSemiring
+                                                      (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                                      (ZMod.commRing
+                                                        (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))))))
+                                              (@Polynomial
+                                                (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                                (@CommSemiring.toSemiring
+                                                  (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                                  (@CommRing.toCommSemiring
+                                                    (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                                    (ZMod.commRing
+                                                      (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))))))
+                                              (@Polynomial
+                                                (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                                (@CommSemiring.toSemiring
+                                                  (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                                  (@CommRing.toCommSemiring
+                                                    (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                                    (ZMod.commRing
+                                                      (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))))))
+                                              (@NonUnitalNonAssocSemiring.toAddCommMonoid
+                                                (@Polynomial
+                                                  (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                                  (@CommSemiring.toSemiring
+                                                    (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                                    (@CommRing.toCommSemiring
+                                                      (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                                      (ZMod.commRing
+                                                        (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))))))
+                                                (@NonAssocSemiring.toNonUnitalNonAssocSemiring
+                                                  (@Polynomial
+                                                    (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                                    (@CommSemiring.toSemiring
+                                                      (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                                      (@CommRing.toCommSemiring
+                                                        (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                                        (ZMod.commRing
+                                                          (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))))))
+                                                  (@Semiring.toNonAssocSemiring
+                                                    (@Polynomial
+                                                      (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                                      (@CommSemiring.toSemiring
+                                                        (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                                        (@CommRing.toCommSemiring
+                                                          (ZMod
+                                                            (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                                          (ZMod.commRing
+                                                            (@OfNat.ofNat Nat (nat_lit 2)
+                                                              (instOfNatNat (nat_lit 2)))))))
+                                                    (@semiring
+                                                      (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                                      (@CommSemiring.toSemiring
+                                                        (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                                        (@CommRing.toCommSemiring
+                                                          (ZMod
+                                                            (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                                          (ZMod.commRing
+                                                            (@OfNat.ofNat Nat (nat_lit 2)
+                                                              (instOfNatNat (nat_lit 2))))))))))
+                                              (@NonUnitalNonAssocSemiring.toAddCommMonoid
+                                                (@Polynomial
+                                                  (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                                  (@CommSemiring.toSemiring
+                                                    (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                                    (@CommRing.toCommSemiring
+                                                      (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                                      (ZMod.commRing
+                                                        (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))))))
+                                                (@NonAssocSemiring.toNonUnitalNonAssocSemiring
+                                                  (@Polynomial
+                                                    (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                                    (@CommSemiring.toSemiring
+                                                      (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                                      (@CommRing.toCommSemiring
+                                                        (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                                        (ZMod.commRing
+                                                          (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))))))
+                                                  (@Semiring.toNonAssocSemiring
+                                                    (@Polynomial
+                                                      (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                                      (@CommSemiring.toSemiring
+                                                        (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                                        (@CommRing.toCommSemiring
+                                                          (ZMod
+                                                            (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                                          (ZMod.commRing
+                                                            (@OfNat.ofNat Nat (nat_lit 2)
+                                                              (instOfNatNat (nat_lit 2)))))))
+                                                    (@semiring
+                                                      (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                                      (@CommSemiring.toSemiring
+                                                        (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                                        (@CommRing.toCommSemiring
+                                                          (ZMod
+                                                            (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                                          (ZMod.commRing
+                                                            (@OfNat.ofNat Nat (nat_lit 2)
+                                                              (instOfNatNat (nat_lit 2))))))))))
+                                              (@module (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                                (@CommSemiring.toSemiring
+                                                  (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                                  (@CommRing.toCommSemiring
+                                                    (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                                    (ZMod.commRing
+                                                      (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))))
+                                                (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                                (@CommSemiring.toSemiring
+                                                  (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                                  (@CommRing.toCommSemiring
+                                                    (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                                    (ZMod.commRing
+                                                      (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))))
+                                                (@Semiring.toModule
+                                                  (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                                  (@CommSemiring.toSemiring
+                                                    (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                                    (@CommRing.toCommSemiring
+                                                      (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                                      (ZMod.commRing
+                                                        (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))))))
+                                              (@module (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                                (@CommSemiring.toSemiring
+                                                  (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                                  (@CommRing.toCommSemiring
+                                                    (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                                    (ZMod.commRing
+                                                      (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))))
+                                                (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                                (@CommSemiring.toSemiring
+                                                  (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                                  (@CommRing.toCommSemiring
+                                                    (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                                    (ZMod.commRing
+                                                      (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))))
+                                                (@Semiring.toModule
+                                                  (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                                  (@CommSemiring.toSemiring
+                                                    (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                                    (@CommRing.toCommSemiring
+                                                      (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                                      (ZMod.commRing
+                                                        (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))))))))
+                                            (@Polynomial
+                                              (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                              (@CommSemiring.toSemiring
+                                                (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                                (@CommRing.toCommSemiring
+                                                  (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                                  (ZMod.commRing
+                                                    (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))))))
+                                            (fun x =>
+                                              @Polynomial
+                                                (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                                (@CommSemiring.toSemiring
+                                                  (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                                  (@CommRing.toCommSemiring
+                                                    (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                                    (ZMod.commRing
+                                                      (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))))))
+                                            (@LinearMap.instFunLike
+                                              (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                              (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                              (@Polynomial
+                                                (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                                (@CommSemiring.toSemiring
+                                                  (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                                  (@CommRing.toCommSemiring
+                                                    (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                                    (ZMod.commRing
+                                                      (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))))))
+                                              (@Polynomial
+                                                (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                                (@CommSemiring.toSemiring
+                                                  (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                                  (@CommRing.toCommSemiring
+                                                    (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                                    (ZMod.commRing
+                                                      (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))))))
+                                              (@CommSemiring.toSemiring
+                                                (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                                (@CommRing.toCommSemiring
+                                                  (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                                  (ZMod.commRing
+                                                    (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))))
+                                              (@CommSemiring.toSemiring
+                                                (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                                (@CommRing.toCommSemiring
+                                                  (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                                  (ZMod.commRing
+                                                    (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))))
+                                              (@NonUnitalNonAssocSemiring.toAddCommMonoid
+                                                (@Polynomial
+                                                  (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                                  (@CommSemiring.toSemiring
+                                                    (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                                    (@CommRing.toCommSemiring
+                                                      (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                                      (ZMod.commRing
+                                                        (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))))))
+                                                (@NonAssocSemiring.toNonUnitalNonAssocSemiring
+                                                  (@Polynomial
+                                                    (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                                    (@CommSemiring.toSemiring
+                                                      (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                                      (@CommRing.toCommSemiring
+                                                        (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                                        (ZMod.commRing
+                                                          (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))))))
+                                                  (@Semiring.toNonAssocSemiring
+                                                    (@Polynomial
+                                                      (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                                      (@CommSemiring.toSemiring
+                                                        (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                                        (@CommRing.toCommSemiring
+                                                          (ZMod
+                                                            (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                                          (ZMod.commRing
+                                                            (@OfNat.ofNat Nat (nat_lit 2)
+                                                              (instOfNatNat (nat_lit 2)))))))
+                                                    (@semiring
+                                                      (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                                      (@CommSemiring.toSemiring
+                                                        (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                                        (@CommRing.toCommSemiring
+                                                          (ZMod
+                                                            (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                                          (ZMod.commRing
+                                                            (@OfNat.ofNat Nat (nat_lit 2)
+                                                              (instOfNatNat (nat_lit 2))))))))))
+                                              (@NonUnitalNonAssocSemiring.toAddCommMonoid
+                                                (@Polynomial
+                                                  (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                                  (@CommSemiring.toSemiring
+                                                    (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                                    (@CommRing.toCommSemiring
+                                                      (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                                      (ZMod.commRing
+                                                        (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))))))
+                                                (@NonAssocSemiring.toNonUnitalNonAssocSemiring
+                                                  (@Polynomial
+                                                    (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                                    (@CommSemiring.toSemiring
+                                                      (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                                      (@CommRing.toCommSemiring
+                                                        (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                                        (ZMod.commRing
+                                                          (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))))))
+                                                  (@Semiring.toNonAssocSemiring
+                                                    (@Polynomial
+                                                      (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                                      (@CommSemiring.toSemiring
+                                                        (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                                        (@CommRing.toCommSemiring
+                                                          (ZMod
+                                                            (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                                          (ZMod.commRing
+                                                            (@OfNat.ofNat Nat (nat_lit 2)
+                                                              (instOfNatNat (nat_lit 2)))))))
+                                                    (@semiring
+                                                      (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                                      (@CommSemiring.toSemiring
+                                                        (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                                        (@CommRing.toCommSemiring
+                                                          (ZMod
+                                                            (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                                          (ZMod.commRing
+                                                            (@OfNat.ofNat Nat (nat_lit 2)
+                                                              (instOfNatNat (nat_lit 2))))))))))
+                                              (@module (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                                (@CommSemiring.toSemiring
+                                                  (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                                  (@CommRing.toCommSemiring
+                                                    (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                                    (ZMod.commRing
+                                                      (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))))
+                                                (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                                (@CommSemiring.toSemiring
+                                                  (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                                  (@CommRing.toCommSemiring
+                                                    (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                                    (ZMod.commRing
+                                                      (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))))
+                                                (@Semiring.toModule
+                                                  (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                                  (@CommSemiring.toSemiring
+                                                    (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                                    (@CommRing.toCommSemiring
+                                                      (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                                      (ZMod.commRing
+                                                        (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))))))
+                                              (@module (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                                (@CommSemiring.toSemiring
+                                                  (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                                  (@CommRing.toCommSemiring
+                                                    (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                                    (ZMod.commRing
+                                                      (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))))
+                                                (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                                (@CommSemiring.toSemiring
+                                                  (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                                  (@CommRing.toCommSemiring
+                                                    (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                                    (ZMod.commRing
+                                                      (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))))
+                                                (@Semiring.toModule
+                                                  (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                                  (@CommSemiring.toSemiring
+                                                    (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                                    (@CommRing.toCommSemiring
+                                                      (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                                      (ZMod.commRing
+                                                        (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))))))
+                                              (@RingHom.id
+                                                (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                                (@Semiring.toNonAssocSemiring
+                                                  (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                                  (@CommSemiring.toSemiring
+                                                    (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                                    (@CommRing.toCommSemiring
+                                                      (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                                      (ZMod.commRing
+                                                        (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))))))))
+                                            (@derivative
+                                              (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                              (@CommSemiring.toSemiring
+                                                (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                                (@CommRing.toCommSemiring
+                                                  (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                                  (ZMod.commRing
+                                                    (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))))))
+                                            (@polE (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                              (ZMod.commRing (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                              m r))
+                                          (@OfNat.ofNat
+                                            (@Polynomial
+                                              (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                              (@CommSemiring.toSemiring
+                                                (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                                (@CommRing.toCommSemiring
+                                                  (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                                  (ZMod.commRing
+                                                    (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))))))
+                                            (nat_lit 1)
+                                            (@One.toOfNat1
+                                              (@Polynomial
+                                                (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                                (@CommSemiring.toSemiring
+                                                  (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                                  (@CommRing.toCommSemiring
+                                                    (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                                    (ZMod.commRing
+                                                      (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))))))
+                                              (@instOne (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                                (@CommSemiring.toSemiring
+                                                  (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                                  (@CommRing.toCommSemiring
+                                                    (ZMod (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                                                    (ZMod.commRing
+                                                      (@OfNat.ofNat Nat (nat_lit 2)
+                                                        (instOfNatNat (nat_lit 2)))))))))))))))))))))
+@proposition_5_1 : ∀ {m r : Nat},
+  @LE.le Nat instLENat (@OfNat.ofNat Nat (nat_lit 2) (instOfNatNat (nat_lit 2))) m →
+    ∀ (R : Type u_1) [inst : CommRing R],
+      And
+        (@Eq (@Polynomial Int (@CommSemiring.toSemiring Int (@CommRing.toCommSemiring Int Int.instCommRing)))
+          (@polP Int Int.instCommRing m r)
+          (@HSub.hSub (@Polynomial Int (@CommSemiring.toSemiring Int (@CommRing.toCommSemiring Int Int.instCommRing)))
+            (@Polynomial Int (@CommSemiring.toSemiring Int (@CommRing.toCommSemiring Int Int.instCommRing)))
+            (@Polynomial Int (@CommSemiring.toSemiring Int (@CommRing.toCommSemiring Int Int.instCommRing)))
+            (@instHSub (@Polynomial Int (@CommSemiring.toSemiring Int (@CommRing.toCommSemiring Int Int.instCommRing)))
+              (@instSub Int Int.instRing))
+            (@HSub.hSub (@Polynomial Int (@CommSemiring.toSemiring Int (@CommRing.toCommSemiring Int Int.instCommRing)))
+              (@Polynomial Int (@CommSemiring.toSemiring Int (@CommRing.toCommSemiring Int Int.instCommRing)))
+              (@Polynomial Int (@CommSemiring.toSemiring Int (@CommRing.toCommSemiring Int Int.instCommRing)))
+              (@instHSub
+                (@Polynomial Int (@CommSemiring.toSemiring Int (@CommRing.toCommSemiring Int Int.instCommRing)))
+                (@instSub Int Int.instRing))
+              (@HMul.hMul
+                (@Polynomial Int (@CommSemiring.toSemiring Int (@CommRing.toCommSemiring Int Int.instCommRing)))
+                (@Polynomial Int (@CommSemiring.toSemiring Int (@CommRing.toCommSemiring Int Int.instCommRing)))
+                (@Polynomial Int (@CommSemiring.toSemiring Int (@CommRing.toCommSemiring Int Int.instCommRing)))
+                (@instHMul
+                  (@Polynomial Int (@CommSemiring.toSemiring Int (@CommRing.toCommSemiring Int Int.instCommRing)))
+                  (@instMul Int (@CommSemiring.toSemiring Int (@CommRing.toCommSemiring Int Int.instCommRing))))
+                (@polD Int Int.instCommRing m r) (@polE Int Int.instCommRing m r))
+              (@OfNat.ofNat
+                (@Polynomial Int (@CommSemiring.toSemiring Int (@CommRing.toCommSemiring Int Int.instCommRing)))
+                (nat_lit 1)
+                (@One.toOfNat1
+                  (@Polynomial Int (@CommSemiring.toSemiring Int (@CommRing.toCommSemiring Int Int.instCommRing)))
+                  (@instOne Int (@CommSemiring.toSemiring Int (@CommRing.toCommSemiring Int Int.instCommRing))))))
+            (@HMul.hMul (@Polynomial Int (@CommSemiring.toSemiring Int (@CommRing.toCommSemiring Int Int.instCommRing)))
+              (@Polynomial Int (@CommSemiring.toSemiring Int (@CommRing.toCommSemiring Int Int.instCommRing)))
+              (@Polynomial Int (@CommSemiring.toSemiring Int (@CommRing.toCommSemiring Int Int.instCommRing)))
+              (@instHMul
+                (@Polynomial Int (@CommSemiring.toSemiring Int (@CommRing.toCommSemiring Int Int.instCommRing)))
+                (@instMul Int (@CommSemiring.toSemiring Int (@CommRing.toCommSemiring Int Int.instCommRing))))
+              (@OfNat.ofNat
+                (@Polynomial Int (@CommSemiring.toSemiring Int (@CommRing.toCommSemiring Int Int.instCommRing)))
+                (nat_lit 2)
+                (@instOfNatAtLeastTwo
+                  (@Polynomial Int (@CommSemiring.toSemiring Int (@CommRing.toCommSemiring Int Int.instCommRing)))
+                  (nat_lit 2)
+                  (@instNatCast Int (@CommSemiring.toSemiring Int (@CommRing.toCommSemiring Int Int.instCommRing))) ⋯))
+              (@HAdd.hAdd
+                (@Polynomial Int (@CommSemiring.toSemiring Int (@CommRing.toCommSemiring Int Int.instCommRing)))
+                (@Polynomial Int (@CommSemiring.toSemiring Int (@CommRing.toCommSemiring Int Int.instCommRing)))
+                (@Polynomial Int (@CommSemiring.toSemiring Int (@CommRing.toCommSemiring Int Int.instCommRing)))
+                (@instHAdd
+                  (@Polynomial Int (@CommSemiring.toSemiring Int (@CommRing.toCommSemiring Int Int.instCommRing)))
+                  (@instAdd Int (@CommSemiring.toSemiring Int (@CommRing.toCommSemiring Int Int.instCommRing))))
+                (@polY Int Int.instCommRing m) (@polZ Int Int.instCommRing m)))))
+        (@Eq (@Polynomial R (@CommSemiring.toSemiring R (@CommRing.toCommSemiring R inst)))
+          (@Polynomial.map Int R Int.instSemiring (@CommSemiring.toSemiring R (@CommRing.toCommSemiring R inst))
+            (@Int.castRingHom R (@NonAssocCommRing.toNonAssocRing R (@CommRing.toNonAssocCommRing R inst)))
+            (@polP Int Int.instCommRing m r))
+          (@HSub.hSub (@Polynomial R (@CommSemiring.toSemiring R (@CommRing.toCommSemiring R inst)))
+            (@Polynomial R (@CommSemiring.toSemiring R (@CommRing.toCommSemiring R inst)))
+            (@Polynomial R (@CommSemiring.toSemiring R (@CommRing.toCommSemiring R inst)))
+            (@instHSub (@Polynomial R (@CommSemiring.toSemiring R (@CommRing.toCommSemiring R inst)))
+              (@instSub R (@CommRing.toRing R inst)))
+            (@HSub.hSub (@Polynomial R (@CommSemiring.toSemiring R (@CommRing.toCommSemiring R inst)))
+              (@Polynomial R (@CommSemiring.toSemiring R (@CommRing.toCommSemiring R inst)))
+              (@Polynomial R (@CommSemiring.toSemiring R (@CommRing.toCommSemiring R inst)))
+              (@instHSub (@Polynomial R (@CommSemiring.toSemiring R (@CommRing.toCommSemiring R inst)))
+                (@instSub R (@CommRing.toRing R inst)))
+              (@HMul.hMul (@Polynomial R (@CommSemiring.toSemiring R (@CommRing.toCommSemiring R inst)))
+                (@Polynomial R (@CommSemiring.toSemiring R (@CommRing.toCommSemiring R inst)))
+                (@Polynomial R (@CommSemiring.toSemiring R (@CommRing.toCommSemiring R inst)))
+                (@instHMul (@Polynomial R (@CommSemiring.toSemiring R (@CommRing.toCommSemiring R inst)))
+                  (@instMul R (@CommSemiring.toSemiring R (@CommRing.toCommSemiring R inst))))
+                (@polD R inst m r) (@polE R inst m r))
+              (@OfNat.ofNat (@Polynomial R (@CommSemiring.toSemiring R (@CommRing.toCommSemiring R inst))) (nat_lit 1)
+                (@One.toOfNat1 (@Polynomial R (@CommSemiring.toSemiring R (@CommRing.toCommSemiring R inst)))
+                  (@instOne R (@CommSemiring.toSemiring R (@CommRing.toCommSemiring R inst))))))
+            (@HMul.hMul (@Polynomial R (@CommSemiring.toSemiring R (@CommRing.toCommSemiring R inst)))
+              (@Polynomial R (@CommSemiring.toSemiring R (@CommRing.toCommSemiring R inst)))
+              (@Polynomial R (@CommSemiring.toSemiring R (@CommRing.toCommSemiring R inst)))
+              (@instHMul (@Polynomial R (@CommSemiring.toSemiring R (@CommRing.toCommSemiring R inst)))
+                (@instMul R (@CommSemiring.toSemiring R (@CommRing.toCommSemiring R inst))))
+              (@OfNat.ofNat (@Polynomial R (@CommSemiring.toSemiring R (@CommRing.toCommSemiring R inst))) (nat_lit 2)
+                (@instOfNatAtLeastTwo (@Polynomial R (@CommSemiring.toSemiring R (@CommRing.toCommSemiring R inst)))
+                  (nat_lit 2) (@instNatCast R (@CommSemiring.toSemiring R (@CommRing.toCommSemiring R inst))) ⋯))
+              (@HAdd.hAdd (@Polynomial R (@CommSemiring.toSemiring R (@CommRing.toCommSemiring R inst)))
+                (@Polynomial R (@CommSemiring.toSemiring R (@CommRing.toCommSemiring R inst)))
+                (@Polynomial R (@CommSemiring.toSemiring R (@CommRing.toCommSemiring R inst)))
+                (@instHAdd (@Polynomial R (@CommSemiring.toSemiring R (@CommRing.toCommSemiring R inst)))
+                  (@instAdd R (@CommSemiring.toSemiring R (@CommRing.toCommSemiring R inst))))
+                (@polY R inst m) (@polZ R inst m)))))
+def ResidueAPN.polV.{u_1} : (R : Type u_1) → [inst : CommRing R] → ℕ → R[X] :=
+fun R [CommRing R] r => ∑ i ∈ range (r - 2), X ^ 2 ^ i
+def ResidueAPN.polW.{u_1} : (R : Type u_1) → [inst : CommRing R] → ℕ → R[X] :=
+fun R [CommRing R] r => X ^ 2 ^ (r - 2)
+def ResidueAPN.polY.{u_1} : (R : Type u_1) → [inst : CommRing R] → ℕ → R[X] :=
+fun R [CommRing R] m => X ^ 2 ^ (m - 2)
+def ResidueAPN.polZ.{u_1} : (R : Type u_1) → [inst : CommRing R] → ℕ → R[X] :=
+fun R [CommRing R] m => X ^ 2 ^ (m - 1)
+def ResidueAPN.polD.{u_1} : (R : Type u_1) → [inst : CommRing R] → ℕ → ℕ → R[X] :=
+fun R [CommRing R] m r => 1 + polW R r + polY R m
+def ResidueAPN.polE.{u_1} : (R : Type u_1) → [inst : CommRing R] → ℕ → ℕ → R[X] :=
+fun R [CommRing R] m r => 1 + polV R r + polY R m + polZ R m
+def ResidueAPN.polP.{u_1} : (R : Type u_1) → [inst : CommRing R] → ℕ → ℕ → R[X] :=
+fun R [CommRing R] m r =>
+  polV R r + polW R r + polW R r * polV R r + polW R r * polY R m + polW R r * polZ R m + polY R m * polV R r +
+    polY R m * polZ R m
+def ResidueAPN.polT.{u_1} : (R : Type u_1) → [inst : CommRing R] → ℕ → R[X] :=
+fun R [CommRing R] r => ∑ i ∈ range r, X ^ 2 ^ i
+def ResidueAPN.expOf : Finset ℕ → ℕ :=
+fun s => ∑ i ∈ s, 2 ^ i
+def ResidueAPN.idx1 : ℕ → Finset (Finset ℕ) :=
+fun r => image (fun i => {i}) (range (r - 1))
+def ResidueAPN.idx2 : ℕ → Finset (Finset ℕ) :=
+fun r => image (fun i => {i, r - 2}) (range (r - 2))
+def ResidueAPN.idx3 : ℕ → ℕ → Finset (Finset ℕ) :=
+fun m r => image (fun i => {i, m - 2}) (range (r - 2))
+def ResidueAPN.idx4 : ℕ → ℕ → Finset (Finset ℕ) :=
+fun m r => {{r - 2, m - 2}, {r - 2, m - 1}, {m - 2, m - 1}}
+def ResidueAPN.supportIdx : ℕ → ℕ → Finset (Finset ℕ) :=
+fun m r => idx1 r ∪ idx2 r ∪ idx3 m r ∪ idx4 m r
+def ResidueAPN.suppP : ℕ → ℕ → Finset ℕ :=
+fun m r => image expOf (supportIdx m r)
+def ResidueAPN.absTr.{u_1} : {F : Type u_1} → [Field F] → ℕ → F → F :=
+fun {F} [Field F] m y => ∑ i ∈ range m, y ^ 2 ^ i
+def ResidueAPN.IsDerivOptimal.{u_1} : {F : Type u_1} → [inst : Field F] → [Fintype F] → [DecidableEq F] → F[X] → Prop :=
+fun {F} [Field F] [Fintype F] [DecidableEq F] p =>
+  (∀ (x : F), eval x (derivative p) ≠ 0) ∧ ∀ (x : F), #{y | eval y (derivative p) = eval x (derivative p)} = 2
+def ResidueAPN.IsOptimalAPNPerm.{u_1} : {F : Type u_1} →
+  [inst : Field F] → [Fintype F] → [DecidableEq F] → [CharP F 2] → (F → F) → Prop :=
+fun {F} [Field F] [Fintype F] [DecidableEq F] [CharP F 2] f => IsAPN f ∧ Function.Bijective f ∧ IsDerivOptimal (rep f)
+def ResidueAPN.IsAPN.{u_1} : {F : Type u_1} → [Field F] → [Fintype F] → [DecidableEq F] → (F → F) → Prop :=
+fun {F} [Field F] [Fintype F] [DecidableEq F] Q => ∀ (a : F), a ≠ 0 → ∀ (b : F), #{x | ResidueAPN.deriv Q a x = b} ≤ 2
+def ResidueAPN.deriv.{u_1} : {F : Type u_1} → [Field F] → (F → F) → F → F → F :=
+fun {F} [Field F] Q a x => Q (x + a) + Q x
+def ResidueAPN.rep.{u_1} : {F : Type u_1} → [inst : Field F] → [Fintype F] → [DecidableEq F] → (F → F) → F[X] :=
+fun {F} [Field F] [Fintype F] [DecidableEq F] f => (Lagrange.interpolate univ id) f
+'ResidueAPN.theorem_3_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'theorem_3_1_restated' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ResidueAPN.proposition_5_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'proposition_5_1_restated' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ResidueAPN.lift_reduces' depends on axioms: [propext, Classical.choice, Quot.sound]
+# 2026-10-07T11:23:30Z exit=0

@@ -1,0 +1,75 @@
+{
+ "_private": {
+  "generated_by": "tools/gen_metadata.py from release/metadata_source.json",
+  "note": "only the object \"metadata\" is the payload sent to Zenodo; \"_private\" is never sent",
+  "state": "release",
+  "own_version_doi": "10.5281/zenodo.23232181",
+  "own_concept_doi": "10.5281/zenodo.23232180",
+  "final_rights": [
+   {
+    "id": "mit",
+    "scope": "code, machine-readable, configuration and auxiliary files (Python, shell, Lean sources and configuration, JSON, TSV, DOT, CFF, logs, records and checksums)"
+   },
+   {
+    "id": "cc-by-4.0",
+    "scope": "prose by the author: the paper sources and PDFs, the blueprint text and PDF, and the Markdown documents (the licence texts LICENSE and LICENSE-CC-BY-4.0.txt keep their own terms)"
+   }
+  ],
+  "rights_procedure": "The legacy deposit API carries one licence (metadata.license = mit). After the LAST metadata update of this draft (PUT), add CC BY 4.0 next to MIT in the Zenodo web form (Licenses; mixed licence uploads) and save; no metadata PUT follows (it would send the single licence field again). Then GET and --readback --after-web-form again, and the preview must show exactly the licences of final_rights: a hard stop before publish.",
+  "readback": "python3 tools/gen_metadata.py --readback KIND SAVED.json [--after-web-form] compares a saved GET of the draft with this record: reserved version DOI (every DOI field present), concept DOI (10.5281/zenodo.<conceptrecid>), title, version, publication_date, upload and publication type, access right, creators (all fields), keywords, description paragraph texts, related identifiers (identifier, relation, scheme), licence field. After the web-form step the licence field must include the first licence of final_rights and no licence outside final_rights; the preview must show exactly final_rights. File SHA-256 are compared in the file list."
+ },
+ "metadata": {
+  "upload_type": "software",
+  "title": "residue-apn: explicit reduced APN permutations P_{m,r} (paper sources, Lean 4 formalization, blueprint, finite checks)",
+  "creators": [
+   {
+    "name": "Fukui, Hiroki",
+    "orcid": "0009-0008-7122-522X",
+    "affiliation": "Research Institute of Criminal Psychiatry / Sex Offender Medical Center, Tokyo, Japan; Department of Neuropsychiatry, Kyoto University, Kyoto, Japan"
+   }
+  ],
+  "description": "<p>For odd m &gt;= 5, q = 2^m and every odd r with 3 &lt;= r &lt; m and gcd(r, m) = 1, the reduced polynomial P_{m,r} = red((T_r^3)^(2^(m-2))), T_r = sum_{i&lt;r} X^(2^i), has coefficients in F_2 and exactly 3r - 2 terms, is an APN permutation of F_q, and its formal derivative 1 + X^(2^(r-2)) + X^(2^(m-2)) has no zero on F_q and is two-to-one. Its ramification as a map of the projective line is determined for all admissible (m, r): 2^(m-r) finite ramification points, all with index and different exponent 2^(r-2), over the single finite branch value 1. The 0/1 lift satisfies an identity in Z[X] that evaluates it over every Galois ring GR(2^k, m) with m - 1 squarings and one general multiplication. For k &gt;= 2 and every coefficient lift, the differential rows are described in the unit directions outside the kernel of the linear part of the derivative and in the top ideal, and a two-word, two-layer transition is excluded at the residue level.</p><p>Lean 4 (v4.31.0-rc1, Mathlib d568c8c0; axioms a subset of propext, Classical.choice, Quot.sound; no sorry): Lemma 2.2 (polynomials over F_2 with quadratic support), Theorem 3.1 (all four items, all admissible m, r), the identity of Proposition 5.1, Theorem 4.1 items (1)-(3) and root multiplicities, Proposition 6.1 and Theorem 6.2 for an abstract finite ring with a surjection onto F_q (the Galois-ring instance is in the paper), Proposition 7.1 after the normalisation. Math-source digest c1844f5479439c4edffbfb4c3c5a7427f13c21b45bb7eef3edc75076889ffdda. Not formalized: Lemma 3.2, Corollary 3.3, Remark 4.2, the operation count, the ramification reading, the Galois-ring construction and cardinalities, cited bounds.</p><p>Licences: the files of this record are distributed under two licences, each for a part of the files; they are not alternatives for the same file. MIT: code, machine-readable, configuration and auxiliary files (Python, shell, Lean sources and configuration, JSON, TSV, DOT, CFF, logs, records and checksums). CC BY 4.0: prose by the author: the paper sources and PDFs, the blueprint text and PDF, and the Markdown documents (the licence texts LICENSE and LICENSE-CC-BY-4.0.txt keep their own terms). The licence of every file is listed in release/DISTRIBUTION_FILES.tsv.</p><p>Status: Version 1.0.0, deposited under the identifiers given in this record (software version DOI 10.5281/zenodo.23232181; paper version DOI 10.5281/zenodo.23232183).</p>",
+  "version": "1.0.0",
+  "license": "mit",
+  "keywords": [
+   "APN functions",
+   "permutation polynomials",
+   "Galois rings",
+   "ramification",
+   "Gold functions",
+   "differential uniformity",
+   "Lean 4",
+   "Mathlib",
+   "formal verification"
+  ],
+  "related_identifiers": [
+   {
+    "identifier": "10.5281/zenodo.23074611",
+    "relation": "cites",
+    "scheme": "doi"
+   },
+   {
+    "identifier": "10.1007/s12095-026-00895-x",
+    "relation": "cites",
+    "scheme": "doi"
+   },
+   {
+    "identifier": "10.5281/zenodo.23053111",
+    "relation": "references",
+    "scheme": "doi"
+   },
+   {
+    "identifier": "10.5281/zenodo.23232183",
+    "relation": "isSupplementTo",
+    "scheme": "doi"
+   },
+   {
+    "identifier": "https://github.com/hirokifukui/residue-apn/tree/v1.0.0",
+    "relation": "isSupplementTo",
+    "scheme": "url"
+   }
+  ],
+  "access_right": "open",
+  "publication_date": "2026-10-08"
+ }
+}

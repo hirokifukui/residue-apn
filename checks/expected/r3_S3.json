@@ -1,0 +1,162 @@
+{
+ "section": "S3",
+ "result": {
+  "family": {
+   "5": {
+    "D_is_L1_of_Gold": true,
+    "DU_exact": 2,
+    "D_perm": true,
+    "L1_bijective": true,
+    "Q_opt": true,
+    "Q_perm": false,
+    "Q0_eq_Q1": true,
+    "degree": 10
+   },
+   "7": {
+    "D_is_L1_of_Gold": true,
+    "DU_exact": 2,
+    "D_perm": true,
+    "L1_bijective": true,
+    "Q_opt": true,
+    "Q_perm": false,
+    "Q0_eq_Q1": true,
+    "degree": 18
+   },
+   "9": {
+    "D_is_L1_of_Gold": true,
+    "DU_exact": 8,
+    "D_perm": false,
+    "L1_bijective": false,
+    "Q_opt": true,
+    "Q_perm": false,
+    "Q0_eq_Q1": true,
+    "degree": 34
+   },
+   "11": {
+    "D_is_L1_of_Gold": true,
+    "DU_exact": 2,
+    "D_perm": true,
+    "L1_bijective": true,
+    "Q_opt": true,
+    "Q_perm": false,
+    "Q0_eq_Q1": true,
+    "degree": 66
+   },
+   "13": {
+    "D_is_L1_of_Gold": true,
+    "DU_exact": 2,
+    "D_perm": true,
+    "L1_bijective": true,
+    "Q_opt": true,
+    "Q_perm": false,
+    "Q0_eq_Q1": true,
+    "degree": 130
+   },
+   "15": {
+    "D_is_L1_of_Gold": true,
+    "DU_exact": 8,
+    "D_perm": false,
+    "L1_bijective": false,
+    "Q_opt": true,
+    "Q_perm": false,
+    "Q0_eq_Q1": true,
+    "degree": 258
+   }
+  },
+  "lemmaP_kernel_dims": {
+   "5,1": 5,
+   "5,2": 5,
+   "5,3": 5,
+   "5,4": 5,
+   "7,1": 7,
+   "7,2": 7,
+   "7,3": 7,
+   "7,4": 7,
+   "7,5": 7,
+   "7,6": 7,
+   "9,1": 9,
+   "9,2": 9,
+   "9,4": 9,
+   "9,5": 9,
+   "9,7": 9,
+   "9,8": 9,
+   "11,1": 11,
+   "11,2": 11,
+   "11,3": 11,
+   "11,4": 11,
+   "11,5": 11,
+   "11,6": 11,
+   "11,7": 11,
+   "11,8": 11,
+   "11,9": 11,
+   "11,10": 11,
+   "13,1": 13,
+   "13,2": 13,
+   "13,3": 13,
+   "13,4": 13,
+   "13,5": 13,
+   "13,6": 13,
+   "13,7": 13,
+   "13,8": 13,
+   "13,9": 13,
+   "13,10": 13,
+   "13,11": 13,
+   "13,12": 13
+  },
+  "census": {
+   "5": {
+    "hits": [
+     [],
+     [
+      1,
+      2
+     ]
+    ],
+    "predicted_nonzero": [
+     1,
+     2
+    ]
+   },
+   "7": {
+    "hits": [
+     [],
+     [
+      1,
+      3
+     ]
+    ],
+    "predicted_nonzero": [
+     1,
+     3
+    ]
+   },
+   "11": {
+    "hits": [
+     [],
+     [
+      1,
+      5
+     ]
+    ],
+    "predicted_nonzero": [
+     1,
+     5
+    ]
+   },
+   "13": {
+    "hits": [
+     [],
+     [
+      1,
+      6
+     ]
+    ],
+    "predicted_nonzero": [
+     1,
+     6
+    ]
+   }
+  }
+ },
+ "fails": []
+}

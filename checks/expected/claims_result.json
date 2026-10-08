@@ -1,0 +1,62 @@
+[
+ [
+  "T-A",
+  true,
+  "thmA.py: 1003 admissible pairs m<=101, 3r-2 terms, deg 3q/4, P' = 1+W+Y, no bad pair"
+ ],
+ [
+  "T-A",
+  true,
+  "thmA.py: field checks m=5..13, 14 admissible (m,r): composition = polynomial, permutation, DU 2, derivative-optimal, {P(y+1)+P(y)} = {Tr=1}"
+ ],
+ [
+  "T-A",
+  true,
+  "thmA.py negative control (m,r)=(9,3), gcd 3: not a permutation"
+ ],
+ [
+  "T-R",
+  true,
+  "ring.py k=2: natural lift of P_{5,3}: perm, unit rows <=2, rows over rho max 64, residue-zero rows 64"
+ ],
+ [
+  "T-R",
+  true,
+  "ring.py k=3: rows over rho max 128, residue-zero rows max 2048 = 2q^2"
+ ],
+ [
+  "r3_S1",
+  true,
+  "r3_checks S1: PASS S1 Stone; PASS S1 TIT P_{e,t}"
+ ],
+ [
+  "r3_S2",
+  true,
+  "r3_checks S2: PASS S2 Theorem A support; PASS S2 Theorem B: E == 1+T_r; PASS S2 Riemann-Hurwitz"
+ ],
+ [
+  "r3_S3",
+  true,
+  "r3_checks S3: PASS S3 Lemma P m=13; PASS S3 cyclotomic classes"
+ ],
+ [
+  "main_C1",
+  true,
+  "main_checks C1"
+ ],
+ [
+  "main_C2",
+  true,
+  "main_checks C2"
+ ],
+ [
+  "main_C3",
+  true,
+  "main_checks C3"
+ ],
+ [
+  "main_C4",
+  true,
+  "controls_R6 C4: fixed P_{5,3} not a permutation of F_128; Rem 4.2 gcd control m=9; binary-word lemma"
+ ]
+]

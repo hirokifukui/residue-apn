@@ -1,0 +1,13 @@
+name = "residue_apn"
+defaultTargets = ["ResidueAPN"]
+
+# residue-APN follow-up paper (FFTA candidate, paper_R5). New project, 2026-10-07.
+# mathlib from the already-built tree on this machine (pin d568c8c0, toolchain v4.31.0-rc1),
+# exactly as in ~/lean/apnlift/lakefile.toml. Nothing is rebuilt. ~/lean/apnlift is not a dependency
+# (a path dependency would build into its .lake); three of its Core files are copied into Shared/.
+[[require]]
+name = "mathlib"
+path = "../mathlib-latest"
+
+[[lean_lib]]
+name = "ResidueAPN"

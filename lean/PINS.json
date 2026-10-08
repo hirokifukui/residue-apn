@@ -1,0 +1,15 @@
+{
+  "_comment": "Pins of the ResidueAPN release check (read by run_release.sh). Same versions as the recorded development build b19 / lean4checker run; nothing upgraded.",
+  "math_source_digest": "c1844f5479439c4edffbfb4c3c5a7427f13c21b45bb7eef3edc75076889ffdda",
+  "math_source_files": "16",
+  "math_source_digest_stage2": "dad9c6b2e8da0385210e54affb3bfffe809648b408c217efd26a3b36474c1891 (15 files; portable release check PASS 2026-10-07, run1)",
+  "math_source_rule": "sha256 of the concatenated 64-hex sha256 values (one per line) of LC_ALL=C sort of ResidueAPN/**/*.lean, then ResidueAPN.lean",
+  "lean_toolchain": "leanprover/lean4:v4.31.0-rc1",
+  "mathlib_repo": "https://github.com/leanprover-community/mathlib4",
+  "mathlib_rev": "d568c8c09630de097a046763c17b9ea99f95f950",
+  "lean4checker_repo": "https://github.com/leanprover/lean4checker",
+  "lean4checker_rev": "91a7f0e8e9dffe927089f5a6edcfeeb8a0e07709",
+  "lean4checker_build": "git clone https://github.com/leanprover/lean4checker && cd lean4checker && git checkout 91a7f0e8e9dffe927089f5a6edcfeeb8a0e07709 && lake build   (its lean-toolchain is leanprover/lean4:v4.31.0-rc1); binary .lake/build/bin/lean4checker",
+  "fresh_module": "ResidueAPN.All",
+  "allowed_axioms": "a subset of propext, Classical.choice, Quot.sound"
+}

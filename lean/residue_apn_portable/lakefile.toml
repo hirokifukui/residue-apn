@@ -1,0 +1,16 @@
+name = "residue_apn"
+defaultTargets = ["ResidueAPN"]
+
+# Portable configuration of the ResidueAPN formalization (session R11, 2026-10-07; GPT R8-01).
+# The mathematical sources (ResidueAPN/**/*.lean, ResidueAPN.lean) are byte-identical to the development tree whose
+# build b19, audits and `lean4checker --fresh ResidueAPN.All` are recorded (math-source digest dad9c6b2...1891).
+# Only the Mathlib requirement differs: an immutable git revision instead of a local path dependency.
+# It is the same revision (d568c8c0) the development tree was built against, with toolchain v4.31.0-rc1.
+# lake-manifest.json pins every transitive dependency to the revision used there (same as apnlift R41 portable).
+[[require]]
+name = "mathlib"
+git = "https://github.com/leanprover-community/mathlib4"
+rev = "d568c8c09630de097a046763c17b9ea99f95f950"
+
+[[lean_lib]]
+name = "ResidueAPN"

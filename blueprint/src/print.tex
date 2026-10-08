@@ -1,0 +1,41 @@
+\documentclass[11pt]{report}
+\usepackage{amssymb,amsmath,mathtools,amsthm}
+\usepackage[margin=1in]{geometry}
+\usepackage{xr-hyper}
+\usepackage{hyperref}
+\usepackage{graphicx}
+\externaldocument{paperlabels}
+\newtheorem*{bpstatement}{Statement}
+\newcommand{\F}{\mathbb{F}}
+\newcommand{\Z}{\mathbb{Z}}
+\newcommand{\Tr}{\operatorname{Tr}}
+\newcommand{\GR}{\operatorname{GR}}
+\newcommand{\red}{\operatorname{red}}
+\newcommand{\pending}[1]{\textbf{[#1]}}
+\newcommand{\bpmeta}[2]{\par\noindent{\small\textbf{#1:} #2}\par}
+\newenvironment{bpcontext}{\par\smallskip\noindent{\small\textit{Paper text (context, verbatim):}}\begin{quote}\small}{\end{quote}}
+\sloppy
+\title{Blueprint: Explicit reduced APN permutations --- ramification and optimal Galois-ring lifts}
+\author{H.~Fukui (generated from the paper source; private draft, not published)}
+\date{}
+\begin{document}
+\maketitle
+\noindent\textbf{How to read.} Every numbered statement of the paper that carries a label is a node, with its statement and proof copied verbatim from the paper, preceded by the paper's own text around it (setting, notation, admissibility, the definitions of $V,W,Y,Z,D,E$, of $s,\ell,g$, of $R$, coefficient lifts and $\delta_F$, and the normalisation before Proposition~\ref{prop:W}), so that each statement can be read without the paper at hand. Numbers such as ``Theorem~3.1'' are the paper's numbers; citations point to the bibliography at the end, copied from the paper.
+
+\noindent\textbf{Trust labels.} [F] Lean~4 statement checked by the kernel (axioms a subset of propext, Classical.choice, Quot.sound; no sorry), project \texttt{ResidueAPN}. [F (\dots) + M] only the named part is formal; the label note says what is proved in the paper only. [M] proved in the paper only. [L + M] cited result with a self-contained proof in the paper. [Def], [Rem] definitions and remarks.
+
+\noindent\textbf{What the gate checks.} The blueprint gate (\texttt{check\_blueprint.py}) checks that this text, the node list, both graphs and the label file are exactly what the generator produces from the current paper and statement map, that every listed Lean name exists in the sources (a name check, \emph{not} a type check: the types are checked by Lean through the audit files of the release check), and that this PDF was built from those files. It does not check that a prose proof is correct.
+\tableofcontents
+\input{content}
+\chapter{Graphs}
+\noindent Two different graphs; they are not merged.
+\begin{figure}[h]\centering
+\IfFileExists{dep_graph.pdf}{\includegraphics[width=\textwidth,height=0.42\textheight,keepaspectratio]{dep_graph.pdf}}{(Graphviz output \texttt{dep\_graph.pdf} missing.)}
+\caption{Reference graph of the paper (extracted from \texttt{\string\ref} commands to earlier labelled statements). Not a complete proof-dependency graph; not the Lean import graph.}
+\end{figure}
+\begin{figure}[h]\centering
+\IfFileExists{lean_imports.pdf}{\includegraphics[width=\textwidth,height=0.42\textheight,keepaspectratio]{lean_imports.pdf}}{(Graphviz output \texttt{lean\_imports.pdf} missing.)}
+\caption{Lean module import graph of \texttt{ResidueAPN} (from the import lines of the sources). Not the paper's reference graph.}
+\end{figure}
+\input{bib}
+\end{document}

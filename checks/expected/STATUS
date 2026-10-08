@@ -1,0 +1,11 @@
+S1 exit=0
+S2 exit=0
+S3 exit=0
+thmA exit=0
+ring exit=0
+C1 exit=0
+C2 exit=0
+C3 exit=0
+C4 exit=0
+check_claims exit=0
+OVERALL PASS

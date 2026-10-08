@@ -1,0 +1,16 @@
+{
+ "C3": {
+  "5": {
+   "pairs": 210,
+   "failing": 0,
+   "random_invertible_allowing": 125,
+   "random_N": 200
+  },
+  "7": {
+   "pairs": 3906,
+   "failing": 0,
+   "random_invertible_allowing": 122,
+   "random_N": 200
+  }
+ }
+}

@@ -1,0 +1,21 @@
+Creative Commons Attribution 4.0 International (CC BY 4.0)
+
+Prose written by Hiroki Fukui in this package (the paper "Explicit reduced APN permutations: ramification and
+optimal Galois-ring lifts", its sources, the blueprint text and the Markdown documents) is licensed under the
+Creative Commons Attribution 4.0 International License. The licence of every file is stated in the `licence`
+column of release/DISTRIBUTION_FILES.tsv; that column is authoritative. The CC BY 4.0 files are the author's
+documents with the extensions .tex, .md and .pdf, in particular:
+
+- the manuscript sources and PDFs        paper/ (amsart source and PDF, generated elsarticle version)
+- the blueprint text and PDF             blueprint/ (.tex, .pdf)
+- README.md, TRUST.md, REPRODUCE.md, CHANGELOG.md and the other Markdown documents of the author
+
+You are free to share and adapt this material for any purpose, provided you give appropriate credit (Hiroki Fukui,
+"Explicit reduced APN permutations: ramification and optimal Galois-ring lifts"; the archive identifier is added
+when the package is published), link to the licence, and indicate if changes were made.
+Full legal code: https://creativecommons.org/licenses/by/4.0/legalcode
+
+Code, Lean sources, scripts, checkers, logs and other machine-readable files of the author are licensed under the
+MIT License (see LICENSE), as stated in the same column.
+
+Third-party material is not bundled; see THIRD_PARTY_NOTICES.md.
