@@ -1,6 +1,6 @@
 {
- "_comment": "state of this candidate when it was assembled; not a claim of publication",
- "assembled": "2026-10-08T16:06:30+0900",
+ "_comment": "state of this tree when it was assembled, before any upload. In metadata_state \"release\" the identifiers were reserved before assembly and this tree is deposited under them unchanged; \"published\" and \"submitted\" (journal) describe the moment of assembly. In metadata_state \"candidate\" it is a private candidate.",
+ "assembled": "2026-10-08T16:49:56+0900",
  "published": false,
  "doi_issued": true,
  "submitted": false,
@@ -22,7 +22,7 @@
   "portable_R11_stage2": "PASS digest dad9c6b2e8da0385210e54affb3bfffe809648b408c217efd26a3b36474c1891",
   "portable_R12_stage3": "PASS digest c1844f5479439c4edffbfb4c3c5a7427f13c21b45bb7eef3edc75076889ffdda"
  },
- "author_send_gate_open": [
+ "journal_submission_gate_open_at_assembly": [
   "A7 competing interests (declarations tool)",
   "A8 sign-off of the AI wording",
   "A13 final read-through"

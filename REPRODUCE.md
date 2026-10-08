@@ -24,7 +24,7 @@ cd ROOT && python3 tools/gen_statement_map.py --check && python3 tools/gen_lean_
 cd ROOT && python3 tools/gen_metadata.py --check
 cd ROOT/blueprint && python3 check_blueprint.py
 python3 ROOT/blueprint/tests/test_check_blueprint.py WORK2          # expected BLUEPRINT_GATE_TESTS=PASS 26/26
-python3 ROOT/tools/tests/test_gen_metadata.py WORK5                # expected METADATA_TESTS=PASS 39/39
+python3 ROOT/tools/tests/test_gen_metadata.py WORK5                # expected METADATA_TESTS=PASS 40/40
 ```
 `gen_metadata.py --check` regenerates `CITATION.cff`, `release/metadata/zenodo_*.json` and the marked blocks of
 `README.md` and `CHANGELOG.md` from `release/metadata_source.json` and compares them byte for byte; its tests use

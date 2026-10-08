@@ -12,13 +12,13 @@ authors:
     given-names: "Hiroki"
     orcid: "https://orcid.org/0009-0008-7122-522X"
     affiliation: "Research Institute of Criminal Psychiatry / Sex Offender Medical Center, Tokyo, Japan; Department of Neuropsychiatry, Kyoto University, Kyoto, Japan"
-version: "1.0.0"
+version: "1.0.1"
 date-released: "2026-10-08"
 repository-code: "https://github.com/hirokifukui/residue-apn"
-doi: "10.5281/zenodo.23232181"
+doi: "10.5281/zenodo.23233173"
 identifiers:
   - type: doi
-    value: "10.5281/zenodo.23232181"
+    value: "10.5281/zenodo.23233173"
     description: "version DOI of this software (exactly this version)"
   - type: doi
     value: "10.5281/zenodo.23232180"
@@ -44,10 +44,10 @@ preferred-citation:
   year: 2026
   status: preprint
   license: "CC-BY-4.0"
-  doi: "10.5281/zenodo.23232183"
+  doi: "10.5281/zenodo.23233176"
   identifiers:
     - type: doi
-      value: "10.5281/zenodo.23232183"
+      value: "10.5281/zenodo.23233176"
       description: "version DOI of this paper (exactly this version)"
     - type: doi
       value: "10.5281/zenodo.23232182"

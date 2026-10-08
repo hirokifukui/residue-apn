@@ -1,6 +1,7 @@
-# PUBLICATION_RUNBOOK — steps for the session in which the author authorises publication (not before)
+# PUBLICATION_RUNBOOK — steps for releasing a version (only on the author's instruction)
 
-Nothing in this file has been executed. No repository, draft, DOI reservation or deposit exists. The steps are run
+Version 1.0.0 was released with these steps on 2026-10-08; what was observed then is recorded at the end. A later
+version is a new version of the same two Zenodo records (step 1.1 below). The steps are run
 only after the author's explicit instruction, all in one session, in this order. Two services are involved; they do not
 form one technical transaction, so each step is checked before the next.
 
@@ -34,6 +35,9 @@ assumed. `CITATION.cff` has no top-level `license` (CFF 1.2.0 reads a list as al
    ID, its reserved version DOI (`metadata.prereserve_doi.doi`) and its concept record ID (`conceptrecid`); the concept
    DOI is written as `10.5281/zenodo.<conceptrecid>` (Zenodo's numbering; not verified on a draft here, it is checked
    to resolve at step 4.3). These two drafts are used to the end; no further draft is created.
+   For a later version, the two drafts are made with the "new version" action of each published record
+   (`POST /api/deposit/depositions/<ID>/actions/newversion`); the files copied into a new-version draft are removed
+   from that draft before step 4.2, and its DOI is reserved as above. The concept DOIs stay.
 2. GitHub: create the repository (empty), record its URL. The Zenodo–GitHub integration stays OFF for this
    repository: if it were on, the GitHub release of step 4.1 would create a further Zenodo record with its own DOI.
 
@@ -121,10 +125,13 @@ Data availability. The cited earlier paper (IT-26-1499) is related by citation o
 package. A later version gets new version DOIs (the concept DOIs stay) through the same command, and steps 3.1–3.4
 again for its drafts.
 
-## Not verified here
-No Zenodo or GitHub account API has been called. The readback compares a saved JSON offline; the field names follow
-the legacy deposit API documentation (developers.zenodo.org). How the legacy API reports a record that carries two
-licences after the web-form step is not known here, which is why rights are checked in the preview (step 3.4), not
-by the readback command after that step. Not verified either: that `10.5281/zenodo.<conceptrecid>` is the concept
-DOI of a draft before its first publication (checked at step 4.3), and the exact behaviour of the Zenodo–GitHub
-integration (kept off, step 1.2).
+## Observed when 1.0.0 was released (2026-10-08)
+- The legacy API reports the MIT licence as `mit-license` (also after the second licence is added, it shows only
+  this first one). `gen_metadata.py --readback` maps this one alias to `mit`; any other value is compared as before.
+- Step 3.3 was done through the draft endpoint that the web form uses (`PUT /api/records/<ID>/draft`, header
+  `Accept: application/vnd.inveniordm.v1+json`, body = the draft read with that header, rights `mit` and
+  `cc-by-4.0`); only `rights` changed. The record view, the RDM JSON and DataCite show both licences.
+- `10.5281/zenodo.<conceptrecid>` was the concept DOI and resolved after publication; the reserved version DOIs
+  were the DOIs given at publication.
+- The repository had no webhook (Zenodo–GitHub integration off); no further Zenodo record was created.
+- Zenodo reports MD5 checksums of uploaded files; SHA-256 values are recorded by the author.

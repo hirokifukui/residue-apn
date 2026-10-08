@@ -1,7 +1,7 @@
 # Explicit reduced APN permutations: ramification and optimal Galois-ring lifts — paper, Lean 4 formalization, blueprint and finite checks
 
 <!-- BEGIN gen_metadata:status -->
-**Status: version 1.0.0, released 2026-10-08.** Software (this version): doi:10.5281/zenodo.23232181; all versions: doi:10.5281/zenodo.23232180. Paper (preprint, this version): doi:10.5281/zenodo.23232183; all versions: doi:10.5281/zenodo.23232182. Source repository: https://github.com/hirokifukui/residue-apn (tag `v1.0.0`). Journal: to be submitted; no journal is named as accepting or publishing it.
+**Status: version 1.0.1, released 2026-10-08.** Software (this version): doi:10.5281/zenodo.23233173; all versions: doi:10.5281/zenodo.23232180. Paper (preprint, this version): doi:10.5281/zenodo.23233176; all versions: doi:10.5281/zenodo.23232182. Source repository: https://github.com/hirokifukui/residue-apn (tag `v1.0.1`). Journal: to be submitted; no journal is named as accepting or publishing it.
 <!-- END gen_metadata:status -->
 
 For every odd `m ≥ 5` and every odd `r` with `3 ≤ r < m`, `gcd(r, m) = 1`, the reduced polynomial
@@ -26,7 +26,7 @@ For every odd `m ≥ 5` and every odd `r` with `3 ≤ r < m`, `gcd(r, m) = 1`, t
 3. **Reproduce**: `REPRODUCE.md` — the copy check, the finite checks, the PDFs and blueprint, and the Lean release
    check are separate commands.
 <!-- BEGIN gen_metadata:cite -->
-4. **Cite**: `CITATION.cff` (software, version DOI doi:10.5281/zenodo.23232181; the paper is the preferred citation, version DOI doi:10.5281/zenodo.23232183).
+4. **Cite**: `CITATION.cff` (software, version DOI doi:10.5281/zenodo.23233173; the paper is the preferred citation, version DOI doi:10.5281/zenodo.23233176).
 <!-- END gen_metadata:cite -->
 
 ## First command (Python ≥ 3.9, standard library; seconds)

@@ -4,17 +4,17 @@
   "src/content.tex": "0c6eed57d3cf00a5ae4d80ad9faae6e6d5ba431540f3a0fd7800728f2830cad9",
   "src/bib.tex": "e47761fb51402b40d0b486bfcf941301dc654c605c461bc579a3bf01db92d33f",
   "src/paperlabels.aux": "08e38bb34d4f63c4ddd6b6f37f21c7b8e8658aca742e56885a2cbcd2163c2831",
-  "src/print.tex": "fb9aa47bb891d7e941a1a8dd6c71a2ba90f1b8dbfe377b6cc33f88080fb0ebff",
+  "src/print.tex": "ba1bb418067c8655f733c79e60aceed2ce27ee04cfcd05b66fc549df6ecd7905",
   "src/dep_graph.pdf": "c15b08e9da9ca8da0a52e33ddfb65566682f23977cce66899454d1cd07648e45",
   "src/lean_imports.pdf": "a95e768e8b112c25cb30b768f44dc22a21bd5f8c1f1f2505615ab5ca9720924b",
   "nodes.json": "31db2ee0404ed0c7b67865f42ee9d696ce36f9a1ccda67ea8ee0e9619f9a3336",
   "dep_graph.dot": "21de9ad74c91cc146f7637bd63b0635cf5142d377d7c474acbf82a1c4dc3b953",
   "lean_imports.dot": "9a436644ce6bb36b076290c13a039785259aeca1ccc6885d33c68178deaecba6",
-  "@paper": "05d0105768a5d6780be31c1b720262db5a67afca2496346330c44ac9b6b512f9",
+  "@paper": "7ea9e11ff622ce1e1aa2f45f820e2f3df24667002a1c15d2769ec8dfd377e670",
   "@leanmap": "f5410069d4a1f4958b5007fff65bc6c407225c01f0fe53ecbb534cc7f73f88bb"
  },
  "outputs": {
-  "src/print.pdf": "2259e95eed5e880d15bc7beae774bf484f4834680b4ad9e5e08e60733c6c19b2",
-  "blueprint_residue_apn.pdf": "2259e95eed5e880d15bc7beae774bf484f4834680b4ad9e5e08e60733c6c19b2"
+  "src/print.pdf": "63d4c22d09bd5ae69e648e81c8b0838e75f7aff9ffa9a165726d8594d5827599",
+  "blueprint_residue_apn.pdf": "63d4c22d09bd5ae69e648e81c8b0838e75f7aff9ffa9a165726d8594d5827599"
  }
 }

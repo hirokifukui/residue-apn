@@ -3,7 +3,7 @@
   "generated_by": "tools/gen_metadata.py from release/metadata_source.json",
   "note": "only the object \"metadata\" is the payload sent to Zenodo; \"_private\" is never sent",
   "state": "release",
-  "own_version_doi": "10.5281/zenodo.23232183",
+  "own_version_doi": "10.5281/zenodo.23233176",
   "own_concept_doi": "10.5281/zenodo.23232182",
   "final_rights": [
    {
@@ -25,8 +25,8 @@
     "affiliation": "Research Institute of Criminal Psychiatry / Sex Offender Medical Center, Tokyo, Japan; Department of Neuropsychiatry, Kyoto University, Kyoto, Japan"
    }
   ],
-  "description": "<p>For odd m &gt;= 5, q = 2^m and every odd r with 3 &lt;= r &lt; m and gcd(r, m) = 1, the reduced polynomial P_{m,r} = red((T_r^3)^(2^(m-2))), T_r = sum_{i&lt;r} X^(2^i), has coefficients in F_2 and exactly 3r - 2 terms, is an APN permutation of F_q, and its formal derivative 1 + X^(2^(r-2)) + X^(2^(m-2)) has no zero on F_q and is two-to-one. Its ramification as a map of the projective line is determined for all admissible (m, r): 2^(m-r) finite ramification points, all with index and different exponent 2^(r-2), over the single finite branch value 1. The 0/1 lift satisfies an identity in Z[X] that evaluates it over every Galois ring GR(2^k, m) with m - 1 squarings and one general multiplication. For k &gt;= 2 and every coefficient lift, the differential rows are described in the unit directions outside the kernel of the linear part of the derivative and in the top ideal, and a two-word, two-layer transition is excluded at the residue level.</p><p>Licence of this record: CC BY 4.0 (the paper text and PDFs).</p><p>Status: Version 1.0.0, deposited under the identifiers given in this record (software version DOI 10.5281/zenodo.23232181; paper version DOI 10.5281/zenodo.23232183).</p>",
-  "version": "1.0.0",
+  "description": "<p>For odd m &gt;= 5, q = 2^m and every odd r with 3 &lt;= r &lt; m and gcd(r, m) = 1, the reduced polynomial P_{m,r} = red((T_r^3)^(2^(m-2))), T_r = sum_{i&lt;r} X^(2^i), has coefficients in F_2 and exactly 3r - 2 terms, is an APN permutation of F_q, and its formal derivative 1 + X^(2^(r-2)) + X^(2^(m-2)) has no zero on F_q and is two-to-one. Its ramification as a map of the projective line is determined for all admissible (m, r): 2^(m-r) finite ramification points, all with index and different exponent 2^(r-2), over the single finite branch value 1. The 0/1 lift satisfies an identity in Z[X] that evaluates it over every Galois ring GR(2^k, m) with m - 1 squarings and one general multiplication. For k &gt;= 2 and every coefficient lift, the differential rows are described in the unit directions outside the kernel of the linear part of the derivative and in the top ideal, and a two-word, two-layer transition is excluded at the residue level.</p><p>Licence of this record: CC BY 4.0 (the paper text and PDFs).</p><p>Status: Version 1.0.1, deposited under the identifiers given in this record (software version DOI 10.5281/zenodo.23233173; paper version DOI 10.5281/zenodo.23233176).</p>",
+  "version": "1.0.1",
   "license": "cc-by-4.0",
   "keywords": [
    "APN functions",
@@ -56,7 +56,7 @@
     "scheme": "doi"
    },
    {
-    "identifier": "10.5281/zenodo.23232181",
+    "identifier": "10.5281/zenodo.23233173",
     "relation": "isSupplementedBy",
     "scheme": "doi"
    }

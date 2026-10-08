@@ -145,6 +145,8 @@ def ids(m):
 
 NAME = {'CC-BY-4.0': 'CC BY 4.0'}
 ZENODO_ID = {'MIT': 'mit', 'CC-BY-4.0': 'cc-by-4.0'}
+# R15: the legacy deposit API reports MIT as 'mit-license' (observed at the 1.0.0 deposit); readback maps this one id.
+LEGACY_LICENCE_ALIAS = {'mit-license': 'mit'}
 
 def licence_text(m):
     sc, s = m['licence_scope'], m['software']
@@ -436,11 +438,15 @@ def readback(m, kind, path, after_web_form=False):
         ids = [lic] if isinstance(lic, (str, dict)) else lic if isinstance(lic, list) else None
         ids = None if ids is None else [x.get('id') if isinstance(x, dict) else x for x in ids]
         allowed = [r['id'] for r in own['final_rights']]
+        lic_id = lambda s: LEGACY_LICENCE_ALIAS.get(low(s), low(s))
+        if ids is not None and any(isinstance(x, str) and low(x) in LEGACY_LICENCE_ALIAS for x in ids):
+            info.append('licence id read through the legacy alias: ' + ', '.join(
+                '%s -> %s' % (x, lic_id(x)) for x in ids if isinstance(x, str) and low(x) in LEGACY_LICENCE_ALIAS))
         if not after_web_form:
-            if ids is None or [low(x) for x in ids] != [allowed[0]]: bad.append('license')
+            if ids is None or [lic_id(x) for x in ids] != [allowed[0]]: bad.append('license')
         elif ids is None or not ids or not all(isinstance(x, str) for x in ids):
             undecided.append('licence field absent or in an unknown format: %r' % (lic,))
-        elif allowed[0] not in [low(x) for x in ids] or any(low(x) not in allowed for x in ids):
+        elif allowed[0] not in [lic_id(x) for x in ids] or any(lic_id(x) not in allowed for x in ids):
             bad.append('license')
         else:
             info.append('licence field reported by the server: %r' % (lic,))

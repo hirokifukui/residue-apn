@@ -1,6 +1,6 @@
 {
  "_comment": "Single source of every identifier-bearing text of this package (R8-06; rules rewritten in R13 for GPT R8-F01). tools/gen_metadata.py writes CITATION.cff, release/metadata/zenodo_*.json and the marked blocks of README.md and CHANGELOG.md from this file, and checks the Data-availability sentence of the paper; its docstring states the rules. Identifiers that do not exist yet are null and are never printed. Fill them only in the publication session authorised by the author (release/PUBLICATION_RUNBOOK.md); never edit the generated files by hand.",
- "version": "1.0.0",
+ "version": "1.0.1",
  "state": "release",
  "release_date": "2026-10-08",
  "author": {
@@ -14,7 +14,7 @@
   "title": "Explicit reduced APN permutations: ramification and optimal Galois-ring lifts",
   "resource_type": "preprint",
   "licence": "CC-BY-4.0",
-  "zenodo_version_doi": "10.5281/zenodo.23232183",
+  "zenodo_version_doi": "10.5281/zenodo.23233176",
   "zenodo_concept_doi": "10.5281/zenodo.23232182",
   "journal": null,
   "journal_note": "to be submitted; no journal is named as accepting or publishing it"
@@ -25,9 +25,9 @@
   "licence": "MIT",
   "licence_prose": "CC-BY-4.0",
   "repository_code": "https://github.com/hirokifukui/residue-apn",
-  "zenodo_version_doi": "10.5281/zenodo.23232181",
+  "zenodo_version_doi": "10.5281/zenodo.23233173",
   "zenodo_concept_doi": "10.5281/zenodo.23232180",
-  "git_tag": "v1.0.0"
+  "git_tag": "v1.0.1"
  },
  "licence_scope": {
   "MIT": "code, machine-readable, configuration and auxiliary files (Python, shell, Lean sources and configuration, JSON, TSV, DOT, CFF, logs, records and checksums)",

@@ -593,7 +593,7 @@ Package rerunfilecheck Info: File `print.out' has not changed.
 Here is how much of TeX's memory you used:
  11126 strings out of 469006
  170169 string characters out of 5454814
- 595749 words of memory out of 5000000
+ 595719 words of memory out of 5000000
  39618 multiletter control sequences out of 15000+600000
  641621 words of font info for 92 fonts, out of 8000000 for 9000
  319 hyphenation exceptions out of 8191
@@ -623,7 +623,7 @@ ive/2026basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/
 texlive/2026basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/lo
 cal/texlive/2026basic/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb
 >
-Output written on print.pdf (17 pages, 410830 bytes).
+Output written on print.pdf (17 pages, 410087 bytes).
 PDF statistics:
  420 PDF objects out of 1000 (max. 8388607)
  339 compressed objects within 4 object streams

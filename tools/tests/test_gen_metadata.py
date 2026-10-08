@@ -56,10 +56,12 @@ def fill(m, keys=('software_version', 'software_concept', 'paper_version', 'pape
         m['release_date'] = '2026-10-08'; m['software']['repository_code'] = 'https://example.invalid/residue-apn'
         m['software']['git_tag'] = 'v' + m['version']
 
+def version(d): return json.loads((d / 'release/metadata_source.json').read_text(encoding='utf-8'))['version']   # R15: not 1.0.0 only
+
 def paper_doi(d):
     for f in ('paper/manuscript.tex', 'paper/elsarticle/manuscript_els.tex'):
         p = d / f; t = p.read_text(encoding='utf-8')
-        p.write_text(t.replace(DA_CANDIDATE, DA_RELEASE % (T['software_version'], '1.0.0')), encoding='utf-8')
+        p.write_text(t.replace(DA_CANDIDATE, DA_RELEASE % (T['software_version'], version(d))), encoding='utf-8')
 
 def run(d, *args):
     return subprocess.run([sys.executable, '-I', str(d / 'tools/gen_metadata.py')] + list(args), cwd=d, capture_output=True, text=True)
@@ -89,7 +91,7 @@ def case_null(d, shipped):
     assert cff_doi(d) == (None, None)
     assert rels(d, 'software', 'isSupplementTo') == [] and rels(d, 'paper', 'isSupplementedBy') == []
     for k in ('software', 'paper'):
-        md = meta(d, k)['metadata']; assert 'publication_date' not in md and 'Candidate 1.0.0, not published' in md['description']
+        md = meta(d, k)['metadata']; assert 'publication_date' not in md and ('Candidate %s, not published' % version(d)) in md['description']
     assert 'MIT' in meta(d, 'software')['metadata']['description'] and 'CC BY 4.0' in meta(d, 'software')['metadata']['description']
     return 'null identifiers: no DOI, no pair relation, no date; two generations byte-identical'
 
@@ -115,7 +117,7 @@ def case_release(d, _):
     assert a.returncode == 0 and c.returncode == 0 and s1 == s2, (a.stdout, c.stdout)
     for k in ('software', 'paper'):
         md = meta(d, k)['metadata']; assert md['publication_date'] == '2026-10-08' and 'not published' not in md['description']
-    assert rels(d, 'software', 'isSupplementTo') == [T['paper_version'], 'https://example.invalid/residue-apn/tree/v1.0.0']
+    assert rels(d, 'software', 'isSupplementTo') == [T['paper_version'], 'https://example.invalid/residue-apn/tree/v' + version(d)]
     readme = (d / 'README.md').read_text(encoding='utf-8')
     assert 'doi:' + T['software_version'] in readme and 'released 2026-10-08' in (d / 'CHANGELOG.md').read_text(encoding='utf-8')
     return 'state release with all identifiers and the paper sentence updated: PASS, dates and README/CHANGELOG blocks from the same source'
@@ -402,6 +404,27 @@ CASES += [('pos_html_real_abstract', case_html_real), ('pos_html_special_charact
           ('neg_r9_unescaped_payload', case_r9_payload), ('neg_cff_or_licence_array', case_cff_or), ('neg_cff_licence_variants', case_cff_variants), ('neg_readback_candidate_and_mistyped', case_readback_candidate), ('neg_source_values', case_source_values),
           ('neg_single_licence_records', case_single_mit), ('pos_rights_expected', case_rights),
           ('pos_neg_readback_same_draft', case_readback)]
+
+# ---- R15 (after the 1.0.0 deposit): the legacy API reports MIT as 'mit-license' ----
+def case_legacy_alias(d, _):
+    src_edit(d, lambda m: (fill(m), m.update(state='release'))); paper_doi(d)
+    assert run(d, '--allow-test-ids').returncode == 0
+    fin = meta(d, 'software')['metadata']
+    for lic, after, code in (({'id': 'mit-license'}, False, 0), ('mit-license', False, 0), ({'id': 'mit-license'}, True, 0),
+                             ('MIT-License', False, 0), ([{'id': 'mit-license'}, {'id': 'cc-by-4.0'}], True, 0),
+                             ('mit-licence', False, 1), ({'id': 'apache-2.0-license'}, False, 1),
+                             ([{'id': 'mit-license'}, {'id': 'gpl-3.0'}], True, 1), ({'id': 'cc-by-4.0'}, False, 1)):
+        md = json.loads(json.dumps(fin)); md['license'] = lic
+        r = run(d, '--allow-test-ids', '--readback', 'software', str(server_copy(d, 'software', md, 'alias.json')), *(['--after-web-form'] if after else []))
+        assert r.returncode == code, (lic, after, r.stdout)
+        if code == 0 and 'license' in str(lic).lower(): assert 'legacy alias' in r.stdout, r.stdout
+    pm = json.loads(json.dumps(meta(d, 'paper')['metadata'])); pm['license'] = {'id': 'mit-license'}
+    r = run(d, '--allow-test-ids', '--readback', 'paper', str(server_copy(d, 'paper', pm, 'alias_paper.json')))
+    assert r.returncode == 1 and 'license' in r.stdout, r.stdout
+    return ('readback: the legacy id mit-license is read as mit (dict, string, any case, before and after the web-form '
+            'step) and reported; similar or other ids still FAIL; on the paper record mit-license FAILs')
+
+CASES.append(('pos_neg_legacy_licence_alias', case_legacy_alias))
 
 def main():
     work = Path(sys.argv[1]).resolve()
