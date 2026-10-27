@@ -1,0 +1,50 @@
+[core] tools: gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0 | Python 3.13.17 | sympy 1.14.0
+[core] 0 clean generated outputs
+[core] 1 symbolic identities (dimension-free)
+IDENTITIES_CERT OK
+[core] 2 E-invariant positive/negative tests
+E_TESTS OK
+[core] 3 validate_v3 negative controls (8 checker faults + 9 scope faults + 2 positives)
+NEGATIVE_CONTROLS OK 17 rejected, 2 accepted
+[core] 4 validate_v3: 12 m=5 inputs (k=3 all exceptional rows, k=4 samples)
+VALIDATE_V3 OK 24 records: 23 MATCH, 1 BOUND_ONLY (lower bound only; not counted as spectrum verification)
+[core] 5 validate_v3: (O3) inputs with A==0
+VALIDATE_V3 OK 4 records: 2 MATCH, 2 BOUND_ONLY (lower bound only; not counted as spectrum verification)
+[core] 6 representative search m=5 (trial) and m=7 (seed 20261025, 2e6 tries)
+[core] 7 representative certificate (m=5 from rep/rep5_seed.json; m=7 first mu=0,z=0 hit)
+[core] 8 validate_v3: rep5_nat, rep5_A1
+VALIDATE_V3 OK 4 records: 2 MATCH, 2 BOUND_ONLY (lower bound only; not counted as spectrum verification)
+[core] 9 regression tests: cross-level counterexample (R04-01), probability model (R04-03), two-word normalization (R05-01), natural lift and mu=0/Z empty family (R05b), sparse family and two-round differentials (R05c)
+CROSS_LEVEL_REGRESSION OK 3 cases
+CRYPTO_C3_TEST OK
+MARKOV_TWO_WORDS OK
+NATURAL_K3 OK 4 (P95/P97 samples)
+REP_FAMILY OK [10, 28, 126]
+M3_NO_H OK
+SPARSE_FAMILY OK
+HULL_TOY OK 6 seeds
+HULL_LAYER OK 32 seeds, all 255 inputs x 256 outputs each, bound (D_s/q^k)^(B-1) without 2^n
+SPARSE_CERT OK
+[core] CORE REPLAY OK (stages: 0 1 2 3 4 5 6 7 8 9)
+[full] F1 m=7 mu=0,Z empty representative: all 16384 exceptional rows (k=3) + k=4 samples (~30 min)
+VALIDATE_V3 OK 2 records: 2 MATCH, 0 BOUND_ONLY (lower bound only; not counted as spectrum verification)
+[full] F2 P73sp / P73nat: all 16384 exceptional rows (k=3)
+VALIDATE_V3 OK 2 records: 2 MATCH, 0 BOUND_ONLY (lower bound only; not counted as spectrum verification)
+[full] F3 P75sp / P75nat (r=5 family, +2X^3): all 16384 exceptional rows (k=3)
+VALIDATE_V3 OK 2 records: 1 MATCH, 1 BOUND_ONLY (lower bound only; not counted as spectrum verification)
+[full] F3b Corollary natural: P75nat all rows + P95/P97 samples
+NATURAL_K3 OK 5 (with P75 full rows)
+[full] F4 representative search m=9 (seed 20261025, 3e6 tries)
+STATS optimal=73570 mu0=125 mu0_z0=81 mu0_zpos=44 mu1_z0=44631 mu1_zpos=28814 noninv=2746217 evalfail_or_nonperm=0
+[full] F5 invariants of P_{11,3}, P_{13,3} natural and sparse lifts
+[full] F6 intermediate layers (R05c): sub-case 3 lifts re-verified against exhaustive spectra; stored tables re-summarised
+LAYERS_R05C OK 177 records (44 re-verified now)
+[full] F7 sparse family (R05c): |C_m| for m=5..13 and the curve count over F_(2^17)
+counts {5: 15, 7: 42, 9: 126, 11: 506, 13: 2496} curve ['125769']
+SPARSE_COUNTS OK
+[full] FULL REPLAY OK
+
+real	97m3.993s
+user	95m33.141s
+sys	0m18.775s
+EXIT 0

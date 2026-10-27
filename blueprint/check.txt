@@ -1,0 +1,4 @@
+nodes 22
+declarations 117 (all audited in Audit.lean, each defined in one module)
+audited declarations in Audit.lean 150
+BLUEPRINT_CHECK=PASS

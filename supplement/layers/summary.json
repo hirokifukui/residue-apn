@@ -1,0 +1,108 @@
+{
+ "rows": 691,
+ "lifts": 108,
+ "by_k_j_status": {
+  "k=4 j=1 MATCH": 235,
+  "k=5 j=1 MATCH": 230,
+  "k=5 j=1 UNPREDICTED": 1,
+  "k=5 j=2 MATCH": 216,
+  "k=6 j=1 MATCH": 1,
+  "k=6 j=3 MATCH": 1,
+  "k=7 j=2 MATCH": 6,
+  "k=7 j=2 UNPREDICTED": 1
+ },
+ "pairtypes_seen": {
+  "DEEPsub/c1!=0": {
+   "MATCH": 2
+  },
+  "DEEPsub/w1!=0": {
+   "MATCH": 35
+  },
+  "M/DEEP+DEEP|mu=0|c3=0|d=1": {
+   "MATCH": 2
+  },
+  "M/DEEP+DEEP|mu=0|c3=0|d=2": {
+   "UNPREDICTED": 1
+  },
+  "M/DEEP+ND|mu!=0|c3=0|d=1": {
+   "MATCH": 4
+  },
+  "M/DEEP+ND|mu!=0|c3=0|d=2": {
+   "MATCH": 10
+  },
+  "M/DEG+DEG|mu=0|d=1": {
+   "MATCH": 4
+  },
+  "M/DEG+DEG|mu=0|d=2": {
+   "MATCH": 14
+  },
+  "M/DEG+DEG|mu=0|d>=3": {
+   "UNPREDICTED": 1
+  },
+  "M/DEG+ND|mu!=0|d=1": {
+   "MATCH": 4
+  },
+  "M/DEG+ND|mu!=0|d=2": {
+   "MATCH": 9
+  },
+  "M/DEG+ND|mu!=0|d>=3": {
+   "MATCH": 3
+  },
+  "M/ND+ND|mu!=0|c3=0|d=1": {
+   "MATCH": 20
+  },
+  "M/ND+ND|mu!=0|c3=0|d=2": {
+   "MATCH": 15
+  },
+  "M/ND+ND|mu!=0|c3=0|d>=3": {
+   "MATCH": 1
+  },
+  "M/ND+ND|mu!=0|d=1": {
+   "MATCH": 16
+  },
+  "M/ND+ND|mu!=0|d=2": {
+   "MATCH": 13
+  },
+  "M/ND+ND|mu!=0|d>=3": {
+   "MATCH": 3
+  },
+  "M/ND+ND|mu=0|c3=0|d=1": {
+   "MATCH": 12
+  },
+  "M/ND+ND|mu=0|c3=0|d=2": {
+   "UNPREDICTED": 1,
+   "MATCH": 5
+  },
+  "M/ND+ND|mu=0|d=1": {
+   "MATCH": 28
+  },
+  "M/ND+ND|mu=0|d=2": {
+   "MATCH": 28
+  },
+  "M/ND+ND|mu=0|d>=3": {
+   "UNPREDICTED": 1
+  },
+  "U/DEEP": {
+   "MATCH": 58
+  },
+  "U/DEG": {
+   "MATCH": 90
+  },
+  "U/NDc3!=0": {
+   "MATCH": 167
+  },
+  "U/NDc3=0": {
+   "MATCH": 113
+  }
+ },
+ "unpredicted_reasons": {
+  "DEEP DEEP": 1,
+  "DEG DEG": 1
+ },
+ "checkfail_rows": 0,
+ "kappa_values": {
+  "0": 1,
+  "1": 2
+ },
+ "mismatches": []
+}

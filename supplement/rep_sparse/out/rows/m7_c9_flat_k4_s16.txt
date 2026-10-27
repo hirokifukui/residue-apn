@@ -1,0 +1,5 @@
+table built N=268435456 dup=0
+{"alpha":240452802,"max":128,"multiset":{"128":2097152},"ok":1}
+{"alpha":101934272,"max":128,"multiset":{"128":2097152},"ok":1}
+{"alpha":135603306,"max":128,"multiset":{"128":2097152},"ok":1}
+SUMMARY {"mode":"rowsT","m":7,"k":4,"rows":16,"MATCH":16,"MISMATCH":0,"max_entry":128,"prediction":"q^(k-1) entries equal to q"}

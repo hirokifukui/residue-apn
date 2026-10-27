@@ -1,0 +1,9 @@
+OK lifts_r06/s2_r1111_A0_a6_k7j1u7_m_c0_s29.txt {'eb': 0, 'ka': 'ND', 'wa': 4, 'ca': 0, 'kb': 'ND', 'wb': 21, 'cb': 14}
+OK lifts_r06/s2_r1111_A0_a6_k7j1u7_m_deep2_nd_s32.txt {'eb': 0, 'ka': 'DEEP', 'wa': 0, 'ca': 0, 'l1a': 31, 'kb': 'ND', 'wb': 30, 'cb': 5}
+OK lifts_r06/s2_r1111_A0_a6_k7j1u7_m_deep2_deep2_s34.txt {'eb': 0, 'ka': 'DEEP', 'wa': 0, 'ca': 0, 'l1a': 10, 'kb': 'DEEP', 'wb': 0, 'cb': 0, 'l1b': 3}
+OK lifts_r06/s2_r1111_A0_a6_k8j2u9_m_nd_deg_s36.txt {'eb': 0, 'ka': 'DEG', 'wa': 0, 'ca': 5, 'kb': 'ND', 'wb': 8, 'cb': 26}
+OK lifts_r06/s2_r1111_A0_a6_k8j2u9_m_gen_s38.txt {'eb': 0, 'ka': 'ND', 'wa': 21, 'ca': 5, 'kb': 'ND', 'wb': 30, 'cb': 9, 'samehyp': False}
+OK lifts_r06/s2_r1111_A0_a6_k6j2u9_m_deep2_deep2_s40.txt {'eb': 0, 'ka': 'DEEP', 'wa': 0, 'ca': 0, 'kb': 'DEEP', 'wb': 0, 'cb': 0}
+OK lifts_r06/s2_r1111_A0_a6_k6j2u9_m_deg_deg_s42.txt {'eb': 0, 'ka': 'DEG', 'wa': 0, 'ca': 5, 'kb': 'DEG', 'wb': 0, 'cb': 4}
+OK lifts_r06/s2_r1111_A0_a6_k8j1u7_m_nd_deg_s44.txt {'eb': 0, 'ka': 'DEG', 'wa': 0, 'ca': 5, 'kb': 'ND', 'wb': 17, 'cb': 14}
+OK lifts_r06/s2_r1111_A0_a6_k8j1u7_m_gen_s46.txt {'eb': 0, 'ka': 'ND', 'wa': 31, 'ca': 5, 'kb': 'ND', 'wb': 1, 'cb': 4, 'samehyp': False}

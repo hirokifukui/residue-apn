@@ -1,0 +1,5 @@
+{"file": "c0_o3.txt", "k": 3, "rho": 21, "mu": 28, "z": 2, "A_zeros": 32, "n_exc_rows": 1024, "pred": {"32": 960, "64": 32}, "exc_hists": [[[32, 960], [64, 32]]], "exc_status": "MATCH"}
+{"file": "c0_o3.txt", "k": 4, "rho": 21, "mu": 28, "z": 2, "A_zeros": 32, "n_exc_rows": 4, "pred": null, "exc_hists": [[[1024, 1020], [2048, 2]], [[1024, 1024]]], "exc_status": "BOUND_ONLY", "penult_pred": {"65536": 16}, "penult_status": "MATCH"}
+{"file": "c1_o3.txt", "k": 3, "rho": 28, "mu": 17, "z": 0, "A_zeros": 32, "n_exc_rows": 1024, "pred": {"32": 1024}, "exc_hists": [[[32, 1024]]], "exc_status": "MATCH"}
+{"file": "c1_o3.txt", "k": 4, "rho": 28, "mu": 17, "z": 0, "A_zeros": 32, "n_exc_rows": 4, "pred": null, "exc_hists": [[[1024, 1024]]], "exc_status": "BOUND_ONLY", "penult_pred": {"65536": 16}, "penult_status": "MATCH"}
+VALIDATE_V3 OK 4 records: 2 MATCH, 2 BOUND_ONLY (lower bound only; not counted as spectrum verification)

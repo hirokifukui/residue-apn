@@ -1,0 +1,4 @@
+{"alpha":72,"max":32,"multiset":{"32":1024},"ok":1}
+{"alpha":74,"max":32,"multiset":{"32":1024},"ok":1}
+{"alpha":76,"max":32,"multiset":{"32":1024},"ok":1}
+SUMMARY {"mode":"rows","m":5,"k":3,"rows":1024,"MATCH":1024,"MISMATCH":0,"max_entry":32,"prediction":"q^(k-1) entries equal to q"}

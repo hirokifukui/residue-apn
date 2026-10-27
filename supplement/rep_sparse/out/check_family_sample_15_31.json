@@ -1,0 +1,83 @@
+{
+ "15": {
+  "poly": 32771,
+  "sampled_c": 83,
+  "injective": 20,
+  "agree": 20,
+  "nterms": [
+   16
+  ]
+ },
+ "17": {
+  "poly": 131081,
+  "sampled_c": 90,
+  "injective": 20,
+  "agree": 20,
+  "nterms": [
+   16
+  ]
+ },
+ "19": {
+  "poly": 524327,
+  "sampled_c": 74,
+  "injective": 20,
+  "agree": 20,
+  "nterms": [
+   16
+  ]
+ },
+ "21": {
+  "poly": 2097157,
+  "sampled_c": 77,
+  "injective": 20,
+  "agree": 20,
+  "nterms": [
+   16
+  ]
+ },
+ "23": {
+  "poly": 8388641,
+  "sampled_c": 61,
+  "injective": 20,
+  "agree": 20,
+  "nterms": [
+   16
+  ]
+ },
+ "25": {
+  "poly": 33554441,
+  "sampled_c": 51,
+  "injective": 20,
+  "agree": 20,
+  "nterms": [
+   16
+  ]
+ },
+ "27": {
+  "poly": 134217767,
+  "sampled_c": 86,
+  "injective": 20,
+  "agree": 20,
+  "nterms": [
+   16
+  ]
+ },
+ "29": {
+  "poly": 536870917,
+  "sampled_c": 55,
+  "injective": 20,
+  "agree": 20,
+  "nterms": [
+   16
+  ]
+ },
+ "31": {
+  "poly": 2147483657,
+  "sampled_c": 99,
+  "injective": 20,
+  "agree": 20,
+  "nterms": [
+   16
+  ]
+ }
+}

@@ -1,0 +1,14 @@
+PASS S1_unknown_99 exit=2 last=[[core] invalid stage: 99]
+PASS S2_blank exit=2 last=[[core] empty STAGES]
+PASS S3_empty exit=2 last=[[core] empty STAGES]
+PASS S4_duplicate exit=2 last=[[core] duplicate stage: 1]
+PASS S5_cleanup_only exit=2 last=[[core] cleanup alone is not verification]
+PASS S6_garbage_token exit=2 last=[[core] invalid stage: x]
+PASS S7_out_of_range_10 exit=2 last=[[core] invalid stage: 10]
+PASS S8_negative exit=2 last=[[core] invalid stage: -1]
+PASS P1_partial_stage1 exit=0 last=[[core] PARTIAL REPLAY OK (stages: 1)]
+PASS M1_m11_empty exit=1 last=[M11_CHECK FAIL: no witness supplied]
+PASS M2_m11_mismatch exit=1 last=[M11_CHECK FAIL 1]
+PASS M3_m11_rho_mismatch exit=1 last=[M11_CHECK FAIL 1]
+REPLAY_SCOPE: 12 cases, 0 failures
+REPLAY_SCOPE OK

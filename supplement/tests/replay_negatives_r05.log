@@ -1,0 +1,11 @@
+PASS seed_missing exit=1 replay_ok_printed=0 last=[[core] 7 representative certificate (m=5 from rep/rep5_seed.json; m=7 first mu=0,z=0 hit)]
+PASS generator_exit7 exit=7 replay_ok_printed=0 last=[[core] 7 representative certificate (m=5 from rep/rep5_seed.json; m=7 first mu=0,z=0 hit)]
+PASS stale_outputs_kept exit=4 replay_ok_printed=0 last=[[core] SHA MISMATCH rep/rep5_nat.txt: d1ccc05f77f6b0b47b1510aded2cf0258149a068ff28d69d9adcec7d1a385e4a != 30846bc56fa371520d3b1ccb6d7c0dabf253ea55778ec9d55a0de8aac0127553]
+PASS stale_outputs_cleaned exit=1 replay_ok_printed=0 last=[[core] 7 representative certificate (m=5 from rep/rep5_seed.json; m=7 first mu=0,z=0 hit)]
+PASS m7_log_missing exit=1 replay_ok_printed=0 last=[[core] 7 representative certificate (m=5 from rep/rep5_seed.json; m=7 first mu=0,z=0 hit)]
+PASS checker_exit7_stage4 exit=2 replay_ok_printed=0 last=[FAIL child exit 7: ]
+PASS tampered_table exit=4 replay_ok_printed=0 last=[[core] SHA MISMATCH rep/rep5_A1.txt: a76b317b3e3ddf73260252ecb0709ae0096ec8d654546be3873fa9ae2bdd89df != 42165da39f56cba0072e7675c33506638f74bb9345ee923c4ebe1c532de08751]
+PASS positive_stage1 exit=0 replay_ok_printed=1 last=[[core] PARTIAL REPLAY OK (stages: 1)]
+REPLAY_NEGATIVES: 8 cases, 0 failures
+REPLAY_NEGATIVES OK
+EXIT 0

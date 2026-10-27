@@ -1,0 +1,5 @@
+table built N=2097152 dup=0
+{"alpha":930685,"max":2,"multiset":{"2":1048576},"ok":1}
+{"alpha":612964,"max":2,"multiset":{"2":1048576},"ok":1}
+{"alpha":1673293,"max":2,"multiset":{"2":1048576},"ok":1}
+SUMMARY {"mode":"ord","m":7,"k":3,"rows":200,"MATCH":200,"MISMATCH":0,"max_entry":2,"prediction":"entries<=2"}

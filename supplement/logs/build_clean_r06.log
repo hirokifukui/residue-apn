@@ -1,0 +1,209 @@
+Mon Oct 26 19:45:46 JST 2026
+ℹ [8493/8549] Built Apn2R03.CongPart (4.1s)
+info: Apn2R03/CongPart.lean:70:0: 'APN2.CongPart.poly_cong' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Apn2R03/CongPart.lean:71:0: 'APN2.CongPart.round_cong' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Apn2R03/CongPart.lean:72:0: 'APN2.CongPart.iter_cong' depends on axioms: [propext, Classical.choice, Quot.sound]
+✔ [8494/8549] Built Apn2R03.Markov (4.3s)
+ℹ [8495/8549] Built Apn2R03.Basic (4.6s)
+info: Apn2R03/Basic.lean:212:0: 'APN2.GRS.card_fiber' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Apn2R03/Basic.lean:213:0: 'APN2.GRS.card_ann_two' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Apn2R03/Basic.lean:214:0: 'APN2.GRS.quarter_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Apn2R03/Basic.lean:215:0: 'APN2.GRS.two_pow_mul_mem_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Apn2R03/Basic.lean:216:0: 'APN2.zmod8' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [8496/8549] Built Apn2R03.Lemmas2 (4.8s)
+info: Apn2R03/Lemmas2.lean:455:0: 'APN2R03.Drho_surj' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Apn2R03/Lemmas2.lean:456:0: 'APN2R03.quad_fiber' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Apn2R03/Lemmas2.lean:457:0: 'APN2R03.coset_dichotomy' depends on axioms: [propext]
+info: Apn2R03/Lemmas2.lean:458:0: 'APN2R03.absTr_artin_schreier' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Apn2R03/Lemmas2.lean:459:0: 'APN2R03.absTr_eq_zero_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Apn2R03/Lemmas2.lean:460:0: 'APN2R03.chi_criterion' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Apn2R03/Lemmas2.lean:461:0: 'APN2R03.local_pair_count' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Apn2R03/Lemmas2.lean:462:0: 'APN2R03.binom_mod4' depends on axioms: [propext]
+info: Apn2R03/Lemmas2.lean:463:0: 'APN2R03.A_r3' depends on axioms: [propext]
+info: Apn2R03/Lemmas2.lean:464:0: 'APN2R03.A_r5' depends on axioms: [propext]
+info: Apn2R03/Lemmas2.lean:465:0: 'APN2R03.Enat_numerator' depends on axioms: [propext]
+info: Apn2R03/Lemmas2.lean:466:0: 'APN2R03.phi_identity' depends on axioms: [propext, Quot.sound]
+info: Apn2R03/Lemmas2.lean:467:0: 'APN2R03.frob_back' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [8497/8549] Built Apn2R03.Cards (3.6s)
+info: Apn2R03/Cards.lean:88:0: 'APN2.GRS.card_I' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [8498/8549] Built Apn2R03.Hensel (4.0s)
+info: Apn2R03/Hensel.lean:200:0: 'APN2.taylor3' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Apn2R03/Hensel.lean:201:0: 'APN2.GRS.card_T' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [8499/8549] Built Apn2R03.Local (3.4s)
+info: Apn2R03/Local.lean:149:0: 'APN2.GRS.class_count' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Apn2R03/Local.lean:150:0: 'APN2.GRS.class_count_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [8500/8549] Built Apn2R03.Invariants (3.9s)
+info: Apn2R03/Invariants.lean:270:0: 'APN2.GRS.A_spec' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Apn2R03/Invariants.lean:271:0: 'APN2.GRS.E_spec' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Apn2R03/Invariants.lean:272:0: 'APN2.GRS.E_transl' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [8501/8549] Built Apn2R03.Pair (3.4s)
+info: Apn2R03/Pair.lean:172:0: 'APN2.GRS.delta_pair' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Apn2R03/Pair.lean:173:0: 'APN2.GRS.cc_formula' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Apn2R03/Pair.lean:174:0: 'APN2.GRS.cc_shift' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Apn2R03/Pair.lean:175:0: 'APN2.GRS.gate_exclusive' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [8502/8549] Built Apn2R03.Bounds (4.0s)
+info: Apn2R03/Bounds.lean:393:0: 'APN2.GRS.lower_q' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Apn2R03/Bounds.lean:394:0: 'APN2.GRS.lower_2q' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Apn2R03/Bounds.lean:395:0: 'APN2.GRS.lower_q2' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Apn2R03/Bounds.lean:396:0: 'APN2.GRS.lower_2q_k4' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Apn2R03/Bounds.lean:397:0: 'APN2.GRS.lower_4q' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Apn2R03/Bounds.lean:398:0: 'APN2.GRS.upper_basic' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Apn2R03/Bounds.lean:399:0: 'APN2.GRS.upper_mu0_Zempty' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Apn2R03/Bounds.lean:400:0: 'APN2.GRS.upper_mu_chi1' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [8503/8549] Built Apn2R03.Control (4.0s)
+info: Apn2R03/Control.lean:224:0: 'APN2.GRS.A_prescribe' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Apn2R03/Control.lean:225:0: 'APN2.GRS.E_control' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Apn2R03/Control.lean:226:0: 'APN2.GRS.E_prescribe' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [8504/8549] Built Apn2R03.HypFromH (4.0s)
+info: Apn2R03/HypFromH.lean:238:0: 'APN2.deriv_affine' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Apn2R03/HypFromH.lean:239:0: 'APN2.hasse2_affine' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Apn2R03/HypFromH.lean:240:0: 'APN2.GRS.hyp_of_H' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [8505/8549] Built Apn2R03.MainK4 (3.5s)
+info: Apn2R03/MainK4.lean:131:0: 'APN2.GRS.minimax_k4_lower' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Apn2R03/MainK4.lean:132:0: 'APN2.GRS.minimax_k4_attain' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Apn2R03/MainK4.lean:133:0: 'APN2.GRS.minimizers_k4' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Apn2R03/MainK4.lean:134:0: 'APN2.GRS.chi_iff_qimg' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [8506/8549] Built Apn2R03.MainK3 (3.7s)
+info: Apn2R03/MainK3.lean:271:0: 'APN2.GRS.class_count3' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Apn2R03/MainK3.lean:272:0: 'APN2.GRS.minimax_k3_lower' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Apn2R03/MainK3.lean:273:0: 'APN2.GRS.minimax_k3_attain' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Apn2R03/MainK3.lean:274:0: 'APN2.GRS.minimizers_k3' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [8507/8549] Built Apn2R03.CrossLevel (3.8s)
+info: Apn2R03/CrossLevel.lean:150:0: 'APN2.GRS.A_compat' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Apn2R03/CrossLevel.lean:151:0: 'APN2.GRS.E_compat' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Apn2R03/CrossLevel.lean:152:0: 'APN2.GRS.cross_level_stay' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Apn2R03/CrossLevel.lean:153:0: 'APN2.GRS.cross_level_exists' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [8508/8549] Built Apn2R03.Layers (4.5s)
+info: Apn2R03/Layers.lean:290:0: 'APN2.GRS.penultimate' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Apn2R03/Layers.lean:291:0: 'APN2.GRS.middle_k3' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Apn2R03/Layers.lean:292:0: 'APN2.GRS.O3_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Apn2R03/Layers.lean:293:0: 'APN2.GRS.tradeoff' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [8509/8549] Built Apn2R03.Coherent (3.6s)
+info: Apn2R03/Coherent.lean:119:0: 'APN2.GRS.coherent_family' depends on axioms: [propext, Classical.choice, Quot.sound]
+✔ [8510/8549] Built Apn2R03.Spectrum (3.0s)
+ℹ [8511/8549] Built Apn2R03.Inter (4.1s)
+info: Apn2R03/Inter.lean:131:0: 'APN2.GRS.shift_inv' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Apn2R03/Inter.lean:132:0: 'APN2.GRS.inter_dvd' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [8512/8549] Built Apn2R03.Spectrum2 (4.1s)
+info: Apn2R03/Spectrum2.lean:260:0: 'APN2.GRS.spectrum_mu' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [8513/8549] Built Apn2R03.Inter2 (4.4s)
+info: Apn2R03/Inter2.lean:172:0: 'APN2.GRS.Tpol_eval_mul' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Apn2R03/Inter2.lean:173:0: 'APN2.GRS.Tpol_deriv_spec' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Apn2R03/Inter2.lean:174:0: 'APN2.GRS.Tpol_hasse2_spec' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Apn2R03/Inter2.lean:175:0: 'APN2.GRS.unit_ann' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [8514/8549] Built Apn2R03.Spectrum3 (3.7s)
+info: Apn2R03/Spectrum3.lean:126:0: 'APN2.GRS.spectrum_mu0' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [8515/8549] Built Apn2R03.Inter3 (4.3s)
+info: Apn2R03/Inter3.lean:280:0: 'APN2.GRS.class_count_gen' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Apn2R03/Inter3.lean:281:0: 'APN2.GRS.inter_upper' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [8516/8549] Built Apn2R03.Spectrum4 (4.2s)
+info: Apn2R03/Spectrum4.lean:257:0: 'APN2.GRS.spectrum_k3' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [8517/8549] Built Apn2R03.Inter4 (3.9s)
+info: Apn2R03/Inter4.lean:257:0: 'APN2.GRS.inter_lower_c3' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Apn2R03/Inter4.lean:258:0: 'APN2.GRS.inter_lower_deep' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Apn2R03/Inter4.lean:259:0: 'APN2.GRS.inter_lower_pair' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Apn2R03/Inter4.lean:260:0: 'APN2.GRS.inter_flat_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [8518/8549] Built Apn2R03.FamilyBase (3.2s)
+info: Apn2R03/FamilyBase.lean:113:0: 'APN2.frob_gcd' depends on axioms: [propext, Quot.sound]
+info: Apn2R03/FamilyBase.lean:114:0: 'APN2.absTr_pow_two_pow' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Apn2R03/FamilyBase.lean:115:0: 'APN2.absTr_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Apn2R03/FamilyBase.lean:116:0: 'APN2.lift_Q4' depends on axioms: [propext, Classical.choice, Quot.sound]
+✔ [8519/8549] Built Apn2R03.Family3a (3.7s)
+✔ [8520/8549] Built Apn2R03.Family3b (3.6s)
+✔ [8521/8549] Built Apn2R03.Family3c (3.8s)
+✔ [8522/8549] Built Apn2R03.Family5a (4.3s)
+✔ [8523/8549] Built Apn2R03.Degree (3.7s)
+✔ [8524/8549] Built Apn2R03.Family5b (3.0s)
+✔ [8525/8549] Built Apn2R03.Ordinary (4.1s)
+ℹ [8526/8549] Built Apn2R03.InterFam (4.3s)
+info: Apn2R03/InterFam.lean:180:0: 'APN2.p5_hasse3' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Apn2R03/InterFam.lean:181:0: 'APN2.GRS.fam5_interfamily' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [8527/8549] Built Apn2R03.Natural (6.4s)
+info: Apn2R03/Natural.lean:396:0: 'APN2.A5n_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Apn2R03/Natural.lean:397:0: 'APN2.GRS.fam3_natural_exact' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Apn2R03/Natural.lean:398:0: 'APN2.GRS.fam5_natural_q2' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Apn2R03/Natural.lean:399:0: 'APN2.GRS.fam5_nat_E0' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Apn2R03/Natural.lean:400:0: 'APN2.GRS.fam5_nat_k3' depends on axioms: [propext, Classical.choice, Quot.sound]
+✔ [8528/8549] Built Apn2R03.GRInst (4.4s)
+ℹ [8529/8549] Built Apn2R03.Inter5 (4.1s)
+info: Apn2R03/Inter5.lean:219:0: 'APN2.GRS.inter_row' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Apn2R03/Inter5.lean:220:0: 'APN2.GRS.inter_count' depends on axioms: [propext, Classical.choice, Quot.sound]
+✔ [8530/8549] Built Apn2R03.MainGR (4.1s)
+ℹ [8531/8549] Built Apn2R03.InterMult (4.2s)
+info: Apn2R03/InterMult.lean:174:0: 'APN2.GRS.inter_mult' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Apn2R03/InterMult.lean:175:0: 'APN2.GRS.fam5_nat_inter' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Apn2R03/InterMult.lean:176:0: 'APN2.GRS.inter_layer_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [8532/8549] Built Apn2R03.Natural2 (6.4s)
+info: Apn2R03/Natural2.lean:306:0: 'APN2.GRS.fam5_nat_E01' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Apn2R03/Natural2.lean:307:0: 'APN2.GRS.fam5_nat_A_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Apn2R03/Natural2.lean:308:0: 'APN2.GRS.fam5_nat_k3_spectrum' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [8533/8549] Built Apn2R03.ResAPN (4.5s)
+info: Apn2R03/ResAPN.lean:260:0: 'APN2.resAPN3' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Apn2R03/ResAPN.lean:261:0: 'APN2.resAPN5' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Apn2R03/ResAPN.lean:262:0: 'APN2.GRS.fam3_units'' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Apn2R03/ResAPN.lean:263:0: 'APN2.GRS.fam5_units'' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [8534/8549] Built Apn2R03.MainGR2 (3.4s)
+info: Apn2R03/MainGR2.lean:47:0: 'APN2.thmA3_GR_units' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Apn2R03/MainGR2.lean:48:0: 'APN2.thmA5_GR_units' depends on axioms: [propext, Classical.choice, Quot.sound]
+✔ [8535/8549] Built Apn2R03.CryptoCor (3.8s)
+ℹ [8536/8549] Built Apn2R03.GRCompat (3.9s)
+info: Apn2R03/GRCompat.lean:158:0: 'APN2.cross_level_stay_GR' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Apn2R03/GRCompat.lean:159:0: 'APN2.cross_level_exists_GR' depends on axioms: [propext, Classical.choice, Quot.sound]
+✔ [8537/8549] Built Apn2R03.ResPerm (3.9s)
+ℹ [8538/8549] Built Apn2R03.Layered (4.6s)
+info: Apn2R03/Layered.lean:381:0: 'APN2.Markov.char_prob_le_digit' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Apn2R03/Layered.lean:382:0: 'APN2.GRS.top_layer_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Apn2R03/Layered.lean:383:0: 'APN2.Markov.char_prob_le_layer' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Apn2R03/Layered.lean:384:0: 'APN2.Markov.char_prob_le_fam5_layer' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Apn2R03/Layered.lean:385:0: 'APN2.Markov.char_prob_le_top' depends on axioms: [propext, Classical.choice, Quot.sound]
+✔ [8539/8549] Built Apn2R03.StabilityLit (4.1s)
+ℹ [8540/8549] Built Apn2R03.GRTower (4.6s)
+info: Apn2R03/GRTower.lean:172:0: 'APN2.towerGR' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Apn2R03/GRTower.lean:173:0: 'APN2.towerGR_card' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Apn2R03/GRTower.lean:174:0: 'APN2.coherent_family_GR' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [8541/8549] Built Apn2R03.RepFamily (4.4s)
+info: Apn2R03/RepFamily.lean:174:0: 'APN2.Ad_inj' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Apn2R03/RepFamily.lean:175:0: 'APN2.Ad_rho' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Apn2R03/RepFamily.lean:176:0: 'APN2.cubeAd_inj' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Apn2R03/RepFamily.lean:177:0: 'APN2.Kd_zero_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Apn2R03/RepFamily.lean:178:0: 'APN2.eps_not_im' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Apn2R03/RepFamily.lean:179:0: 'APN2.Lam_ne_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [8542/8549] Built Apn2R03.Hull (4.5s)
+info: Apn2R03/Hull.lean:267:0: 'APN2.Markov.hull2_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [8543/8549] Built Apn2R03.HullProb (3.4s)
+info: Apn2R03/HullProb.lean:177:0: 'APN2.Markov.card_out2' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Apn2R03/HullProb.lean:178:0: 'APN2.Markov.diff2_prob_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Apn2R03/HullProb.lean:179:0: 'APN2.Markov.fixed_key_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [8544/8549] Built Apn2R03.HullFam (3.6s)
+info: Apn2R03/HullFam.lean:225:0: 'APN2.Markov.branch_lift' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Apn2R03/HullFam.lean:226:0: 'APN2.GRS.fam5_dp_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Apn2R03/HullFam.lean:227:0: 'APN2.GRS.fam5_bij' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Apn2R03/HullFam.lean:228:0: 'APN2.Markov.fam5_diff2' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Apn2R03/HullFam.lean:229:0: 'APN2.Markov.fam5_fixed_key' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [8545/8549] Built Apn2R03.HullUnit (3.9s)
+info: Apn2R03/HullUnit.lean:315:0: 'APN2.Markov.hull_core' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Apn2R03/HullUnit.lean:316:0: 'APN2.Markov.hull2_unit' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Apn2R03/HullUnit.lean:317:0: 'APN2.Markov.fam5_diff2_unit' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Apn2R03/HullUnit.lean:318:0: 'APN2.Markov.fam5_fixed_key_unit' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [8546/8549] Built Apn2R03.LowCost (3.5s)
+info: Apn2R03/LowCost.lean:99:0: 'APN2.GRS.fam5'_A' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Apn2R03/LowCost.lean:100:0: 'APN2.GRS.fam5'_upper' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Apn2R03/LowCost.lean:101:0: 'APN2.sparse_Lam_ne' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [8547/8549] Built Apn2R03.HullLayer (4.2s)
+info: Apn2R03/HullLayer.lean:294:0: 'APN2.Markov.hull2_digit' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Apn2R03/HullLayer.lean:295:0: 'APN2.Markov.diff2_digit' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Apn2R03/HullLayer.lean:296:0: 'APN2.Markov.diff2_layer' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Apn2R03/HullLayer.lean:297:0: 'APN2.Markov.fixed_key_layer' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Apn2R03/HullLayer.lean:298:0: 'APN2.Markov.fam5_diff2_unit_sharp' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Apn2R03/HullLayer.lean:299:0: 'APN2.Markov.fam5_diff2_mid' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Apn2R03/HullLayer.lean:300:0: 'APN2.Markov.diff2_top' depends on axioms: [propext, Classical.choice, Quot.sound]
+✔ [8548/8549] Built Apn2R03 (2.8s)
+Build completed successfully (8549 jobs).
+BUILD_EXIT 0
+Mon Oct 26 19:47:50 JST 2026
+leanchecker on: Apn2R03 Apn2R03.Basic Apn2R03.Bounds Apn2R03.Cards Apn2R03.Coherent Apn2R03.CongPart Apn2R03.Control Apn2R03.CrossLevel Apn2R03.CryptoCor Apn2R03.Degree Apn2R03.Family3a Apn2R03.Family3b Apn2R03.Family3c Apn2R03.Family5a Apn2R03.Family5b Apn2R03.FamilyBase Apn2R03.GRCompat Apn2R03.GRInst Apn2R03.GRTower Apn2R03.Hensel Apn2R03.Hull Apn2R03.HullFam Apn2R03.HullLayer Apn2R03.HullProb Apn2R03.HullUnit Apn2R03.HypFromH Apn2R03.Inter Apn2R03.Inter2 Apn2R03.Inter3 Apn2R03.Inter4 Apn2R03.Inter5 Apn2R03.InterFam Apn2R03.InterMult Apn2R03.Invariants Apn2R03.Layered Apn2R03.Layers Apn2R03.Lemmas2 Apn2R03.Local Apn2R03.LowCost Apn2R03.MainGR Apn2R03.MainGR2 Apn2R03.MainK3 Apn2R03.MainK4 Apn2R03.Markov Apn2R03.Natural Apn2R03.Natural2 Apn2R03.Ordinary Apn2R03.Pair Apn2R03.RepFamily Apn2R03.ResAPN Apn2R03.ResPerm Apn2R03.Spectrum Apn2R03.Spectrum2 Apn2R03.Spectrum3 Apn2R03.Spectrum4 Apn2R03.StabilityLit 
+real 246.30
+user 215.28
+sys 1922.66
+LEANCHECKER_EXIT 0
+Mon Oct 26 19:52:01 JST 2026

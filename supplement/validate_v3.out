@@ -1,0 +1,25 @@
+{"file": "F1_c0A1_plus2X2.txt", "k": 3, "rho": 21, "mu": 28, "z": 2, "A_zeros": 0, "n_exc_rows": 1024, "pred": {"64": 512}, "exc_hists": [[[64, 512]]], "exc_status": "MATCH"}
+{"file": "F1_c0A1_plus2X2.txt", "k": 4, "rho": 21, "mu": 28, "z": 2, "A_zeros": 0, "n_exc_rows": 4, "pred": {"64": 16384}, "exc_hists": [[[64, 16384]]], "exc_status": "MATCH", "penult_pred": {"32768": 32}, "penult_status": "MATCH"}
+{"file": "P53nat.txt", "k": 3, "rho": 1, "mu": 1, "z": 32, "A_zeros": 0, "n_exc_rows": 1024, "pred": {"64": 480, "128": 16}, "exc_hists": [[[64, 480], [128, 16]]], "exc_status": "MATCH"}
+{"file": "P53nat.txt", "k": 4, "rho": 1, "mu": 1, "z": 32, "A_zeros": 0, "n_exc_rows": 4, "pred": {"64": 15360, "128": 512}, "exc_hists": [[[64, 15360], [128, 512]]], "exc_status": "MATCH", "penult_pred": {"32768": 32}, "penult_status": "MATCH"}
+{"file": "P53nat_split.txt", "k": 3, "rho": 1, "mu": 1, "z": 32, "A_zeros": 0, "n_exc_rows": 1024, "pred": {"64": 512}, "exc_hists": [[[64, 512]]], "exc_status": "MATCH"}
+{"file": "P53nat_split.txt", "k": 4, "rho": 1, "mu": 1, "z": 32, "A_zeros": 0, "n_exc_rows": 4, "pred": {"64": 16384}, "exc_hists": [[[64, 16384]]], "exc_status": "MATCH", "penult_pred": {"32768": 32}, "penult_status": "MATCH"}
+{"file": "P53sp.txt", "k": 3, "rho": 1, "mu": 1, "z": 32, "A_zeros": 0, "n_exc_rows": 1024, "pred": {"64": 512}, "exc_hists": [[[64, 512]]], "exc_status": "MATCH"}
+{"file": "P53sp.txt", "k": 4, "rho": 1, "mu": 1, "z": 32, "A_zeros": 0, "n_exc_rows": 4, "pred": {"64": 16384}, "exc_hists": [[[64, 16384]]], "exc_status": "MATCH", "penult_pred": {"32768": 32}, "penult_status": "MATCH"}
+{"file": "c0_A1.txt", "k": 3, "rho": 21, "mu": 28, "z": 2, "A_zeros": 0, "n_exc_rows": 1024, "pred": {"64": 480, "128": 16}, "exc_hists": [[[64, 480], [128, 16]]], "exc_status": "MATCH"}
+{"file": "c0_A1.txt", "k": 4, "rho": 21, "mu": 28, "z": 2, "A_zeros": 0, "n_exc_rows": 4, "pred": {"64": 15360, "128": 512}, "exc_hists": [[[64, 15360], [128, 512]]], "exc_status": "MATCH", "penult_pred": {"32768": 32}, "penult_status": "MATCH"}
+{"file": "c0_A1_split.txt", "k": 3, "rho": 21, "mu": 28, "z": 2, "A_zeros": 0, "n_exc_rows": 1024, "pred": {"64": 512}, "exc_hists": [[[64, 512]]], "exc_status": "MATCH"}
+{"file": "c0_A1_split.txt", "k": 4, "rho": 21, "mu": 28, "z": 2, "A_zeros": 0, "n_exc_rows": 4, "pred": {"64": 16384}, "exc_hists": [[[64, 16384]]], "exc_status": "MATCH", "penult_pred": {"32768": 32}, "penult_status": "MATCH"}
+{"file": "c1_A1.txt", "k": 3, "rho": 28, "mu": 17, "z": 0, "A_zeros": 0, "n_exc_rows": 1024, "pred": {"64": 512}, "exc_hists": [[[64, 512]]], "exc_status": "MATCH"}
+{"file": "c1_A1.txt", "k": 4, "rho": 28, "mu": 17, "z": 0, "A_zeros": 0, "n_exc_rows": 4, "pred": {"64": 16384}, "exc_hists": [[[64, 16384]]], "exc_status": "MATCH", "penult_pred": {"32768": 32}, "penult_status": "MATCH"}
+{"file": "c1nat.txt", "k": 3, "rho": 28, "mu": 17, "z": 0, "A_zeros": 2, "n_exc_rows": 1024, "pred": {"32": 64, "64": 480}, "exc_hists": [[[32, 64], [64, 480]]], "exc_status": "MATCH"}
+{"file": "c1nat.txt", "k": 4, "rho": 28, "mu": 17, "z": 0, "A_zeros": 2, "n_exc_rows": 4, "pred": null, "exc_hists": [[[64, 15360], [1024, 64]]], "exc_status": "BOUND_ONLY", "penult_pred": {"32768": 30, "65536": 1}, "penult_status": "MATCH"}
+{"file": "m124_A1.txt", "k": 3, "rho": 5, "mu": 0, "z": 0, "A_zeros": 0, "n_exc_rows": 1024, "pred": {"32": 1024}, "exc_hists": [[[32, 1024]]], "exc_status": "MATCH"}
+{"file": "m124_A1.txt", "k": 4, "rho": 5, "mu": 0, "z": 0, "A_zeros": 0, "n_exc_rows": 4, "pred": {"32": 32768}, "exc_hists": [[[32, 32768]]], "exc_status": "MATCH", "penult_pred": {"32768": 32}, "penult_status": "MATCH"}
+{"file": "m40_A1.txt", "k": 3, "rho": 23, "mu": 0, "z": 2, "A_zeros": 0, "n_exc_rows": 1024, "pred": {"32": 960, "64": 32}, "exc_hists": [[[32, 960], [64, 32]]], "exc_status": "MATCH"}
+{"file": "m40_A1.txt", "k": 4, "rho": 23, "mu": 0, "z": 2, "A_zeros": 0, "n_exc_rows": 4, "pred": {"32": 30720, "64": 1024}, "exc_hists": [[[32, 30720], [64, 1024]]], "exc_status": "MATCH", "penult_pred": {"32768": 32}, "penult_status": "MATCH"}
+{"file": "m57_A1.txt", "k": 3, "rho": 24, "mu": 0, "z": 0, "A_zeros": 0, "n_exc_rows": 1024, "pred": {"32": 1024}, "exc_hists": [[[32, 1024]]], "exc_status": "MATCH"}
+{"file": "m57_A1.txt", "k": 4, "rho": 24, "mu": 0, "z": 0, "A_zeros": 0, "n_exc_rows": 4, "pred": {"32": 32768}, "exc_hists": [[[32, 32768]]], "exc_status": "MATCH", "penult_pred": {"32768": 32}, "penult_status": "MATCH"}
+{"file": "m75_A1.txt", "k": 3, "rho": 24, "mu": 0, "z": 4, "A_zeros": 0, "n_exc_rows": 1024, "pred": {"32": 896, "64": 64}, "exc_hists": [[[32, 896], [64, 64]]], "exc_status": "MATCH"}
+{"file": "m75_A1.txt", "k": 4, "rho": 24, "mu": 0, "z": 4, "A_zeros": 0, "n_exc_rows": 4, "pred": {"32": 28672, "64": 2048}, "exc_hists": [[[32, 28672], [64, 2048]]], "exc_status": "MATCH", "penult_pred": {"32768": 32}, "penult_status": "MATCH"}
+VALIDATE_V3 OK 24 records: 23 MATCH, 1 BOUND_ONLY (lower bound only; not counted as spectrum verification)

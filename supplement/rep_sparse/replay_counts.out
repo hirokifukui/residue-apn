@@ -1,0 +1,6 @@
+m=5 |C_m|=15 brute=15
+m=7 |C_m|=42 brute=42
+m=9 |C_m|=126 brute=126
+m=11 |C_m|=506 brute=506
+m=13 |C_m|=2496 brute=0
+m=17 points=125769

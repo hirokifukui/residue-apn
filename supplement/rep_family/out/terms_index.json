@@ -1,0 +1,145 @@
+[
+ {
+  "m": 5,
+  "d": 2,
+  "file": "terms/fam_m5_d2.txt",
+  "sym": {
+   "H": true,
+   "rho": 11,
+   "mu": 0,
+   "z": 0,
+   "eps": 5
+  },
+  "rho_pred": 11
+ },
+ {
+  "m": 5,
+  "d": 4,
+  "file": "terms/fam_m5_d4.txt",
+  "sym": {
+   "H": true,
+   "rho": 15,
+   "mu": 0,
+   "z": 0,
+   "eps": 17
+  },
+  "rho_pred": 15
+ },
+ {
+  "m": 5,
+  "d": 9,
+  "file": "terms/fam_m5_d9.txt",
+  "sym": {
+   "H": true,
+   "rho": 13,
+   "mu": 0,
+   "z": 0,
+   "eps": 10
+  },
+  "rho_pred": 13
+ },
+ {
+  "m": 7,
+  "d": 12,
+  "file": "terms/fam_m7_d12.txt",
+  "sym": {
+   "H": true,
+   "rho": 26,
+   "mu": 0,
+   "z": 0,
+   "eps": 81
+  },
+  "rho_pred": 26
+ },
+ {
+  "m": 7,
+  "d": 26,
+  "file": "terms/fam_m7_d26.txt",
+  "sym": {
+   "H": true,
+   "rho": 40,
+   "mu": 0,
+   "z": 0,
+   "eps": 67
+  },
+  "rho_pred": 40
+ },
+ {
+  "m": 7,
+  "d": 28,
+  "file": "terms/fam_m7_d28.txt",
+  "sym": {
+   "H": true,
+   "rho": 30,
+   "mu": 0,
+   "z": 0,
+   "eps": 87
+  },
+  "rho_pred": 30
+ },
+ {
+  "m": 9,
+  "d": 2,
+  "file": "terms/fam_m9_d2.txt",
+  "sym": {
+   "H": true,
+   "rho": 33,
+   "mu": 0,
+   "z": 0,
+   "eps": 5
+  },
+  "rho_pred": 33
+ },
+ {
+  "m": 9,
+  "d": 4,
+  "file": "terms/fam_m9_d4.txt",
+  "sym": {
+   "H": true,
+   "rho": 35,
+   "mu": 0,
+   "z": 0,
+   "eps": 17
+  },
+  "rho_pred": 35
+ },
+ {
+  "m": 11,
+  "d": 2,
+  "file": "terms/fam_m11_d2.txt",
+  "sym": {
+   "H": true,
+   "rho": 641,
+   "mu": 0,
+   "z": 0,
+   "eps": 5
+  },
+  "rho_pred": 641
+ },
+ {
+  "m": 11,
+  "d": 4,
+  "file": "terms/fam_m11_d4.txt",
+  "sym": {
+   "H": true,
+   "rho": 681,
+   "mu": 0,
+   "z": 0,
+   "eps": 17
+  },
+  "rho_pred": 681
+ },
+ {
+  "m": 13,
+  "d": 6,
+  "file": "terms/fam_m13_d6.txt",
+  "sym": {
+   "H": true,
+   "rho": 2627,
+   "mu": 0,
+   "z": 0,
+   "eps": 21
+  },
+  "rho_pred": 2627
+ }
+]

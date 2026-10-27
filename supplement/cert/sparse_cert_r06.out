@@ -1,0 +1,31 @@
+{
+ "irreducible_t17_t3_1": true,
+ "F2^17_points": {
+  "offdiagonal": 125768,
+  "diagonal": 1,
+  "total": 125769
+ },
+ "Cm": {
+  "5": {
+   "image_complement": 15,
+   "rank": 15
+  },
+  "7": {
+   "image_complement": 42,
+   "rank": 42
+  },
+  "9": {
+   "image_complement": 126,
+   "rank": 126
+  },
+  "11": {
+   "image_complement": 506,
+   "rank": 506
+  },
+  "13": {
+   "image_complement": 2496,
+   "rank": 2496
+  }
+ }
+}
+SPARSE_CERT OK

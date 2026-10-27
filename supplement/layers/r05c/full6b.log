@@ -1,0 +1,4 @@
+res_i1_d2s0 k 8 j 2 d 4 closed ['I'] MATCH MATCH [('I', 'MATCH', 'MATCH')] 177.9
+res_i1_d2s1 k 8 j 2 d 4 closed ['I'] MATCH MATCH [('I', 'MATCH', 'MATCH')] 182.1
+res_i1_d2s2 k 8 j 2 d 4 closed ['I'] MATCH MATCH [('I', 'MATCH', 'MATCH')] 187.7
+res_i0 k 7 j 1 d 4 closed ['I'] MATCH MATCH [('I', 'MATCH', 'MATCH')] 195.0

@@ -1,0 +1,9 @@
+{"m":5,"q":32,"N":10,"Kprime":11,"formula_ok":1,"weil_ok":1,"weil_lower_bound":4.4}
+{"m":7,"q":128,"N":28,"Kprime":-13,"formula_ok":1,"weil_ok":1,"weil_lower_bound":25.6}
+{"m":9,"q":512,"N":126,"Kprime":-5,"formula_ok":1,"weil_ok":1,"weil_lower_bound":115.9}
+{"m":11,"q":2048,"N":528,"Kprime":67,"formula_ok":1,"weil_ok":1,"weil_lower_bound":488.6}
+{"m":13,"q":8192,"N":2002,"Kprime":-181,"formula_ok":1,"weil_ok":1,"weil_lower_bound":2002.0}
+{"m":15,"q":32768,"N":8260,"Kprime":275,"formula_ok":1,"weil_ok":1,"weil_lower_bound":8100.7}
+{"m":17,"q":131072,"N":32742,"Kprime":-101,"formula_ok":1,"weil_ok":1,"weil_lower_bound":32586.2}
+{"m":19,"q":524288,"N":130872,"Kprime":-797,"formula_ok":1,"weil_ok":1,"weil_lower_bound":130709.2}
+{"m":21,"q":2097152,"N":524986,"Kprime":2795,"formula_ok":1,"weil_ok":1,"weil_lower_bound":523563.2}

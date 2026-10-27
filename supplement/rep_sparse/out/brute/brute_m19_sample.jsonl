@@ -1,0 +1,5 @@
+{"m":19,"c":172582,"Tr_d":1,"Tr_inv_d":1,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":19,"c":175842,"Tr_d":1,"Tr_inv_d":1,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":19,"c":54079,"Tr_d":1,"Tr_inv_d":0,"perm":1,"apn":-1,"reeval_ok":1,"eps_notin_ImK":1,"pprime_2to1":1,"H":1,"rho":454505,"B(rho)=1,rho!=1":1,"eps":1,"eps_eq_1":1,"mu":0,"z":0,"deg":393216,"nterms":16,"c2":1,"pred_hit":1}
+{"m":19,"c":105817,"Tr_d":1,"Tr_inv_d":1,"perm":1,"apn":-1,"reeval_ok":1,"eps_notin_ImK":1,"pprime_2to1":1,"H":1,"rho":276576,"B(rho)=1,rho!=1":1,"eps":1,"eps_eq_1":1,"mu":0,"z":0,"deg":393216,"nterms":16,"c2":1,"pred_hit":1}
+SUMMARY {"m":19,"poly":524327,"tested":4,"agree_with_theorem":4,"hits":2}

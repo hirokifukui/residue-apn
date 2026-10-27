@@ -1,0 +1,30 @@
+{
+ "11": {
+  "total": 2048,
+  "injective": 507,
+  "inj_notF2": 506,
+  "H": 506,
+  "mu0": 506,
+  "Z_empty": 506,
+  "pred_match": 2048,
+  "mismatch": 0,
+  "rho_ne1": 506,
+  "nterms": [
+   16
+  ],
+  "degrees": [
+   1536
+  ],
+  "admissible_c_sample": [
+   9,
+   11,
+   13,
+   24,
+   27,
+   29,
+   30,
+   37
+  ],
+  "n_admissible": 506
+ }
+}

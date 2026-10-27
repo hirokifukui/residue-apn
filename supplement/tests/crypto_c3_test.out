@@ -1,0 +1,3 @@
+{"ring": "GR(8,5)", "S": "P53sp", "F0": [0, 0, 0, 0, 0], "F1": [1, 0, 0, 0, 0], "first_round_difference": [1, 0, 0, 0, 0], "delta_1_1": 64, "R": 32768, "p_fixed_plaintext": "1/512", "product_bound": "1/262144", "violates": true}
+{"ring": "GR(8,3) (additive group), random permutation S, seed 20261025", "R": 512, "max_DDT": 8, "characteristics_checked": 133955584, "uniform_start_mismatches": 0, "fixed_plaintext_max_ratio_to_product_bound": "64", "fixed_plaintext_violates": true}
+CRYPTO_C3_TEST OK

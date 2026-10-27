@@ -1,0 +1,4 @@
+{"alpha":14591,"max":2,"multiset":{"2":16384},"ok":1}
+{"alpha":26098,"max":2,"multiset":{"2":16384},"ok":1}
+{"alpha":27531,"max":2,"multiset":{"2":16384},"ok":1}
+SUMMARY {"mode":"ord","m":5,"k":3,"rows":300,"MATCH":300,"MISMATCH":0,"max_entry":2,"prediction":"entries<=2"}

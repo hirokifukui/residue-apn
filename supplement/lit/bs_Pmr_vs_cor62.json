@@ -1,0 +1,101 @@
+[
+ {
+  "m": 5,
+  "r": 3,
+  "T_r_invertible": true,
+  "A_coeff_support": [
+   0,
+   3,
+   4
+  ],
+  "R_q(A^3)_equals_P_mr_as_function": true,
+  "reduced_poly_exponents": [
+   1,
+   2,
+   3,
+   9,
+   10,
+   18,
+   24
+  ],
+  "Cor6.2_condition_holds": true,
+  "p_prime_zero_free": true,
+  "satisfies_H": true,
+  "rho": 1,
+  "mu": 1,
+  "absZ": 32,
+  "equals_BS_Rem6.3_m5_example": true
+ },
+ {
+  "m": 5,
+  "r": 5,
+  "T_r_invertible": false
+ },
+ {
+  "m": 7,
+  "r": 3,
+  "T_r_invertible": true,
+  "A_coeff_support": [
+   0,
+   5,
+   6
+  ],
+  "R_q(A^3)_equals_P_mr_as_function": true,
+  "reduced_poly_exponents": [
+   1,
+   2,
+   3,
+   33,
+   34,
+   66,
+   96
+  ],
+  "Cor6.2_condition_holds": true,
+  "p_prime_zero_free": true,
+  "satisfies_H": true,
+  "rho": 1,
+  "mu": 1,
+  "absZ": 128,
+  "equals_BS_Rem6.3_m5_example": null
+ },
+ {
+  "m": 7,
+  "r": 5,
+  "T_r_invertible": true,
+  "A_coeff_support": [
+   0,
+   1,
+   2,
+   5,
+   6
+  ],
+  "R_q(A^3)_equals_P_mr_as_function": true,
+  "reduced_poly_exponents": [
+   1,
+   2,
+   4,
+   8,
+   9,
+   10,
+   12,
+   33,
+   34,
+   36,
+   40,
+   72,
+   96
+  ],
+  "Cor6.2_condition_holds": true,
+  "p_prime_zero_free": true,
+  "satisfies_H": true,
+  "rho": 1,
+  "mu": 0,
+  "absZ": 128,
+  "equals_BS_Rem6.3_m5_example": null
+ },
+ {
+  "m": 7,
+  "r": 7,
+  "T_r_invertible": false
+ }
+]

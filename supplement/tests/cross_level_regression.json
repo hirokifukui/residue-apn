@@ -1,0 +1,71 @@
+[
+ {
+  "file": "c1_o3.txt",
+  "mu": 17,
+  "z": 0,
+  "A_zeros": 32,
+  "k3_rows": 1024,
+  "k3_max": 32,
+  "k4_rows": 4,
+  "k4_max": 1024,
+  "k4_hists": [
+   [
+    [
+     1024,
+     1024
+    ]
+   ]
+  ],
+  "optimum_k4": 64,
+  "level8_optimal": true,
+  "stays_optimal_k4": false,
+  "criterion_A_zero_free": false,
+  "pass_": true
+ },
+ {
+  "file": "F1_c0A1_plus2X2.txt",
+  "mu": 28,
+  "z": 2,
+  "A_zeros": 0,
+  "k3_rows": 1024,
+  "k3_max": 64,
+  "k4_rows": 4,
+  "k4_max": 64,
+  "k4_hists": [
+   [
+    [
+     64,
+     16384
+    ]
+   ]
+  ],
+  "optimum_k4": 64,
+  "level8_optimal": true,
+  "stays_optimal_k4": true,
+  "criterion_A_zero_free": true,
+  "pass_": true
+ },
+ {
+  "file": "rep5_A1.txt",
+  "mu": 0,
+  "z": 0,
+  "A_zeros": 0,
+  "k3_rows": 1024,
+  "k3_max": 32,
+  "k4_rows": 4,
+  "k4_max": 32,
+  "k4_hists": [
+   [
+    [
+     32,
+     32768
+    ]
+   ]
+  ],
+  "optimum_k4": 32,
+  "level8_optimal": true,
+  "stays_optimal_k4": true,
+  "criterion_A_zero_free": true,
+  "pass_": true
+ }
+]

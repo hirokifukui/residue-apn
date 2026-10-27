@@ -1,0 +1,2 @@
+{"partA": {"delta_1_1": 64, "delta_0_0": 32768, "P": "1/512", "misreading": "64"}, "partB": {"words": 2, "ring": "Z/8", "characteristics": 258048, "mismatches": 0}}
+MARKOV_TWO_WORDS OK

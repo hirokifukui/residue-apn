@@ -1,0 +1,86 @@
+[
+ {
+  "n": 0,
+  "search_rho": 447,
+  "search_mu": 0,
+  "search_z": 0,
+  "inv_rho": 447,
+  "inv_mu": 0,
+  "inv_absZ": 0,
+  "A_zeros": null,
+  "degree": 1536,
+  "terms": 66
+ },
+ {
+  "n": 1,
+  "search_rho": 545,
+  "search_mu": 0,
+  "search_z": 0,
+  "inv_rho": 545,
+  "inv_mu": 0,
+  "inv_absZ": 0,
+  "A_zeros": null,
+  "degree": 1536,
+  "terms": 66
+ },
+ {
+  "n": 2,
+  "search_rho": 533,
+  "search_mu": 0,
+  "search_z": 0,
+  "inv_rho": 533,
+  "inv_mu": 0,
+  "inv_absZ": 0,
+  "A_zeros": null,
+  "degree": 1536,
+  "terms": 66
+ },
+ {
+  "n": 3,
+  "search_rho": 1782,
+  "search_mu": 0,
+  "search_z": 0,
+  "inv_rho": 1782,
+  "inv_mu": 0,
+  "inv_absZ": 0,
+  "A_zeros": null,
+  "degree": 1536,
+  "terms": 66
+ },
+ {
+  "n": 4,
+  "search_rho": 1802,
+  "search_mu": 0,
+  "search_z": 0,
+  "inv_rho": 1802,
+  "inv_mu": 0,
+  "inv_absZ": 0,
+  "A_zeros": null,
+  "degree": 1536,
+  "terms": 66
+ },
+ {
+  "n": 5,
+  "search_rho": 1346,
+  "search_mu": 0,
+  "search_z": 0,
+  "inv_rho": 1346,
+  "inv_mu": 0,
+  "inv_absZ": 0,
+  "A_zeros": null,
+  "degree": 1536,
+  "terms": 66
+ },
+ {
+  "n": 6,
+  "search_rho": 1848,
+  "search_mu": 0,
+  "search_z": 0,
+  "inv_rho": 1848,
+  "inv_mu": 0,
+  "inv_absZ": 0,
+  "A_zeros": null,
+  "degree": 1536,
+  "terms": 66
+ }
+]

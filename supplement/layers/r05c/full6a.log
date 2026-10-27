@@ -1,0 +1,8 @@
+split_gen k 7 j 1 d 4 closed ['II'] MATCH MATCH [('II', 'MATCH', 'MATCH')] 184.7
+split_deg k 7 j 1 d 4 closed ['II'] MATCH MATCH [('II', 'MATCH', 'MATCH')] 184.9
+m_gen k 7 j 1 d 4 closed ['II'] MATCH MATCH [('II', 'MATCH', 'MATCH')] 181.3
+m_same_chi1 k 7 j 1 d 4 closed ['II'] MATCH MATCH [('II', 'MATCH', 'MATCH')] 181.4
+H0/split k 7 j 1 d 4 closed ['III-split'] MATCH MATCH [('III-split', 'MATCH', 'MATCH')] 180.3
+H0/merged k 7 j 1 d 4 closed ['III-merged-ND'] MATCH MATCH [('III-merged-ND', 'MATCH', 'MATCH')] 180.0
+H1/split k 7 j 1 d 4 closed ['III-split'] MATCH MATCH [('III-split', 'MATCH', 'MATCH')] 179.5
+H1/merged k 7 j 1 d 4 closed ['III-merged-ND'] MATCH MATCH [('III-merged-ND', 'MATCH', 'MATCH')] 184.2

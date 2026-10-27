@@ -1,0 +1,54 @@
+{
+ "symbolic": [
+  {
+   "m": 5,
+   "poly": 37,
+   "mode": "all",
+   "tested": 31,
+   "agree": 31,
+   "hits": 10,
+   "seconds": 0.0
+  },
+  {
+   "m": 7,
+   "poly": 131,
+   "mode": "all",
+   "tested": 127,
+   "agree": 127,
+   "hits": 28,
+   "seconds": 0.1
+  },
+  {
+   "m": 9,
+   "poly": 529,
+   "mode": "all",
+   "tested": 511,
+   "agree": 511,
+   "hits": 126,
+   "seconds": 0.6
+  }
+ ],
+ "brute": [
+  {
+   "m": 5,
+   "poly": 37,
+   "tested": 31,
+   "agree_with_theorem": 31,
+   "hits": 10
+  },
+  {
+   "m": 7,
+   "poly": 131,
+   "tested": 127,
+   "agree_with_theorem": 127,
+   "hits": 28
+  },
+  {
+   "m": 9,
+   "poly": 529,
+   "tested": 511,
+   "agree_with_theorem": 511,
+   "hits": 126
+  }
+ ]
+}

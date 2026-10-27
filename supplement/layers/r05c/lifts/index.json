@@ -1,0 +1,1112 @@
+{
+"r0010_nat": {
+"file": "lifts/r0010_nat.txt",
+"rho": 4,
+"mu": 29,
+"c3": 24,
+"pi_zeros": [
+20,
+23
+],
+"Z": 0,
+"A_zero": 0
+},
+"r0010_A1": {
+"file": "lifts/r0010_A1.txt",
+"rho": 4,
+"mu": 29,
+"c3": 24,
+"pi_zeros": [
+20,
+23
+],
+"Z": 0,
+"A_zero": 0
+},
+"r0010_A0": {
+"file": "lifts/r0010_A0.txt",
+"rho": 4,
+"mu": 29,
+"c3": 24,
+"pi_zeros": [
+20,
+23
+],
+"Z": 0,
+"A_zero": 32
+},
+"r0010_Az": {
+"file": "lifts/r0010_Az.txt",
+"rho": 4,
+"mu": 29,
+"c3": 24,
+"pi_zeros": [
+20,
+23
+],
+"Z": 0,
+"A_zero": 2
+},
+"r0010_rnd": {
+"file": "lifts/r0010_rnd.txt",
+"rho": 4,
+"mu": 29,
+"c3": 24,
+"pi_zeros": [
+20,
+23
+],
+"Z": 0,
+"A_zero": 2
+},
+"r0010_rnd2": {
+"file": "lifts/r0010_rnd2.txt",
+"rho": 4,
+"mu": 29,
+"c3": 24,
+"pi_zeros": [
+20,
+23
+],
+"Z": 0,
+"A_zero": 0
+},
+"r0011_nat": {
+"file": "lifts/r0011_nat.txt",
+"rho": 6,
+"mu": 30,
+"c3": 17,
+"pi_zeros": [
+31
+],
+"Z": 2,
+"A_zero": 0
+},
+"r0011_A1": {
+"file": "lifts/r0011_A1.txt",
+"rho": 6,
+"mu": 30,
+"c3": 17,
+"pi_zeros": [
+31
+],
+"Z": 2,
+"A_zero": 0
+},
+"r0011_A0": {
+"file": "lifts/r0011_A0.txt",
+"rho": 6,
+"mu": 30,
+"c3": 17,
+"pi_zeros": [
+31
+],
+"Z": 2,
+"A_zero": 32
+},
+"r0011_Az": {
+"file": "lifts/r0011_Az.txt",
+"rho": 6,
+"mu": 30,
+"c3": 17,
+"pi_zeros": [
+31
+],
+"Z": 2,
+"A_zero": 2
+},
+"r0011_rnd": {
+"file": "lifts/r0011_rnd.txt",
+"rho": 6,
+"mu": 30,
+"c3": 17,
+"pi_zeros": [
+31
+],
+"Z": 2,
+"A_zero": 0
+},
+"r0011_rnd2": {
+"file": "lifts/r0011_rnd2.txt",
+"rho": 6,
+"mu": 30,
+"c3": 17,
+"pi_zeros": [
+31
+],
+"Z": 2,
+"A_zero": 0
+},
+"r0000_nat": {
+"file": "lifts/r0000_nat.txt",
+"rho": 19,
+"mu": 15,
+"c3": 30,
+"pi_zeros": [],
+"Z": 0,
+"A_zero": 4
+},
+"r0000_A1": {
+"file": "lifts/r0000_A1.txt",
+"rho": 19,
+"mu": 15,
+"c3": 30,
+"pi_zeros": [],
+"Z": 0,
+"A_zero": 0
+},
+"r0000_A0": {
+"file": "lifts/r0000_A0.txt",
+"rho": 19,
+"mu": 15,
+"c3": 30,
+"pi_zeros": [],
+"Z": 0,
+"A_zero": 32
+},
+"r0000_Az": {
+"file": "lifts/r0000_Az.txt",
+"rho": 19,
+"mu": 15,
+"c3": 30,
+"pi_zeros": [],
+"Z": 0,
+"A_zero": 2
+},
+"r0000_rnd": {
+"file": "lifts/r0000_rnd.txt",
+"rho": 19,
+"mu": 15,
+"c3": 30,
+"pi_zeros": [],
+"Z": 0,
+"A_zero": 0
+},
+"r0000_rnd2": {
+"file": "lifts/r0000_rnd2.txt",
+"rho": 19,
+"mu": 15,
+"c3": 30,
+"pi_zeros": [],
+"Z": 0,
+"A_zero": 4
+},
+"r0101_nat": {
+"file": "lifts/r0101_nat.txt",
+"rho": 3,
+"mu": 26,
+"c3": 0,
+"pi_zeros": [],
+"Z": 2,
+"A_zero": 0
+},
+"r0101_A1": {
+"file": "lifts/r0101_A1.txt",
+"rho": 3,
+"mu": 26,
+"c3": 0,
+"pi_zeros": [],
+"Z": 2,
+"A_zero": 0
+},
+"r0101_A0": {
+"file": "lifts/r0101_A0.txt",
+"rho": 3,
+"mu": 26,
+"c3": 0,
+"pi_zeros": [],
+"Z": 2,
+"A_zero": 32
+},
+"r0101_Az": {
+"file": "lifts/r0101_Az.txt",
+"rho": 3,
+"mu": 26,
+"c3": 0,
+"pi_zeros": [],
+"Z": 2,
+"A_zero": 2
+},
+"r0101_rnd": {
+"file": "lifts/r0101_rnd.txt",
+"rho": 3,
+"mu": 26,
+"c3": 0,
+"pi_zeros": [],
+"Z": 2,
+"A_zero": 0
+},
+"r0101_rnd2": {
+"file": "lifts/r0101_rnd2.txt",
+"rho": 3,
+"mu": 26,
+"c3": 0,
+"pi_zeros": [],
+"Z": 2,
+"A_zero": 0
+},
+"r0001_nat": {
+"file": "lifts/r0001_nat.txt",
+"rho": 22,
+"mu": 22,
+"c3": 22,
+"pi_zeros": [],
+"Z": 4,
+"A_zero": 0
+},
+"r0001_A1": {
+"file": "lifts/r0001_A1.txt",
+"rho": 22,
+"mu": 22,
+"c3": 22,
+"pi_zeros": [],
+"Z": 4,
+"A_zero": 0
+},
+"r0001_A0": {
+"file": "lifts/r0001_A0.txt",
+"rho": 22,
+"mu": 22,
+"c3": 22,
+"pi_zeros": [],
+"Z": 4,
+"A_zero": 32
+},
+"r0001_Az": {
+"file": "lifts/r0001_Az.txt",
+"rho": 22,
+"mu": 22,
+"c3": 22,
+"pi_zeros": [],
+"Z": 4,
+"A_zero": 2
+},
+"r0001_rnd": {
+"file": "lifts/r0001_rnd.txt",
+"rho": 22,
+"mu": 22,
+"c3": 22,
+"pi_zeros": [],
+"Z": 4,
+"A_zero": 2
+},
+"r0001_rnd2": {
+"file": "lifts/r0001_rnd2.txt",
+"rho": 22,
+"mu": 22,
+"c3": 22,
+"pi_zeros": [],
+"Z": 4,
+"A_zero": 0
+},
+"r0111_nat": {
+"file": "lifts/r0111_nat.txt",
+"rho": 10,
+"mu": 11,
+"c3": 0,
+"pi_zeros": [
+9,
+10
+],
+"Z": 4,
+"A_zero": 0
+},
+"r0111_A1": {
+"file": "lifts/r0111_A1.txt",
+"rho": 10,
+"mu": 11,
+"c3": 0,
+"pi_zeros": [
+9,
+10
+],
+"Z": 4,
+"A_zero": 0
+},
+"r0111_A0": {
+"file": "lifts/r0111_A0.txt",
+"rho": 10,
+"mu": 11,
+"c3": 0,
+"pi_zeros": [
+9,
+10
+],
+"Z": 4,
+"A_zero": 32
+},
+"r0111_Az": {
+"file": "lifts/r0111_Az.txt",
+"rho": 10,
+"mu": 11,
+"c3": 0,
+"pi_zeros": [
+9,
+10
+],
+"Z": 4,
+"A_zero": 2
+},
+"r0111_rnd": {
+"file": "lifts/r0111_rnd.txt",
+"rho": 10,
+"mu": 11,
+"c3": 0,
+"pi_zeros": [
+9,
+10
+],
+"Z": 4,
+"A_zero": 2
+},
+"r0111_rnd2": {
+"file": "lifts/r0111_rnd2.txt",
+"rho": 10,
+"mu": 11,
+"c3": 0,
+"pi_zeros": [
+9,
+10
+],
+"Z": 4,
+"A_zero": 2
+},
+"r0110_nat": {
+"file": "lifts/r0110_nat.txt",
+"rho": 11,
+"mu": 20,
+"c3": 0,
+"pi_zeros": [
+2
+],
+"Z": 0,
+"A_zero": 0
+},
+"r0110_A1": {
+"file": "lifts/r0110_A1.txt",
+"rho": 11,
+"mu": 20,
+"c3": 0,
+"pi_zeros": [
+2
+],
+"Z": 0,
+"A_zero": 0
+},
+"r0110_A0": {
+"file": "lifts/r0110_A0.txt",
+"rho": 11,
+"mu": 20,
+"c3": 0,
+"pi_zeros": [
+2
+],
+"Z": 0,
+"A_zero": 32
+},
+"r0110_Az": {
+"file": "lifts/r0110_Az.txt",
+"rho": 11,
+"mu": 20,
+"c3": 0,
+"pi_zeros": [
+2
+],
+"Z": 0,
+"A_zero": 2
+},
+"r0110_rnd": {
+"file": "lifts/r0110_rnd.txt",
+"rho": 11,
+"mu": 20,
+"c3": 0,
+"pi_zeros": [
+2
+],
+"Z": 0,
+"A_zero": 2
+},
+"r0110_rnd2": {
+"file": "lifts/r0110_rnd2.txt",
+"rho": 11,
+"mu": 20,
+"c3": 0,
+"pi_zeros": [
+2
+],
+"Z": 0,
+"A_zero": 0
+},
+"r1000_nat": {
+"file": "lifts/r1000_nat.txt",
+"rho": 30,
+"mu": 0,
+"c3": 25,
+"pi_zeros": [],
+"Z": 0,
+"A_zero": 0
+},
+"r1000_A1": {
+"file": "lifts/r1000_A1.txt",
+"rho": 30,
+"mu": 0,
+"c3": 25,
+"pi_zeros": [],
+"Z": 0,
+"A_zero": 0
+},
+"r1000_A0": {
+"file": "lifts/r1000_A0.txt",
+"rho": 30,
+"mu": 0,
+"c3": 25,
+"pi_zeros": [],
+"Z": 0,
+"A_zero": 32
+},
+"r1000_Az": {
+"file": "lifts/r1000_Az.txt",
+"rho": 30,
+"mu": 0,
+"c3": 25,
+"pi_zeros": [],
+"Z": 0,
+"A_zero": 2
+},
+"r1000_rnd": {
+"file": "lifts/r1000_rnd.txt",
+"rho": 30,
+"mu": 0,
+"c3": 25,
+"pi_zeros": [],
+"Z": 0,
+"A_zero": 0
+},
+"r1000_rnd2": {
+"file": "lifts/r1000_rnd2.txt",
+"rho": 30,
+"mu": 0,
+"c3": 25,
+"pi_zeros": [],
+"Z": 0,
+"A_zero": 2
+},
+"r1001_nat": {
+"file": "lifts/r1001_nat.txt",
+"rho": 25,
+"mu": 0,
+"c3": 27,
+"pi_zeros": [],
+"Z": 2,
+"A_zero": 0
+},
+"r1001_A1": {
+"file": "lifts/r1001_A1.txt",
+"rho": 25,
+"mu": 0,
+"c3": 27,
+"pi_zeros": [],
+"Z": 2,
+"A_zero": 0
+},
+"r1001_A0": {
+"file": "lifts/r1001_A0.txt",
+"rho": 25,
+"mu": 0,
+"c3": 27,
+"pi_zeros": [],
+"Z": 2,
+"A_zero": 32
+},
+"r1001_Az": {
+"file": "lifts/r1001_Az.txt",
+"rho": 25,
+"mu": 0,
+"c3": 27,
+"pi_zeros": [],
+"Z": 2,
+"A_zero": 2
+},
+"r1001_rnd": {
+"file": "lifts/r1001_rnd.txt",
+"rho": 25,
+"mu": 0,
+"c3": 27,
+"pi_zeros": [],
+"Z": 2,
+"A_zero": 0
+},
+"r1001_rnd2": {
+"file": "lifts/r1001_rnd2.txt",
+"rho": 25,
+"mu": 0,
+"c3": 27,
+"pi_zeros": [],
+"Z": 2,
+"A_zero": 0
+},
+"r1111_nat": {
+"file": "lifts/r1111_nat.txt",
+"rho": 11,
+"mu": 0,
+"c3": 0,
+"pi_zeros": [
+6,
+13
+],
+"Z": 2,
+"A_zero": 0
+},
+"r1111_A1": {
+"file": "lifts/r1111_A1.txt",
+"rho": 11,
+"mu": 0,
+"c3": 0,
+"pi_zeros": [
+6,
+13
+],
+"Z": 2,
+"A_zero": 0
+},
+"r1111_A0": {
+"file": "lifts/r1111_A0.txt",
+"rho": 11,
+"mu": 0,
+"c3": 0,
+"pi_zeros": [
+6,
+13
+],
+"Z": 2,
+"A_zero": 32
+},
+"r1111_Az": {
+"file": "lifts/r1111_Az.txt",
+"rho": 11,
+"mu": 0,
+"c3": 0,
+"pi_zeros": [
+6,
+13
+],
+"Z": 2,
+"A_zero": 2
+},
+"r1111_rnd": {
+"file": "lifts/r1111_rnd.txt",
+"rho": 11,
+"mu": 0,
+"c3": 0,
+"pi_zeros": [
+6,
+13
+],
+"Z": 2,
+"A_zero": 0
+},
+"r1111_rnd2": {
+"file": "lifts/r1111_rnd2.txt",
+"rho": 11,
+"mu": 0,
+"c3": 0,
+"pi_zeros": [
+6,
+13
+],
+"Z": 2,
+"A_zero": 0
+},
+"r1010_nat": {
+"file": "lifts/r1010_nat.txt",
+"rho": 18,
+"mu": 0,
+"c3": 19,
+"pi_zeros": [
+4,
+22
+],
+"Z": 0,
+"A_zero": 0
+},
+"r1010_A1": {
+"file": "lifts/r1010_A1.txt",
+"rho": 18,
+"mu": 0,
+"c3": 19,
+"pi_zeros": [
+4,
+22
+],
+"Z": 0,
+"A_zero": 0
+},
+"r1010_A0": {
+"file": "lifts/r1010_A0.txt",
+"rho": 18,
+"mu": 0,
+"c3": 19,
+"pi_zeros": [
+4,
+22
+],
+"Z": 0,
+"A_zero": 32
+},
+"r1010_Az": {
+"file": "lifts/r1010_Az.txt",
+"rho": 18,
+"mu": 0,
+"c3": 19,
+"pi_zeros": [
+4,
+22
+],
+"Z": 0,
+"A_zero": 2
+},
+"r1010_rnd": {
+"file": "lifts/r1010_rnd.txt",
+"rho": 18,
+"mu": 0,
+"c3": 19,
+"pi_zeros": [
+4,
+22
+],
+"Z": 0,
+"A_zero": 0
+},
+"r1010_rnd2": {
+"file": "lifts/r1010_rnd2.txt",
+"rho": 18,
+"mu": 0,
+"c3": 19,
+"pi_zeros": [
+4,
+22
+],
+"Z": 0,
+"A_zero": 0
+},
+"r0100_nat": {
+"file": "lifts/r0100_nat.txt",
+"rho": 12,
+"mu": 14,
+"c3": 0,
+"pi_zeros": [],
+"Z": 0,
+"A_zero": 0
+},
+"r0100_A1": {
+"file": "lifts/r0100_A1.txt",
+"rho": 12,
+"mu": 14,
+"c3": 0,
+"pi_zeros": [],
+"Z": 0,
+"A_zero": 0
+},
+"r0100_A0": {
+"file": "lifts/r0100_A0.txt",
+"rho": 12,
+"mu": 14,
+"c3": 0,
+"pi_zeros": [],
+"Z": 0,
+"A_zero": 32
+},
+"r0100_Az": {
+"file": "lifts/r0100_Az.txt",
+"rho": 12,
+"mu": 14,
+"c3": 0,
+"pi_zeros": [],
+"Z": 0,
+"A_zero": 2
+},
+"r0100_rnd": {
+"file": "lifts/r0100_rnd.txt",
+"rho": 12,
+"mu": 14,
+"c3": 0,
+"pi_zeros": [],
+"Z": 0,
+"A_zero": 2
+},
+"r0100_rnd2": {
+"file": "lifts/r0100_rnd2.txt",
+"rho": 12,
+"mu": 14,
+"c3": 0,
+"pi_zeros": [],
+"Z": 0,
+"A_zero": 0
+},
+"r1011_nat": {
+"file": "lifts/r1011_nat.txt",
+"rho": 20,
+"mu": 0,
+"c3": 25,
+"pi_zeros": [
+11,
+31
+],
+"Z": 4,
+"A_zero": 0
+},
+"r1011_A1": {
+"file": "lifts/r1011_A1.txt",
+"rho": 20,
+"mu": 0,
+"c3": 25,
+"pi_zeros": [
+11,
+31
+],
+"Z": 4,
+"A_zero": 0
+},
+"r1011_A0": {
+"file": "lifts/r1011_A0.txt",
+"rho": 20,
+"mu": 0,
+"c3": 25,
+"pi_zeros": [
+11,
+31
+],
+"Z": 4,
+"A_zero": 32
+},
+"r1011_Az": {
+"file": "lifts/r1011_Az.txt",
+"rho": 20,
+"mu": 0,
+"c3": 25,
+"pi_zeros": [
+11,
+31
+],
+"Z": 4,
+"A_zero": 2
+},
+"r1011_rnd": {
+"file": "lifts/r1011_rnd.txt",
+"rho": 20,
+"mu": 0,
+"c3": 25,
+"pi_zeros": [
+11,
+31
+],
+"Z": 4,
+"A_zero": 2
+},
+"r1011_rnd2": {
+"file": "lifts/r1011_rnd2.txt",
+"rho": 20,
+"mu": 0,
+"c3": 25,
+"pi_zeros": [
+11,
+31
+],
+"Z": 4,
+"A_zero": 2
+},
+"r1101_nat": {
+"file": "lifts/r1101_nat.txt",
+"rho": 25,
+"mu": 0,
+"c3": 0,
+"pi_zeros": [],
+"Z": 2,
+"A_zero": 0
+},
+"r1101_A1": {
+"file": "lifts/r1101_A1.txt",
+"rho": 25,
+"mu": 0,
+"c3": 0,
+"pi_zeros": [],
+"Z": 2,
+"A_zero": 0
+},
+"r1101_A0": {
+"file": "lifts/r1101_A0.txt",
+"rho": 25,
+"mu": 0,
+"c3": 0,
+"pi_zeros": [],
+"Z": 2,
+"A_zero": 32
+},
+"r1101_Az": {
+"file": "lifts/r1101_Az.txt",
+"rho": 25,
+"mu": 0,
+"c3": 0,
+"pi_zeros": [],
+"Z": 2,
+"A_zero": 2
+},
+"r1101_rnd": {
+"file": "lifts/r1101_rnd.txt",
+"rho": 25,
+"mu": 0,
+"c3": 0,
+"pi_zeros": [],
+"Z": 2,
+"A_zero": 0
+},
+"r1101_rnd2": {
+"file": "lifts/r1101_rnd2.txt",
+"rho": 25,
+"mu": 0,
+"c3": 0,
+"pi_zeros": [],
+"Z": 2,
+"A_zero": 0
+},
+"r1100_nat": {
+"file": "lifts/r1100_nat.txt",
+"rho": 20,
+"mu": 0,
+"c3": 0,
+"pi_zeros": [],
+"Z": 0,
+"A_zero": 0
+},
+"r1100_A1": {
+"file": "lifts/r1100_A1.txt",
+"rho": 20,
+"mu": 0,
+"c3": 0,
+"pi_zeros": [],
+"Z": 0,
+"A_zero": 0
+},
+"r1100_A0": {
+"file": "lifts/r1100_A0.txt",
+"rho": 20,
+"mu": 0,
+"c3": 0,
+"pi_zeros": [],
+"Z": 0,
+"A_zero": 32
+},
+"r1100_Az": {
+"file": "lifts/r1100_Az.txt",
+"rho": 20,
+"mu": 0,
+"c3": 0,
+"pi_zeros": [],
+"Z": 0,
+"A_zero": 2
+},
+"r1100_rnd": {
+"file": "lifts/r1100_rnd.txt",
+"rho": 20,
+"mu": 0,
+"c3": 0,
+"pi_zeros": [],
+"Z": 0,
+"A_zero": 0
+},
+"r1100_rnd2": {
+"file": "lifts/r1100_rnd2.txt",
+"rho": 20,
+"mu": 0,
+"c3": 0,
+"pi_zeros": [],
+"Z": 0,
+"A_zero": 0
+},
+"P53nat_nat": {
+"file": "lifts/P53nat_nat.txt",
+"rho": 1,
+"mu": 1,
+"c3": 1,
+"pi_zeros": [
+1
+],
+"Z": 32,
+"A_zero": 0
+},
+"P53nat_A1": {
+"file": "lifts/P53nat_A1.txt",
+"rho": 1,
+"mu": 1,
+"c3": 1,
+"pi_zeros": [
+1
+],
+"Z": 32,
+"A_zero": 0
+},
+"P53nat_A0": {
+"file": "lifts/P53nat_A0.txt",
+"rho": 1,
+"mu": 1,
+"c3": 1,
+"pi_zeros": [
+1
+],
+"Z": 32,
+"A_zero": 32
+},
+"P53nat_Az": {
+"file": "lifts/P53nat_Az.txt",
+"rho": 1,
+"mu": 1,
+"c3": 1,
+"pi_zeros": [
+1
+],
+"Z": 32,
+"A_zero": 2
+},
+"P53nat_rnd": {
+"file": "lifts/P53nat_rnd.txt",
+"rho": 1,
+"mu": 1,
+"c3": 1,
+"pi_zeros": [
+1
+],
+"Z": 32,
+"A_zero": 0
+},
+"P53nat_rnd2": {
+"file": "lifts/P53nat_rnd2.txt",
+"rho": 1,
+"mu": 1,
+"c3": 1,
+"pi_zeros": [
+1
+],
+"Z": 32,
+"A_zero": 2
+},
+"c1nat_nat": {
+"file": "lifts/c1nat_nat.txt",
+"rho": 28,
+"mu": 17,
+"c3": 30,
+"pi_zeros": [
+1
+],
+"Z": 0,
+"A_zero": 2
+},
+"c1nat_A1": {
+"file": "lifts/c1nat_A1.txt",
+"rho": 28,
+"mu": 17,
+"c3": 30,
+"pi_zeros": [
+1
+],
+"Z": 0,
+"A_zero": 0
+},
+"c1nat_A0": {
+"file": "lifts/c1nat_A0.txt",
+"rho": 28,
+"mu": 17,
+"c3": 30,
+"pi_zeros": [
+1
+],
+"Z": 0,
+"A_zero": 32
+},
+"c1nat_Az": {
+"file": "lifts/c1nat_Az.txt",
+"rho": 28,
+"mu": 17,
+"c3": 30,
+"pi_zeros": [
+1
+],
+"Z": 0,
+"A_zero": 2
+},
+"c1nat_rnd": {
+"file": "lifts/c1nat_rnd.txt",
+"rho": 28,
+"mu": 17,
+"c3": 30,
+"pi_zeros": [
+1
+],
+"Z": 0,
+"A_zero": 2
+},
+"c1nat_rnd2": {
+"file": "lifts/c1nat_rnd2.txt",
+"rho": 28,
+"mu": 17,
+"c3": 30,
+"pi_zeros": [
+1
+],
+"Z": 0,
+"A_zero": 0
+},
+"rep5_nat_nat": {
+"file": "lifts/rep5_nat_nat.txt",
+"rho": 4,
+"mu": 0,
+"c3": 6,
+"pi_zeros": [],
+"Z": 0,
+"A_zero": 2
+},
+"rep5_nat_A1": {
+"file": "lifts/rep5_nat_A1.txt",
+"rho": 4,
+"mu": 0,
+"c3": 6,
+"pi_zeros": [],
+"Z": 0,
+"A_zero": 0
+},
+"rep5_nat_A0": {
+"file": "lifts/rep5_nat_A0.txt",
+"rho": 4,
+"mu": 0,
+"c3": 6,
+"pi_zeros": [],
+"Z": 0,
+"A_zero": 32
+},
+"rep5_nat_Az": {
+"file": "lifts/rep5_nat_Az.txt",
+"rho": 4,
+"mu": 0,
+"c3": 6,
+"pi_zeros": [],
+"Z": 0,
+"A_zero": 2
+},
+"rep5_nat_rnd": {
+"file": "lifts/rep5_nat_rnd.txt",
+"rho": 4,
+"mu": 0,
+"c3": 6,
+"pi_zeros": [],
+"Z": 0,
+"A_zero": 0
+},
+"rep5_nat_rnd2": {
+"file": "lifts/rep5_nat_rnd2.txt",
+"rho": 4,
+"mu": 0,
+"c3": 6,
+"pi_zeros": [],
+"Z": 0,
+"A_zero": 0
+}
+}

@@ -1,0 +1,12 @@
+binom_base       True
+binom_step       True
+num_even         True
+half_matches     True
+Enat             True
+Enat_at_0        True
+A_r3             True
+Dj               True
+phi_identity     True
+A_r5             True
+corr_r5          True
+IDENTITIES_CERT OK

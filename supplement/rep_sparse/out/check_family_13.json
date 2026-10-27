@@ -1,0 +1,30 @@
+{
+ "13": {
+  "total": 8192,
+  "injective": 2497,
+  "inj_notF2": 2496,
+  "H": 2496,
+  "mu0": 2496,
+  "Z_empty": 2496,
+  "pred_match": 8192,
+  "mismatch": 0,
+  "rho_ne1": 2496,
+  "nterms": [
+   16
+  ],
+  "degrees": [
+   6144
+  ],
+  "admissible_c_sample": [
+   2,
+   4,
+   8,
+   14,
+   15,
+   16,
+   18,
+   22
+  ],
+  "n_admissible": 2496
+ }
+}

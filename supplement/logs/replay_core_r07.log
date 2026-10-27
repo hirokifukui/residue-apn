@@ -1,0 +1,28 @@
+[core] tools: gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0 | Python 3.13.17 | sympy 1.14.0
+[core] 0 clean generated outputs
+[core] 1 symbolic identities (dimension-free)
+IDENTITIES_CERT OK
+[core] 2 E-invariant positive/negative tests
+E_TESTS OK
+[core] 3 validate_v3 negative controls (8 checker faults + 9 scope faults + 2 positives)
+NEGATIVE_CONTROLS OK 17 rejected, 2 accepted
+[core] 4 validate_v3: 12 m=5 inputs (k=3 all exceptional rows, k=4 samples)
+VALIDATE_V3 OK 24 records: 23 MATCH, 1 BOUND_ONLY (lower bound only; not counted as spectrum verification)
+[core] 5 validate_v3: (O3) inputs with A==0
+VALIDATE_V3 OK 4 records: 2 MATCH, 2 BOUND_ONLY (lower bound only; not counted as spectrum verification)
+[core] 6 representative search m=5 (trial) and m=7 (seed 20261025, 2e6 tries)
+[core] 7 representative certificate (m=5 from rep/rep5_seed.json; m=7 first mu=0,z=0 hit)
+[core] 8 validate_v3: rep5_nat, rep5_A1
+VALIDATE_V3 OK 4 records: 2 MATCH, 2 BOUND_ONLY (lower bound only; not counted as spectrum verification)
+[core] 9 regression tests: cross-level counterexample (R04-01), probability model (R04-03), two-word normalization (R05-01), natural lift and mu=0/Z empty family (R05b), sparse family and two-round differentials (R05c)
+CROSS_LEVEL_REGRESSION OK 3 cases
+CRYPTO_C3_TEST OK
+MARKOV_TWO_WORDS OK
+NATURAL_K3 OK 4 (P95/P97 samples)
+REP_FAMILY OK [10, 28, 126]
+M3_NO_H OK
+SPARSE_FAMILY OK
+HULL_TOY OK 6 seeds
+HULL_LAYER OK 32 seeds, all 255 inputs x 256 outputs each, bound (D_s/q^k)^(B-1) without 2^n
+SPARSE_CERT OK
+[core] CORE REPLAY OK (stages: 0 1 2 3 4 5 6 7 8 9)

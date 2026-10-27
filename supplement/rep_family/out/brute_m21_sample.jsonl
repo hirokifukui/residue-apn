@@ -1,0 +1,5 @@
+{"m":21,"d":1196448,"Tr_d":0,"Tr_inv_d":1,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":21,"d":1494307,"Tr_d":1,"Tr_inv_d":0,"perm":1,"apn":-1,"reeval_ok":1,"eps_notin_ImK":0,"pprime_2to1":1,"H":0,"rho":1233460,"rho_eq_dinv4":1,"eps":1780875,"eps_eq_(1+d)^2":1,"mu":0,"z":0,"deg":1572864,"nterms":60,"c2":1,"pred_hit":0}
+{"m":21,"d":1820793,"Tr_d":0,"Tr_inv_d":0,"perm":1,"apn":-1,"reeval_ok":1,"eps_notin_ImK":1,"pprime_2to1":1,"H":1,"rho":428754,"rho_eq_dinv4":1,"eps":169423,"eps_eq_(1+d)^2":1,"mu":0,"z":0,"deg":1572864,"nterms":60,"c2":1,"pred_hit":1}
+{"m":21,"d":336890,"Tr_d":0,"Tr_inv_d":0,"perm":1,"apn":-1,"reeval_ok":1,"eps_notin_ImK":1,"pprime_2to1":1,"H":1,"rho":588515,"rho_eq_dinv4":1,"eps":523749,"eps_eq_(1+d)^2":1,"mu":0,"z":0,"deg":1572864,"nterms":60,"c2":1,"pred_hit":1}
+SUMMARY {"m":21,"poly":2097157,"tested":4,"agree_with_theorem":4,"hits":2}

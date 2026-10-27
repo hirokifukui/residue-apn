@@ -1,0 +1,13 @@
+{"m":19,"d":172582,"Tr_d":1,"Tr_inv_d":1,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":19,"d":175842,"Tr_d":1,"Tr_inv_d":1,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":19,"d":54079,"Tr_d":1,"Tr_inv_d":0,"perm":1,"apn":-1,"reeval_ok":1,"eps_notin_ImK":0,"pprime_2to1":1,"H":0,"rho":321340,"rho_eq_dinv4":1,"eps":292788,"eps_eq_(1+d)^2":1,"mu":0,"z":0,"deg":393216,"nterms":54,"c2":1,"pred_hit":0}
+{"m":19,"d":105817,"Tr_d":1,"Tr_inv_d":1,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":19,"d":231459,"Tr_d":0,"Tr_inv_d":0,"perm":1,"apn":-1,"reeval_ok":1,"eps_notin_ImK":1,"pprime_2to1":1,"H":1,"rho":267530,"rho_eq_dinv4":1,"eps":417138,"eps_eq_(1+d)^2":1,"mu":0,"z":0,"deg":393216,"nterms":54,"c2":1,"pred_hit":1}
+{"m":19,"d":59379,"Tr_d":1,"Tr_inv_d":0,"perm":1,"apn":-1,"reeval_ok":1,"eps_notin_ImK":0,"pprime_2to1":1,"H":0,"rho":420803,"rho_eq_dinv4":1,"eps":274634,"eps_eq_(1+d)^2":1,"mu":0,"z":0,"deg":393216,"nterms":54,"c2":1,"pred_hit":0}
+{"m":19,"d":191228,"Tr_d":1,"Tr_inv_d":1,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":19,"d":507945,"Tr_d":0,"Tr_inv_d":0,"perm":1,"apn":-1,"reeval_ok":1,"eps_notin_ImK":1,"pprime_2to1":1,"H":1,"rho":393571,"rho_eq_dinv4":1,"eps":4881,"eps_eq_(1+d)^2":1,"mu":0,"z":0,"deg":393216,"nterms":54,"c2":1,"pred_hit":1}
+{"m":19,"d":449551,"Tr_d":0,"Tr_inv_d":0,"perm":1,"apn":-1,"reeval_ok":1,"eps_notin_ImK":1,"pprime_2to1":1,"H":1,"rho":439967,"rho_eq_dinv4":1,"eps":324243,"eps_eq_(1+d)^2":1,"mu":0,"z":0,"deg":393216,"nterms":54,"c2":1,"pred_hit":1}
+{"m":19,"d":391570,"Tr_d":0,"Tr_inv_d":0,"perm":1,"apn":-1,"reeval_ok":1,"eps_notin_ImK":1,"pprime_2to1":1,"H":1,"rho":338436,"rho_eq_dinv4":1,"eps":180290,"eps_eq_(1+d)^2":1,"mu":0,"z":0,"deg":393216,"nterms":54,"c2":1,"pred_hit":1}
+{"m":19,"d":435937,"Tr_d":0,"Tr_inv_d":0,"perm":1,"apn":-1,"reeval_ok":1,"eps_notin_ImK":1,"pprime_2to1":1,"H":1,"rho":321246,"rho_eq_dinv4":1,"eps":65183,"eps_eq_(1+d)^2":1,"mu":0,"z":0,"deg":393216,"nterms":54,"c2":1,"pred_hit":1}
+{"m":19,"d":373740,"Tr_d":0,"Tr_inv_d":0,"perm":1,"apn":-1,"reeval_ok":1,"eps_notin_ImK":1,"pprime_2to1":1,"H":1,"rho":337256,"rho_eq_dinv4":1,"eps":432686,"eps_eq_(1+d)^2":1,"mu":0,"z":0,"deg":393216,"nterms":54,"c2":1,"pred_hit":1}
+SUMMARY {"m":19,"poly":524327,"tested":12,"agree_with_theorem":12,"hits":6}

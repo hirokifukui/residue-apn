@@ -1,0 +1,513 @@
+{"m":9,"c":0,"Tr_d":0,"Tr_inv_d":-1,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":1,"Tr_d":1,"Tr_inv_d":1,"perm":1,"apn":1,"reeval_ok":1,"eps_notin_ImK":1,"pprime_2to1":1,"H":1,"rho":1,"B(rho)=1,rho!=1":0,"eps":1,"eps_eq_1":1,"mu":0,"z":512,"deg":384,"nterms":13,"c2":1,"pred_hit":0}
+{"m":9,"c":2,"Tr_d":0,"Tr_inv_d":0,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":3,"Tr_d":1,"Tr_inv_d":1,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":4,"Tr_d":0,"Tr_inv_d":0,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":5,"Tr_d":1,"Tr_inv_d":1,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":6,"Tr_d":0,"Tr_inv_d":1,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":7,"Tr_d":1,"Tr_inv_d":1,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":8,"Tr_d":0,"Tr_inv_d":0,"perm":1,"apn":1,"reeval_ok":1,"eps_notin_ImK":1,"pprime_2to1":1,"H":1,"rho":163,"B(rho)=1,rho!=1":1,"eps":1,"eps_eq_1":1,"mu":0,"z":0,"deg":384,"nterms":16,"c2":1,"pred_hit":1}
+{"m":9,"c":9,"Tr_d":1,"Tr_inv_d":0,"perm":1,"apn":1,"reeval_ok":1,"eps_notin_ImK":1,"pprime_2to1":1,"H":1,"rho":412,"B(rho)=1,rho!=1":1,"eps":1,"eps_eq_1":1,"mu":0,"z":0,"deg":384,"nterms":16,"c2":1,"pred_hit":1}
+{"m":9,"c":10,"Tr_d":0,"Tr_inv_d":0,"perm":1,"apn":1,"reeval_ok":1,"eps_notin_ImK":1,"pprime_2to1":1,"H":1,"rho":107,"B(rho)=1,rho!=1":1,"eps":1,"eps_eq_1":1,"mu":0,"z":0,"deg":384,"nterms":16,"c2":1,"pred_hit":1}
+{"m":9,"c":11,"Tr_d":1,"Tr_inv_d":1,"perm":1,"apn":1,"reeval_ok":1,"eps_notin_ImK":1,"pprime_2to1":1,"H":1,"rho":291,"B(rho)=1,rho!=1":1,"eps":1,"eps_eq_1":1,"mu":0,"z":0,"deg":384,"nterms":16,"c2":1,"pred_hit":1}
+{"m":9,"c":12,"Tr_d":0,"Tr_inv_d":1,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":13,"Tr_d":1,"Tr_inv_d":0,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":14,"Tr_d":0,"Tr_inv_d":0,"perm":1,"apn":1,"reeval_ok":1,"eps_notin_ImK":1,"pprime_2to1":1,"H":1,"rho":398,"B(rho)=1,rho!=1":1,"eps":1,"eps_eq_1":1,"mu":0,"z":0,"deg":384,"nterms":16,"c2":1,"pred_hit":1}
+{"m":9,"c":15,"Tr_d":1,"Tr_inv_d":1,"perm":1,"apn":1,"reeval_ok":1,"eps_notin_ImK":1,"pprime_2to1":1,"H":1,"rho":229,"B(rho)=1,rho!=1":1,"eps":1,"eps_eq_1":1,"mu":0,"z":0,"deg":384,"nterms":16,"c2":1,"pred_hit":1}
+{"m":9,"c":16,"Tr_d":0,"Tr_inv_d":0,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":17,"Tr_d":1,"Tr_inv_d":1,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":18,"Tr_d":0,"Tr_inv_d":0,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":19,"Tr_d":1,"Tr_inv_d":0,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":20,"Tr_d":0,"Tr_inv_d":1,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":21,"Tr_d":1,"Tr_inv_d":1,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":22,"Tr_d":0,"Tr_inv_d":1,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":23,"Tr_d":1,"Tr_inv_d":0,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":24,"Tr_d":0,"Tr_inv_d":1,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":25,"Tr_d":1,"Tr_inv_d":0,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":26,"Tr_d":0,"Tr_inv_d":1,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":27,"Tr_d":1,"Tr_inv_d":0,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":28,"Tr_d":0,"Tr_inv_d":1,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":29,"Tr_d":1,"Tr_inv_d":0,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":30,"Tr_d":0,"Tr_inv_d":1,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":31,"Tr_d":1,"Tr_inv_d":1,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":32,"Tr_d":1,"Tr_inv_d":0,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":33,"Tr_d":0,"Tr_inv_d":0,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":34,"Tr_d":1,"Tr_inv_d":0,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":35,"Tr_d":0,"Tr_inv_d":0,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":36,"Tr_d":1,"Tr_inv_d":1,"perm":1,"apn":1,"reeval_ok":1,"eps_notin_ImK":1,"pprime_2to1":1,"H":1,"rho":187,"B(rho)=1,rho!=1":1,"eps":1,"eps_eq_1":1,"mu":0,"z":0,"deg":384,"nterms":16,"c2":1,"pred_hit":1}
+{"m":9,"c":37,"Tr_d":0,"Tr_inv_d":0,"perm":1,"apn":1,"reeval_ok":1,"eps_notin_ImK":1,"pprime_2to1":1,"H":1,"rho":478,"B(rho)=1,rho!=1":1,"eps":1,"eps_eq_1":1,"mu":0,"z":0,"deg":384,"nterms":16,"c2":1,"pred_hit":1}
+{"m":9,"c":38,"Tr_d":1,"Tr_inv_d":0,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":39,"Tr_d":0,"Tr_inv_d":0,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":40,"Tr_d":1,"Tr_inv_d":0,"perm":1,"apn":1,"reeval_ok":1,"eps_notin_ImK":1,"pprime_2to1":1,"H":1,"rho":222,"B(rho)=1,rho!=1":1,"eps":1,"eps_eq_1":1,"mu":0,"z":0,"deg":384,"nterms":16,"c2":1,"pred_hit":1}
+{"m":9,"c":41,"Tr_d":0,"Tr_inv_d":0,"perm":1,"apn":1,"reeval_ok":1,"eps_notin_ImK":1,"pprime_2to1":1,"H":1,"rho":470,"B(rho)=1,rho!=1":1,"eps":1,"eps_eq_1":1,"mu":0,"z":0,"deg":384,"nterms":16,"c2":1,"pred_hit":1}
+{"m":9,"c":42,"Tr_d":1,"Tr_inv_d":0,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":43,"Tr_d":0,"Tr_inv_d":1,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":44,"Tr_d":1,"Tr_inv_d":0,"perm":1,"apn":1,"reeval_ok":1,"eps_notin_ImK":1,"pprime_2to1":1,"H":1,"rho":245,"B(rho)=1,rho!=1":1,"eps":1,"eps_eq_1":1,"mu":0,"z":0,"deg":384,"nterms":16,"c2":1,"pred_hit":1}
+{"m":9,"c":45,"Tr_d":0,"Tr_inv_d":1,"perm":1,"apn":1,"reeval_ok":1,"eps_notin_ImK":1,"pprime_2to1":1,"H":1,"rho":30,"B(rho)=1,rho!=1":1,"eps":1,"eps_eq_1":1,"mu":0,"z":0,"deg":384,"nterms":16,"c2":1,"pred_hit":1}
+{"m":9,"c":46,"Tr_d":1,"Tr_inv_d":1,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":47,"Tr_d":0,"Tr_inv_d":0,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":48,"Tr_d":1,"Tr_inv_d":1,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":49,"Tr_d":0,"Tr_inv_d":0,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":50,"Tr_d":1,"Tr_inv_d":1,"perm":1,"apn":1,"reeval_ok":1,"eps_notin_ImK":1,"pprime_2to1":1,"H":1,"rho":342,"B(rho)=1,rho!=1":1,"eps":1,"eps_eq_1":1,"mu":0,"z":0,"deg":384,"nterms":16,"c2":1,"pred_hit":1}
+{"m":9,"c":51,"Tr_d":0,"Tr_inv_d":0,"perm":1,"apn":1,"reeval_ok":1,"eps_notin_ImK":1,"pprime_2to1":1,"H":1,"rho":297,"B(rho)=1,rho!=1":1,"eps":1,"eps_eq_1":1,"mu":0,"z":0,"deg":384,"nterms":16,"c2":1,"pred_hit":1}
+{"m":9,"c":52,"Tr_d":1,"Tr_inv_d":0,"perm":1,"apn":1,"reeval_ok":1,"eps_notin_ImK":1,"pprime_2to1":1,"H":1,"rho":448,"B(rho)=1,rho!=1":1,"eps":1,"eps_eq_1":1,"mu":0,"z":0,"deg":384,"nterms":16,"c2":1,"pred_hit":1}
+{"m":9,"c":53,"Tr_d":0,"Tr_inv_d":1,"perm":1,"apn":1,"reeval_ok":1,"eps_notin_ImK":1,"pprime_2to1":1,"H":1,"rho":404,"B(rho)=1,rho!=1":1,"eps":1,"eps_eq_1":1,"mu":0,"z":0,"deg":384,"nterms":16,"c2":1,"pred_hit":1}
+{"m":9,"c":54,"Tr_d":1,"Tr_inv_d":0,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":55,"Tr_d":0,"Tr_inv_d":0,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":56,"Tr_d":1,"Tr_inv_d":1,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":57,"Tr_d":0,"Tr_inv_d":1,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":58,"Tr_d":1,"Tr_inv_d":1,"perm":1,"apn":1,"reeval_ok":1,"eps_notin_ImK":1,"pprime_2to1":1,"H":1,"rho":511,"B(rho)=1,rho!=1":1,"eps":1,"eps_eq_1":1,"mu":0,"z":0,"deg":384,"nterms":16,"c2":1,"pred_hit":1}
+{"m":9,"c":59,"Tr_d":0,"Tr_inv_d":0,"perm":1,"apn":1,"reeval_ok":1,"eps_notin_ImK":1,"pprime_2to1":1,"H":1,"rho":253,"B(rho)=1,rho!=1":1,"eps":1,"eps_eq_1":1,"mu":0,"z":0,"deg":384,"nterms":16,"c2":1,"pred_hit":1}
+{"m":9,"c":60,"Tr_d":1,"Tr_inv_d":0,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":61,"Tr_d":0,"Tr_inv_d":1,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":62,"Tr_d":1,"Tr_inv_d":0,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":63,"Tr_d":0,"Tr_inv_d":1,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":64,"Tr_d":0,"Tr_inv_d":0,"perm":1,"apn":1,"reeval_ok":1,"eps_notin_ImK":1,"pprime_2to1":1,"H":1,"rho":22,"B(rho)=1,rho!=1":1,"eps":1,"eps_eq_1":1,"mu":0,"z":0,"deg":384,"nterms":16,"c2":1,"pred_hit":1}
+{"m":9,"c":65,"Tr_d":1,"Tr_inv_d":0,"perm":1,"apn":1,"reeval_ok":1,"eps_notin_ImK":1,"pprime_2to1":1,"H":1,"rho":421,"B(rho)=1,rho!=1":1,"eps":1,"eps_eq_1":1,"mu":0,"z":0,"deg":384,"nterms":16,"c2":1,"pred_hit":1}
+{"m":9,"c":66,"Tr_d":0,"Tr_inv_d":0,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":67,"Tr_d":1,"Tr_inv_d":1,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":68,"Tr_d":0,"Tr_inv_d":0,"perm":1,"apn":1,"reeval_ok":1,"eps_notin_ImK":1,"pprime_2to1":1,"H":1,"rho":239,"B(rho)=1,rho!=1":1,"eps":1,"eps_eq_1":1,"mu":0,"z":0,"deg":384,"nterms":16,"c2":1,"pred_hit":1}
+{"m":9,"c":69,"Tr_d":1,"Tr_inv_d":1,"perm":1,"apn":1,"reeval_ok":1,"eps_notin_ImK":1,"pprime_2to1":1,"H":1,"rho":227,"B(rho)=1,rho!=1":1,"eps":1,"eps_eq_1":1,"mu":0,"z":0,"deg":384,"nterms":16,"c2":1,"pred_hit":1}
+{"m":9,"c":70,"Tr_d":0,"Tr_inv_d":0,"perm":1,"apn":1,"reeval_ok":1,"eps_notin_ImK":1,"pprime_2to1":1,"H":1,"rho":119,"B(rho)=1,rho!=1":1,"eps":1,"eps_eq_1":1,"mu":0,"z":0,"deg":384,"nterms":16,"c2":1,"pred_hit":1}
+{"m":9,"c":71,"Tr_d":1,"Tr_inv_d":0,"perm":1,"apn":1,"reeval_ok":1,"eps_notin_ImK":1,"pprime_2to1":1,"H":1,"rho":84,"B(rho)=1,rho!=1":1,"eps":1,"eps_eq_1":1,"mu":0,"z":0,"deg":384,"nterms":16,"c2":1,"pred_hit":1}
+{"m":9,"c":72,"Tr_d":0,"Tr_inv_d":0,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":73,"Tr_d":1,"Tr_inv_d":0,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":74,"Tr_d":0,"Tr_inv_d":0,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":75,"Tr_d":1,"Tr_inv_d":0,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":76,"Tr_d":0,"Tr_inv_d":1,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":77,"Tr_d":1,"Tr_inv_d":0,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":78,"Tr_d":0,"Tr_inv_d":1,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":79,"Tr_d":1,"Tr_inv_d":1,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":80,"Tr_d":0,"Tr_inv_d":1,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":81,"Tr_d":1,"Tr_inv_d":0,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":82,"Tr_d":0,"Tr_inv_d":0,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":83,"Tr_d":1,"Tr_inv_d":1,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":84,"Tr_d":0,"Tr_inv_d":0,"perm":1,"apn":1,"reeval_ok":1,"eps_notin_ImK":1,"pprime_2to1":1,"H":1,"rho":161,"B(rho)=1,rho!=1":1,"eps":1,"eps_eq_1":1,"mu":0,"z":0,"deg":384,"nterms":16,"c2":1,"pred_hit":1}
+{"m":9,"c":85,"Tr_d":1,"Tr_inv_d":1,"perm":1,"apn":1,"reeval_ok":1,"eps_notin_ImK":1,"pprime_2to1":1,"H":1,"rho":138,"B(rho)=1,rho!=1":1,"eps":1,"eps_eq_1":1,"mu":0,"z":0,"deg":384,"nterms":16,"c2":1,"pred_hit":1}
+{"m":9,"c":86,"Tr_d":0,"Tr_inv_d":0,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":87,"Tr_d":1,"Tr_inv_d":1,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":88,"Tr_d":0,"Tr_inv_d":1,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":89,"Tr_d":1,"Tr_inv_d":0,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":90,"Tr_d":0,"Tr_inv_d":1,"perm":1,"apn":1,"reeval_ok":1,"eps_notin_ImK":1,"pprime_2to1":1,"H":1,"rho":220,"B(rho)=1,rho!=1":1,"eps":1,"eps_eq_1":1,"mu":0,"z":0,"deg":384,"nterms":16,"c2":1,"pred_hit":1}
+{"m":9,"c":91,"Tr_d":1,"Tr_inv_d":0,"perm":1,"apn":1,"reeval_ok":1,"eps_notin_ImK":1,"pprime_2to1":1,"H":1,"rho":282,"B(rho)=1,rho!=1":1,"eps":1,"eps_eq_1":1,"mu":0,"z":0,"deg":384,"nterms":16,"c2":1,"pred_hit":1}
+{"m":9,"c":92,"Tr_d":0,"Tr_inv_d":1,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":93,"Tr_d":1,"Tr_inv_d":0,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":94,"Tr_d":0,"Tr_inv_d":1,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":95,"Tr_d":1,"Tr_inv_d":1,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":96,"Tr_d":1,"Tr_inv_d":1,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":97,"Tr_d":0,"Tr_inv_d":0,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":98,"Tr_d":1,"Tr_inv_d":0,"perm":1,"apn":1,"reeval_ok":1,"eps_notin_ImK":1,"pprime_2to1":1,"H":1,"rho":493,"B(rho)=1,rho!=1":1,"eps":1,"eps_eq_1":1,"mu":0,"z":0,"deg":384,"nterms":16,"c2":1,"pred_hit":1}
+{"m":9,"c":99,"Tr_d":0,"Tr_inv_d":0,"perm":1,"apn":1,"reeval_ok":1,"eps_notin_ImK":1,"pprime_2to1":1,"H":1,"rho":361,"B(rho)=1,rho!=1":1,"eps":1,"eps_eq_1":1,"mu":0,"z":0,"deg":384,"nterms":16,"c2":1,"pred_hit":1}
+{"m":9,"c":100,"Tr_d":1,"Tr_inv_d":1,"perm":1,"apn":1,"reeval_ok":1,"eps_notin_ImK":1,"pprime_2to1":1,"H":1,"rho":322,"B(rho)=1,rho!=1":1,"eps":1,"eps_eq_1":1,"mu":0,"z":0,"deg":384,"nterms":16,"c2":1,"pred_hit":1}
+{"m":9,"c":101,"Tr_d":0,"Tr_inv_d":1,"perm":1,"apn":1,"reeval_ok":1,"eps_notin_ImK":1,"pprime_2to1":1,"H":1,"rho":61,"B(rho)=1,rho!=1":1,"eps":1,"eps_eq_1":1,"mu":0,"z":0,"deg":384,"nterms":16,"c2":1,"pred_hit":1}
+{"m":9,"c":102,"Tr_d":1,"Tr_inv_d":0,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":103,"Tr_d":0,"Tr_inv_d":1,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":104,"Tr_d":1,"Tr_inv_d":1,"perm":1,"apn":1,"reeval_ok":1,"eps_notin_ImK":1,"pprime_2to1":1,"H":1,"rho":497,"B(rho)=1,rho!=1":1,"eps":1,"eps_eq_1":1,"mu":0,"z":0,"deg":384,"nterms":16,"c2":1,"pred_hit":1}
+{"m":9,"c":105,"Tr_d":0,"Tr_inv_d":0,"perm":1,"apn":1,"reeval_ok":1,"eps_notin_ImK":1,"pprime_2to1":1,"H":1,"rho":425,"B(rho)=1,rho!=1":1,"eps":1,"eps_eq_1":1,"mu":0,"z":0,"deg":384,"nterms":16,"c2":1,"pred_hit":1}
+{"m":9,"c":106,"Tr_d":1,"Tr_inv_d":1,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":107,"Tr_d":0,"Tr_inv_d":1,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":108,"Tr_d":1,"Tr_inv_d":1,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":109,"Tr_d":0,"Tr_inv_d":1,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":110,"Tr_d":1,"Tr_inv_d":0,"perm":1,"apn":1,"reeval_ok":1,"eps_notin_ImK":1,"pprime_2to1":1,"H":1,"rho":454,"B(rho)=1,rho!=1":1,"eps":1,"eps_eq_1":1,"mu":0,"z":0,"deg":384,"nterms":16,"c2":1,"pred_hit":1}
+{"m":9,"c":111,"Tr_d":0,"Tr_inv_d":0,"perm":1,"apn":1,"reeval_ok":1,"eps_notin_ImK":1,"pprime_2to1":1,"H":1,"rho":241,"B(rho)=1,rho!=1":1,"eps":1,"eps_eq_1":1,"mu":0,"z":0,"deg":384,"nterms":16,"c2":1,"pred_hit":1}
+{"m":9,"c":112,"Tr_d":1,"Tr_inv_d":0,"perm":1,"apn":1,"reeval_ok":1,"eps_notin_ImK":1,"pprime_2to1":1,"H":1,"rho":173,"B(rho)=1,rho!=1":1,"eps":1,"eps_eq_1":1,"mu":0,"z":0,"deg":384,"nterms":16,"c2":1,"pred_hit":1}
+{"m":9,"c":113,"Tr_d":0,"Tr_inv_d":0,"perm":1,"apn":1,"reeval_ok":1,"eps_notin_ImK":1,"pprime_2to1":1,"H":1,"rho":468,"B(rho)=1,rho!=1":1,"eps":1,"eps_eq_1":1,"mu":0,"z":0,"deg":384,"nterms":16,"c2":1,"pred_hit":1}
+{"m":9,"c":114,"Tr_d":1,"Tr_inv_d":0,"perm":1,"apn":1,"reeval_ok":1,"eps_notin_ImK":1,"pprime_2to1":1,"H":1,"rho":394,"B(rho)=1,rho!=1":1,"eps":1,"eps_eq_1":1,"mu":0,"z":0,"deg":384,"nterms":16,"c2":1,"pred_hit":1}
+{"m":9,"c":115,"Tr_d":0,"Tr_inv_d":1,"perm":1,"apn":1,"reeval_ok":1,"eps_notin_ImK":1,"pprime_2to1":1,"H":1,"rho":340,"B(rho)=1,rho!=1":1,"eps":1,"eps_eq_1":1,"mu":0,"z":0,"deg":384,"nterms":16,"c2":1,"pred_hit":1}
+{"m":9,"c":116,"Tr_d":1,"Tr_inv_d":1,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":117,"Tr_d":0,"Tr_inv_d":1,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":118,"Tr_d":1,"Tr_inv_d":1,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":119,"Tr_d":0,"Tr_inv_d":0,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":120,"Tr_d":1,"Tr_inv_d":0,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":121,"Tr_d":0,"Tr_inv_d":1,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":122,"Tr_d":1,"Tr_inv_d":1,"perm":1,"apn":1,"reeval_ok":1,"eps_notin_ImK":1,"pprime_2to1":1,"H":1,"rho":128,"B(rho)=1,rho!=1":1,"eps":1,"eps_eq_1":1,"mu":0,"z":0,"deg":384,"nterms":16,"c2":1,"pred_hit":1}
+{"m":9,"c":123,"Tr_d":0,"Tr_inv_d":0,"perm":1,"apn":1,"reeval_ok":1,"eps_notin_ImK":1,"pprime_2to1":1,"H":1,"rho":57,"B(rho)=1,rho!=1":1,"eps":1,"eps_eq_1":1,"mu":0,"z":0,"deg":384,"nterms":16,"c2":1,"pred_hit":1}
+{"m":9,"c":124,"Tr_d":1,"Tr_inv_d":0,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":125,"Tr_d":0,"Tr_inv_d":1,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":126,"Tr_d":1,"Tr_inv_d":1,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":127,"Tr_d":0,"Tr_inv_d":0,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":128,"Tr_d":0,"Tr_inv_d":0,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":129,"Tr_d":1,"Tr_inv_d":1,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":130,"Tr_d":0,"Tr_inv_d":1,"perm":1,"apn":1,"reeval_ok":1,"eps_notin_ImK":1,"pprime_2to1":1,"H":1,"rho":284,"B(rho)=1,rho!=1":1,"eps":1,"eps_eq_1":1,"mu":0,"z":0,"deg":384,"nterms":16,"c2":1,"pred_hit":1}
+{"m":9,"c":131,"Tr_d":1,"Tr_inv_d":0,"perm":1,"apn":1,"reeval_ok":1,"eps_notin_ImK":1,"pprime_2to1":1,"H":1,"rho":274,"B(rho)=1,rho!=1":1,"eps":1,"eps_eq_1":1,"mu":0,"z":0,"deg":384,"nterms":16,"c2":1,"pred_hit":1}
+{"m":9,"c":132,"Tr_d":0,"Tr_inv_d":0,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":133,"Tr_d":1,"Tr_inv_d":0,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":134,"Tr_d":0,"Tr_inv_d":0,"perm":1,"apn":1,"reeval_ok":1,"eps_notin_ImK":1,"pprime_2to1":1,"H":1,"rho":251,"B(rho)=1,rho!=1":1,"eps":1,"eps_eq_1":1,"mu":0,"z":0,"deg":384,"nterms":16,"c2":1,"pred_hit":1}
+{"m":9,"c":135,"Tr_d":1,"Tr_inv_d":1,"perm":1,"apn":1,"reeval_ok":1,"eps_notin_ImK":1,"pprime_2to1":1,"H":1,"rho":101,"B(rho)=1,rho!=1":1,"eps":1,"eps_eq_1":1,"mu":0,"z":0,"deg":384,"nterms":16,"c2":1,"pred_hit":1}
+{"m":9,"c":136,"Tr_d":0,"Tr_inv_d":0,"perm":1,"apn":1,"reeval_ok":1,"eps_notin_ImK":1,"pprime_2to1":1,"H":1,"rho":276,"B(rho)=1,rho!=1":1,"eps":1,"eps_eq_1":1,"mu":0,"z":0,"deg":384,"nterms":16,"c2":1,"pred_hit":1}
+{"m":9,"c":137,"Tr_d":1,"Tr_inv_d":0,"perm":1,"apn":1,"reeval_ok":1,"eps_notin_ImK":1,"pprime_2to1":1,"H":1,"rho":198,"B(rho)=1,rho!=1":1,"eps":1,"eps_eq_1":1,"mu":0,"z":0,"deg":384,"nterms":16,"c2":1,"pred_hit":1}
+{"m":9,"c":138,"Tr_d":0,"Tr_inv_d":1,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":139,"Tr_d":1,"Tr_inv_d":1,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":140,"Tr_d":0,"Tr_inv_d":0,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":141,"Tr_d":1,"Tr_inv_d":1,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":142,"Tr_d":0,"Tr_inv_d":1,"perm":1,"apn":1,"reeval_ok":1,"eps_notin_ImK":1,"pprime_2to1":1,"H":1,"rho":456,"B(rho)=1,rho!=1":1,"eps":1,"eps_eq_1":1,"mu":0,"z":0,"deg":384,"nterms":16,"c2":1,"pred_hit":1}
+{"m":9,"c":143,"Tr_d":1,"Tr_inv_d":1,"perm":1,"apn":1,"reeval_ok":1,"eps_notin_ImK":1,"pprime_2to1":1,"H":1,"rho":189,"B(rho)=1,rho!=1":1,"eps":1,"eps_eq_1":1,"mu":0,"z":0,"deg":384,"nterms":16,"c2":1,"pred_hit":1}
+{"m":9,"c":144,"Tr_d":0,"Tr_inv_d":0,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":145,"Tr_d":1,"Tr_inv_d":0,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":146,"Tr_d":0,"Tr_inv_d":0,"perm":1,"apn":1,"reeval_ok":1,"eps_notin_ImK":1,"pprime_2to1":1,"H":1,"rho":63,"B(rho)=1,rho!=1":1,"eps":1,"eps_eq_1":1,"mu":0,"z":0,"deg":384,"nterms":16,"c2":1,"pred_hit":1}
+{"m":9,"c":147,"Tr_d":1,"Tr_inv_d":0,"perm":1,"apn":1,"reeval_ok":1,"eps_notin_ImK":1,"pprime_2to1":1,"H":1,"rho":140,"B(rho)=1,rho!=1":1,"eps":1,"eps_eq_1":1,"mu":0,"z":0,"deg":384,"nterms":16,"c2":1,"pred_hit":1}
+{"m":9,"c":148,"Tr_d":0,"Tr_inv_d":1,"perm":1,"apn":1,"reeval_ok":1,"eps_notin_ImK":1,"pprime_2to1":1,"H":1,"rho":191,"B(rho)=1,rho!=1":1,"eps":1,"eps_eq_1":1,"mu":0,"z":0,"deg":384,"nterms":16,"c2":1,"pred_hit":1}
+{"m":9,"c":149,"Tr_d":1,"Tr_inv_d":1,"perm":1,"apn":1,"reeval_ok":1,"eps_notin_ImK":1,"pprime_2to1":1,"H":1,"rho":313,"B(rho)=1,rho!=1":1,"eps":1,"eps_eq_1":1,"mu":0,"z":0,"deg":384,"nterms":16,"c2":1,"pred_hit":1}
+{"m":9,"c":150,"Tr_d":0,"Tr_inv_d":0,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":151,"Tr_d":1,"Tr_inv_d":0,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":152,"Tr_d":0,"Tr_inv_d":0,"perm":1,"apn":1,"reeval_ok":1,"eps_notin_ImK":1,"pprime_2to1":1,"H":1,"rho":206,"B(rho)=1,rho!=1":1,"eps":1,"eps_eq_1":1,"mu":0,"z":0,"deg":384,"nterms":16,"c2":1,"pred_hit":1}
+{"m":9,"c":153,"Tr_d":1,"Tr_inv_d":1,"perm":1,"apn":1,"reeval_ok":1,"eps_notin_ImK":1,"pprime_2to1":1,"H":1,"rho":158,"B(rho)=1,rho!=1":1,"eps":1,"eps_eq_1":1,"mu":0,"z":0,"deg":384,"nterms":16,"c2":1,"pred_hit":1}
+{"m":9,"c":154,"Tr_d":0,"Tr_inv_d":1,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":155,"Tr_d":1,"Tr_inv_d":1,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":156,"Tr_d":0,"Tr_inv_d":0,"perm":1,"apn":1,"reeval_ok":1,"eps_notin_ImK":1,"pprime_2to1":1,"H":1,"rho":447,"B(rho)=1,rho!=1":1,"eps":1,"eps_eq_1":1,"mu":0,"z":0,"deg":384,"nterms":16,"c2":1,"pred_hit":1}
+{"m":9,"c":157,"Tr_d":1,"Tr_inv_d":0,"perm":1,"apn":1,"reeval_ok":1,"eps_notin_ImK":1,"pprime_2to1":1,"H":1,"rho":408,"B(rho)=1,rho!=1":1,"eps":1,"eps_eq_1":1,"mu":0,"z":0,"deg":384,"nterms":16,"c2":1,"pred_hit":1}
+{"m":9,"c":158,"Tr_d":0,"Tr_inv_d":0,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":159,"Tr_d":1,"Tr_inv_d":1,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":160,"Tr_d":1,"Tr_inv_d":0,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":161,"Tr_d":0,"Tr_inv_d":0,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":162,"Tr_d":1,"Tr_inv_d":0,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":163,"Tr_d":0,"Tr_inv_d":1,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":164,"Tr_d":1,"Tr_inv_d":1,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":165,"Tr_d":0,"Tr_inv_d":0,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":166,"Tr_d":1,"Tr_inv_d":1,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":167,"Tr_d":0,"Tr_inv_d":1,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":168,"Tr_d":1,"Tr_inv_d":1,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":169,"Tr_d":0,"Tr_inv_d":0,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":170,"Tr_d":1,"Tr_inv_d":1,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":171,"Tr_d":0,"Tr_inv_d":0,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":172,"Tr_d":1,"Tr_inv_d":1,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":173,"Tr_d":0,"Tr_inv_d":0,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":174,"Tr_d":1,"Tr_inv_d":0,"perm":1,"apn":1,"reeval_ok":1,"eps_notin_ImK":1,"pprime_2to1":1,"H":1,"rho":14,"B(rho)=1,rho!=1":1,"eps":1,"eps_eq_1":1,"mu":0,"z":0,"deg":384,"nterms":16,"c2":1,"pred_hit":1}
+{"m":9,"c":175,"Tr_d":0,"Tr_inv_d":0,"perm":1,"apn":1,"reeval_ok":1,"eps_notin_ImK":1,"pprime_2to1":1,"H":1,"rho":47,"B(rho)=1,rho!=1":1,"eps":1,"eps_eq_1":1,"mu":0,"z":0,"deg":384,"nterms":16,"c2":1,"pred_hit":1}
+{"m":9,"c":176,"Tr_d":1,"Tr_inv_d":0,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":177,"Tr_d":0,"Tr_inv_d":1,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":178,"Tr_d":1,"Tr_inv_d":0,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":179,"Tr_d":0,"Tr_inv_d":0,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":180,"Tr_d":1,"Tr_inv_d":0,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":181,"Tr_d":0,"Tr_inv_d":1,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":182,"Tr_d":1,"Tr_inv_d":1,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":183,"Tr_d":0,"Tr_inv_d":1,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":184,"Tr_d":1,"Tr_inv_d":0,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":185,"Tr_d":0,"Tr_inv_d":1,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":186,"Tr_d":1,"Tr_inv_d":1,"perm":1,"apn":1,"reeval_ok":1,"eps_notin_ImK":1,"pprime_2to1":1,"H":1,"rho":72,"B(rho)=1,rho!=1":1,"eps":1,"eps_eq_1":1,"mu":0,"z":0,"deg":384,"nterms":16,"c2":1,"pred_hit":1}
+{"m":9,"c":187,"Tr_d":0,"Tr_inv_d":1,"perm":1,"apn":1,"reeval_ok":1,"eps_notin_ImK":1,"pprime_2to1":1,"H":1,"rho":371,"B(rho)=1,rho!=1":1,"eps":1,"eps_eq_1":1,"mu":0,"z":0,"deg":384,"nterms":16,"c2":1,"pred_hit":1}
+{"m":9,"c":188,"Tr_d":1,"Tr_inv_d":0,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":189,"Tr_d":0,"Tr_inv_d":0,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":190,"Tr_d":1,"Tr_inv_d":0,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":191,"Tr_d":0,"Tr_inv_d":1,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":192,"Tr_d":0,"Tr_inv_d":1,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":193,"Tr_d":1,"Tr_inv_d":0,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":194,"Tr_d":0,"Tr_inv_d":0,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":195,"Tr_d":1,"Tr_inv_d":0,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":196,"Tr_d":0,"Tr_inv_d":0,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":197,"Tr_d":1,"Tr_inv_d":1,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":198,"Tr_d":0,"Tr_inv_d":0,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":199,"Tr_d":1,"Tr_inv_d":1,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":200,"Tr_d":0,"Tr_inv_d":0,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":201,"Tr_d":1,"Tr_inv_d":0,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":202,"Tr_d":0,"Tr_inv_d":1,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":203,"Tr_d":1,"Tr_inv_d":1,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":204,"Tr_d":0,"Tr_inv_d":0,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":205,"Tr_d":1,"Tr_inv_d":0,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":206,"Tr_d":0,"Tr_inv_d":1,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":207,"Tr_d":1,"Tr_inv_d":1,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":208,"Tr_d":0,"Tr_inv_d":1,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":209,"Tr_d":1,"Tr_inv_d":1,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":210,"Tr_d":0,"Tr_inv_d":1,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":211,"Tr_d":1,"Tr_inv_d":1,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":212,"Tr_d":0,"Tr_inv_d":0,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":213,"Tr_d":1,"Tr_inv_d":0,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":214,"Tr_d":0,"Tr_inv_d":0,"perm":1,"apn":1,"reeval_ok":1,"eps_notin_ImK":1,"pprime_2to1":1,"H":1,"rho":452,"B(rho)=1,rho!=1":1,"eps":1,"eps_eq_1":1,"mu":0,"z":0,"deg":384,"nterms":16,"c2":1,"pred_hit":1}
+{"m":9,"c":215,"Tr_d":1,"Tr_inv_d":1,"perm":1,"apn":1,"reeval_ok":1,"eps_notin_ImK":1,"pprime_2to1":1,"H":1,"rho":231,"B(rho)=1,rho!=1":1,"eps":1,"eps_eq_1":1,"mu":0,"z":0,"deg":384,"nterms":16,"c2":1,"pred_hit":1}
+{"m":9,"c":216,"Tr_d":0,"Tr_inv_d":1,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":217,"Tr_d":1,"Tr_inv_d":0,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":218,"Tr_d":0,"Tr_inv_d":0,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":219,"Tr_d":1,"Tr_inv_d":0,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":220,"Tr_d":0,"Tr_inv_d":1,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":221,"Tr_d":1,"Tr_inv_d":1,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":222,"Tr_d":0,"Tr_inv_d":0,"perm":1,"apn":1,"reeval_ok":1,"eps_notin_ImK":1,"pprime_2to1":1,"H":1,"rho":293,"B(rho)=1,rho!=1":1,"eps":1,"eps_eq_1":1,"mu":0,"z":0,"deg":384,"nterms":16,"c2":1,"pred_hit":1}
+{"m":9,"c":223,"Tr_d":1,"Tr_inv_d":1,"perm":1,"apn":1,"reeval_ok":1,"eps_notin_ImK":1,"pprime_2to1":1,"H":1,"rho":280,"B(rho)=1,rho!=1":1,"eps":1,"eps_eq_1":1,"mu":0,"z":0,"deg":384,"nterms":16,"c2":1,"pred_hit":1}
+{"m":9,"c":224,"Tr_d":1,"Tr_inv_d":1,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":225,"Tr_d":0,"Tr_inv_d":1,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":226,"Tr_d":1,"Tr_inv_d":1,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":227,"Tr_d":0,"Tr_inv_d":0,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":228,"Tr_d":1,"Tr_inv_d":1,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":229,"Tr_d":0,"Tr_inv_d":1,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":230,"Tr_d":1,"Tr_inv_d":1,"perm":1,"apn":1,"reeval_ok":1,"eps_notin_ImK":1,"pprime_2to1":1,"H":1,"rho":194,"B(rho)=1,rho!=1":1,"eps":1,"eps_eq_1":1,"mu":0,"z":0,"deg":384,"nterms":16,"c2":1,"pred_hit":1}
+{"m":9,"c":231,"Tr_d":0,"Tr_inv_d":1,"perm":1,"apn":1,"reeval_ok":1,"eps_notin_ImK":1,"pprime_2to1":1,"H":1,"rho":88,"B(rho)=1,rho!=1":1,"eps":1,"eps_eq_1":1,"mu":0,"z":0,"deg":384,"nterms":16,"c2":1,"pred_hit":1}
+{"m":9,"c":232,"Tr_d":1,"Tr_inv_d":0,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":233,"Tr_d":0,"Tr_inv_d":0,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":234,"Tr_d":1,"Tr_inv_d":1,"perm":1,"apn":1,"reeval_ok":1,"eps_notin_ImK":1,"pprime_2to1":1,"H":1,"rho":350,"B(rho)=1,rho!=1":1,"eps":1,"eps_eq_1":1,"mu":0,"z":0,"deg":384,"nterms":16,"c2":1,"pred_hit":1}
+{"m":9,"c":235,"Tr_d":0,"Tr_inv_d":0,"perm":1,"apn":1,"reeval_ok":1,"eps_notin_ImK":1,"pprime_2to1":1,"H":1,"rho":150,"B(rho)=1,rho!=1":1,"eps":1,"eps_eq_1":1,"mu":0,"z":0,"deg":384,"nterms":16,"c2":1,"pred_hit":1}
+{"m":9,"c":236,"Tr_d":1,"Tr_inv_d":1,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":237,"Tr_d":0,"Tr_inv_d":1,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":238,"Tr_d":1,"Tr_inv_d":1,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":239,"Tr_d":0,"Tr_inv_d":1,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":240,"Tr_d":1,"Tr_inv_d":1,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":241,"Tr_d":0,"Tr_inv_d":0,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":242,"Tr_d":1,"Tr_inv_d":1,"perm":1,"apn":1,"reeval_ok":1,"eps_notin_ImK":1,"pprime_2to1":1,"H":1,"rho":268,"B(rho)=1,rho!=1":1,"eps":1,"eps_eq_1":1,"mu":0,"z":0,"deg":384,"nterms":16,"c2":1,"pred_hit":1}
+{"m":9,"c":243,"Tr_d":0,"Tr_inv_d":0,"perm":1,"apn":1,"reeval_ok":1,"eps_notin_ImK":1,"pprime_2to1":1,"H":1,"rho":6,"B(rho)=1,rho!=1":1,"eps":1,"eps_eq_1":1,"mu":0,"z":0,"deg":384,"nterms":16,"c2":1,"pred_hit":1}
+{"m":9,"c":244,"Tr_d":1,"Tr_inv_d":0,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":245,"Tr_d":0,"Tr_inv_d":1,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":246,"Tr_d":1,"Tr_inv_d":0,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":247,"Tr_d":0,"Tr_inv_d":0,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":248,"Tr_d":1,"Tr_inv_d":0,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":249,"Tr_d":0,"Tr_inv_d":0,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":250,"Tr_d":1,"Tr_inv_d":1,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":251,"Tr_d":0,"Tr_inv_d":1,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":252,"Tr_d":1,"Tr_inv_d":1,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":253,"Tr_d":0,"Tr_inv_d":1,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":254,"Tr_d":1,"Tr_inv_d":0,"perm":1,"apn":1,"reeval_ok":1,"eps_notin_ImK":1,"pprime_2to1":1,"H":1,"rho":105,"B(rho)=1,rho!=1":1,"eps":1,"eps_eq_1":1,"mu":0,"z":0,"deg":384,"nterms":16,"c2":1,"pred_hit":1}
+{"m":9,"c":255,"Tr_d":0,"Tr_inv_d":0,"perm":1,"apn":1,"reeval_ok":1,"eps_notin_ImK":1,"pprime_2to1":1,"H":1,"rho":410,"B(rho)=1,rho!=1":1,"eps":1,"eps_eq_1":1,"mu":0,"z":0,"deg":384,"nterms":16,"c2":1,"pred_hit":1}
+{"m":9,"c":256,"Tr_d":0,"Tr_inv_d":0,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":257,"Tr_d":1,"Tr_inv_d":1,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":258,"Tr_d":0,"Tr_inv_d":1,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":259,"Tr_d":1,"Tr_inv_d":0,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":260,"Tr_d":0,"Tr_inv_d":0,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":261,"Tr_d":1,"Tr_inv_d":0,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":262,"Tr_d":0,"Tr_inv_d":1,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":263,"Tr_d":1,"Tr_inv_d":1,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":264,"Tr_d":0,"Tr_inv_d":0,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":265,"Tr_d":1,"Tr_inv_d":0,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":266,"Tr_d":0,"Tr_inv_d":0,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":267,"Tr_d":1,"Tr_inv_d":1,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":268,"Tr_d":0,"Tr_inv_d":1,"perm":1,"apn":1,"reeval_ok":1,"eps_notin_ImK":1,"pprime_2to1":1,"H":1,"rho":103,"B(rho)=1,rho!=1":1,"eps":1,"eps_eq_1":1,"mu":0,"z":0,"deg":384,"nterms":16,"c2":1,"pred_hit":1}
+{"m":9,"c":269,"Tr_d":1,"Tr_inv_d":1,"perm":1,"apn":1,"reeval_ok":1,"eps_notin_ImK":1,"pprime_2to1":1,"H":1,"rho":474,"B(rho)=1,rho!=1":1,"eps":1,"eps_eq_1":1,"mu":0,"z":0,"deg":384,"nterms":16,"c2":1,"pred_hit":1}
+{"m":9,"c":270,"Tr_d":0,"Tr_inv_d":0,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":271,"Tr_d":1,"Tr_inv_d":0,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":272,"Tr_d":0,"Tr_inv_d":1,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":273,"Tr_d":1,"Tr_inv_d":1,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":274,"Tr_d":0,"Tr_inv_d":1,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":275,"Tr_d":1,"Tr_inv_d":0,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":276,"Tr_d":0,"Tr_inv_d":1,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":277,"Tr_d":1,"Tr_inv_d":0,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":278,"Tr_d":0,"Tr_inv_d":0,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":279,"Tr_d":1,"Tr_inv_d":0,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":280,"Tr_d":0,"Tr_inv_d":1,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":281,"Tr_d":1,"Tr_inv_d":1,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":282,"Tr_d":0,"Tr_inv_d":1,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":283,"Tr_d":1,"Tr_inv_d":0,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":284,"Tr_d":0,"Tr_inv_d":1,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":285,"Tr_d":1,"Tr_inv_d":1,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":286,"Tr_d":0,"Tr_inv_d":1,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":287,"Tr_d":1,"Tr_inv_d":0,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":288,"Tr_d":1,"Tr_inv_d":1,"perm":1,"apn":1,"reeval_ok":1,"eps_notin_ImK":1,"pprime_2to1":1,"H":1,"rho":423,"B(rho)=1,rho!=1":1,"eps":1,"eps_eq_1":1,"mu":0,"z":0,"deg":384,"nterms":16,"c2":1,"pred_hit":1}
+{"m":9,"c":289,"Tr_d":0,"Tr_inv_d":1,"perm":1,"apn":1,"reeval_ok":1,"eps_notin_ImK":1,"pprime_2to1":1,"H":1,"rho":326,"B(rho)=1,rho!=1":1,"eps":1,"eps_eq_1":1,"mu":0,"z":0,"deg":384,"nterms":16,"c2":1,"pred_hit":1}
+{"m":9,"c":290,"Tr_d":1,"Tr_inv_d":1,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":291,"Tr_d":0,"Tr_inv_d":0,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":292,"Tr_d":1,"Tr_inv_d":0,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":293,"Tr_d":0,"Tr_inv_d":0,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":294,"Tr_d":1,"Tr_inv_d":1,"perm":1,"apn":1,"reeval_ok":1,"eps_notin_ImK":1,"pprime_2to1":1,"H":1,"rho":344,"B(rho)=1,rho!=1":1,"eps":1,"eps_eq_1":1,"mu":0,"z":0,"deg":384,"nterms":16,"c2":1,"pred_hit":1}
+{"m":9,"c":295,"Tr_d":0,"Tr_inv_d":0,"perm":1,"apn":1,"reeval_ok":1,"eps_notin_ImK":1,"pprime_2to1":1,"H":1,"rho":167,"B(rho)=1,rho!=1":1,"eps":1,"eps_eq_1":1,"mu":0,"z":0,"deg":384,"nterms":16,"c2":1,"pred_hit":1}
+{"m":9,"c":296,"Tr_d":1,"Tr_inv_d":1,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":297,"Tr_d":0,"Tr_inv_d":1,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":298,"Tr_d":1,"Tr_inv_d":0,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":299,"Tr_d":0,"Tr_inv_d":1,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":300,"Tr_d":1,"Tr_inv_d":1,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":301,"Tr_d":0,"Tr_inv_d":1,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":302,"Tr_d":1,"Tr_inv_d":0,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":303,"Tr_d":0,"Tr_inv_d":0,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":304,"Tr_d":1,"Tr_inv_d":0,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":305,"Tr_d":0,"Tr_inv_d":0,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":306,"Tr_d":1,"Tr_inv_d":0,"perm":1,"apn":1,"reeval_ok":1,"eps_notin_ImK":1,"pprime_2to1":1,"H":1,"rho":125,"B(rho)=1,rho!=1":1,"eps":1,"eps_eq_1":1,"mu":0,"z":0,"deg":384,"nterms":16,"c2":1,"pred_hit":1}
+{"m":9,"c":307,"Tr_d":0,"Tr_inv_d":1,"perm":1,"apn":1,"reeval_ok":1,"eps_notin_ImK":1,"pprime_2to1":1,"H":1,"rho":485,"B(rho)=1,rho!=1":1,"eps":1,"eps_eq_1":1,"mu":0,"z":0,"deg":384,"nterms":16,"c2":1,"pred_hit":1}
+{"m":9,"c":308,"Tr_d":1,"Tr_inv_d":0,"perm":1,"apn":1,"reeval_ok":1,"eps_notin_ImK":1,"pprime_2to1":1,"H":1,"rho":97,"B(rho)=1,rho!=1":1,"eps":1,"eps_eq_1":1,"mu":0,"z":0,"deg":384,"nterms":16,"c2":1,"pred_hit":1}
+{"m":9,"c":309,"Tr_d":0,"Tr_inv_d":0,"perm":1,"apn":1,"reeval_ok":1,"eps_notin_ImK":1,"pprime_2to1":1,"H":1,"rho":375,"B(rho)=1,rho!=1":1,"eps":1,"eps_eq_1":1,"mu":0,"z":0,"deg":384,"nterms":16,"c2":1,"pred_hit":1}
+{"m":9,"c":310,"Tr_d":1,"Tr_inv_d":0,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":311,"Tr_d":0,"Tr_inv_d":0,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":312,"Tr_d":1,"Tr_inv_d":0,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":313,"Tr_d":0,"Tr_inv_d":0,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":314,"Tr_d":1,"Tr_inv_d":1,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":315,"Tr_d":0,"Tr_inv_d":1,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":316,"Tr_d":1,"Tr_inv_d":0,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":317,"Tr_d":0,"Tr_inv_d":1,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":318,"Tr_d":1,"Tr_inv_d":0,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":319,"Tr_d":0,"Tr_inv_d":0,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":320,"Tr_d":0,"Tr_inv_d":1,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":321,"Tr_d":1,"Tr_inv_d":0,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":322,"Tr_d":0,"Tr_inv_d":0,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":323,"Tr_d":1,"Tr_inv_d":0,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":324,"Tr_d":0,"Tr_inv_d":1,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":325,"Tr_d":1,"Tr_inv_d":0,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":326,"Tr_d":0,"Tr_inv_d":1,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":327,"Tr_d":1,"Tr_inv_d":0,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":328,"Tr_d":0,"Tr_inv_d":1,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":329,"Tr_d":1,"Tr_inv_d":0,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":330,"Tr_d":0,"Tr_inv_d":0,"perm":1,"apn":1,"reeval_ok":1,"eps_notin_ImK":1,"pprime_2to1":1,"H":1,"rho":299,"B(rho)=1,rho!=1":1,"eps":1,"eps_eq_1":1,"mu":0,"z":0,"deg":384,"nterms":16,"c2":1,"pred_hit":1}
+{"m":9,"c":331,"Tr_d":1,"Tr_inv_d":0,"perm":1,"apn":1,"reeval_ok":1,"eps_notin_ImK":1,"pprime_2to1":1,"H":1,"rho":86,"B(rho)=1,rho!=1":1,"eps":1,"eps_eq_1":1,"mu":0,"z":0,"deg":384,"nterms":16,"c2":1,"pred_hit":1}
+{"m":9,"c":332,"Tr_d":0,"Tr_inv_d":1,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":333,"Tr_d":1,"Tr_inv_d":0,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":334,"Tr_d":0,"Tr_inv_d":1,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":335,"Tr_d":1,"Tr_inv_d":0,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":336,"Tr_d":0,"Tr_inv_d":1,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":337,"Tr_d":1,"Tr_inv_d":0,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":338,"Tr_d":0,"Tr_inv_d":1,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":339,"Tr_d":1,"Tr_inv_d":0,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":340,"Tr_d":0,"Tr_inv_d":1,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":341,"Tr_d":1,"Tr_inv_d":1,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":342,"Tr_d":0,"Tr_inv_d":1,"perm":1,"apn":1,"reeval_ok":1,"eps_notin_ImK":1,"pprime_2to1":1,"H":1,"rho":363,"B(rho)=1,rho!=1":1,"eps":1,"eps_eq_1":1,"mu":0,"z":0,"deg":384,"nterms":16,"c2":1,"pred_hit":1}
+{"m":9,"c":343,"Tr_d":1,"Tr_inv_d":1,"perm":1,"apn":1,"reeval_ok":1,"eps_notin_ImK":1,"pprime_2to1":1,"H":1,"rho":200,"B(rho)=1,rho!=1":1,"eps":1,"eps_eq_1":1,"mu":0,"z":0,"deg":384,"nterms":16,"c2":1,"pred_hit":1}
+{"m":9,"c":344,"Tr_d":0,"Tr_inv_d":1,"perm":1,"apn":1,"reeval_ok":1,"eps_notin_ImK":1,"pprime_2to1":1,"H":1,"rho":43,"B(rho)=1,rho!=1":1,"eps":1,"eps_eq_1":1,"mu":0,"z":0,"deg":384,"nterms":16,"c2":1,"pred_hit":1}
+{"m":9,"c":345,"Tr_d":1,"Tr_inv_d":1,"perm":1,"apn":1,"reeval_ok":1,"eps_notin_ImK":1,"pprime_2to1":1,"H":1,"rho":249,"B(rho)=1,rho!=1":1,"eps":1,"eps_eq_1":1,"mu":0,"z":0,"deg":384,"nterms":16,"c2":1,"pred_hit":1}
+{"m":9,"c":346,"Tr_d":0,"Tr_inv_d":0,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":347,"Tr_d":1,"Tr_inv_d":0,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":348,"Tr_d":0,"Tr_inv_d":1,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":349,"Tr_d":1,"Tr_inv_d":1,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":350,"Tr_d":0,"Tr_inv_d":1,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":351,"Tr_d":1,"Tr_inv_d":1,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":352,"Tr_d":1,"Tr_inv_d":0,"perm":1,"apn":1,"reeval_ok":1,"eps_notin_ImK":1,"pprime_2to1":1,"H":1,"rho":437,"B(rho)=1,rho!=1":1,"eps":1,"eps_eq_1":1,"mu":0,"z":0,"deg":384,"nterms":16,"c2":1,"pred_hit":1}
+{"m":9,"c":353,"Tr_d":0,"Tr_inv_d":0,"perm":1,"apn":1,"reeval_ok":1,"eps_notin_ImK":1,"pprime_2to1":1,"H":1,"rho":386,"B(rho)=1,rho!=1":1,"eps":1,"eps_eq_1":1,"mu":0,"z":0,"deg":384,"nterms":16,"c2":1,"pred_hit":1}
+{"m":9,"c":354,"Tr_d":1,"Tr_inv_d":1,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":355,"Tr_d":0,"Tr_inv_d":1,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":356,"Tr_d":1,"Tr_inv_d":1,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":357,"Tr_d":0,"Tr_inv_d":0,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":358,"Tr_d":1,"Tr_inv_d":1,"perm":1,"apn":1,"reeval_ok":1,"eps_notin_ImK":1,"pprime_2to1":1,"H":1,"rho":266,"B(rho)=1,rho!=1":1,"eps":1,"eps_eq_1":1,"mu":0,"z":0,"deg":384,"nterms":16,"c2":1,"pred_hit":1}
+{"m":9,"c":359,"Tr_d":0,"Tr_inv_d":0,"perm":1,"apn":1,"reeval_ok":1,"eps_notin_ImK":1,"pprime_2to1":1,"H":1,"rho":458,"B(rho)=1,rho!=1":1,"eps":1,"eps_eq_1":1,"mu":0,"z":0,"deg":384,"nterms":16,"c2":1,"pred_hit":1}
+{"m":9,"c":360,"Tr_d":1,"Tr_inv_d":1,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":361,"Tr_d":0,"Tr_inv_d":0,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":362,"Tr_d":1,"Tr_inv_d":0,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":363,"Tr_d":0,"Tr_inv_d":1,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":364,"Tr_d":1,"Tr_inv_d":0,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":365,"Tr_d":0,"Tr_inv_d":1,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":366,"Tr_d":1,"Tr_inv_d":1,"perm":1,"apn":1,"reeval_ok":1,"eps_notin_ImK":1,"pprime_2to1":1,"H":1,"rho":127,"B(rho)=1,rho!=1":1,"eps":1,"eps_eq_1":1,"mu":0,"z":0,"deg":384,"nterms":16,"c2":1,"pred_hit":1}
+{"m":9,"c":367,"Tr_d":0,"Tr_inv_d":0,"perm":1,"apn":1,"reeval_ok":1,"eps_notin_ImK":1,"pprime_2to1":1,"H":1,"rho":202,"B(rho)=1,rho!=1":1,"eps":1,"eps_eq_1":1,"mu":0,"z":0,"deg":384,"nterms":16,"c2":1,"pred_hit":1}
+{"m":9,"c":368,"Tr_d":1,"Tr_inv_d":1,"perm":1,"apn":1,"reeval_ok":1,"eps_notin_ImK":1,"pprime_2to1":1,"H":1,"rho":357,"B(rho)=1,rho!=1":1,"eps":1,"eps_eq_1":1,"mu":0,"z":0,"deg":384,"nterms":16,"c2":1,"pred_hit":1}
+{"m":9,"c":369,"Tr_d":0,"Tr_inv_d":0,"perm":1,"apn":1,"reeval_ok":1,"eps_notin_ImK":1,"pprime_2to1":1,"H":1,"rho":237,"B(rho)=1,rho!=1":1,"eps":1,"eps_eq_1":1,"mu":0,"z":0,"deg":384,"nterms":16,"c2":1,"pred_hit":1}
+{"m":9,"c":370,"Tr_d":1,"Tr_inv_d":0,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":371,"Tr_d":0,"Tr_inv_d":1,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":372,"Tr_d":1,"Tr_inv_d":1,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":373,"Tr_d":0,"Tr_inv_d":1,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":374,"Tr_d":1,"Tr_inv_d":0,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":375,"Tr_d":0,"Tr_inv_d":1,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":376,"Tr_d":1,"Tr_inv_d":0,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":377,"Tr_d":0,"Tr_inv_d":0,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":378,"Tr_d":1,"Tr_inv_d":0,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":379,"Tr_d":0,"Tr_inv_d":1,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":380,"Tr_d":1,"Tr_inv_d":0,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":381,"Tr_d":0,"Tr_inv_d":0,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":382,"Tr_d":1,"Tr_inv_d":1,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":383,"Tr_d":0,"Tr_inv_d":1,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":384,"Tr_d":0,"Tr_inv_d":1,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":385,"Tr_d":1,"Tr_inv_d":0,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":386,"Tr_d":0,"Tr_inv_d":0,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":387,"Tr_d":1,"Tr_inv_d":1,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":388,"Tr_d":0,"Tr_inv_d":1,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":389,"Tr_d":1,"Tr_inv_d":1,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":390,"Tr_d":0,"Tr_inv_d":1,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":391,"Tr_d":1,"Tr_inv_d":1,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":392,"Tr_d":0,"Tr_inv_d":1,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":393,"Tr_d":1,"Tr_inv_d":0,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":394,"Tr_d":0,"Tr_inv_d":1,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":395,"Tr_d":1,"Tr_inv_d":0,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":396,"Tr_d":0,"Tr_inv_d":0,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":397,"Tr_d":1,"Tr_inv_d":1,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":398,"Tr_d":0,"Tr_inv_d":0,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":399,"Tr_d":1,"Tr_inv_d":0,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":400,"Tr_d":0,"Tr_inv_d":1,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":401,"Tr_d":1,"Tr_inv_d":0,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":402,"Tr_d":0,"Tr_inv_d":1,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":403,"Tr_d":1,"Tr_inv_d":1,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":404,"Tr_d":0,"Tr_inv_d":1,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":405,"Tr_d":1,"Tr_inv_d":1,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":406,"Tr_d":0,"Tr_inv_d":1,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":407,"Tr_d":1,"Tr_inv_d":1,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":408,"Tr_d":0,"Tr_inv_d":0,"perm":1,"apn":1,"reeval_ok":1,"eps_notin_ImK":1,"pprime_2to1":1,"H":1,"rho":18,"B(rho)=1,rho!=1":1,"eps":1,"eps_eq_1":1,"mu":0,"z":0,"deg":384,"nterms":16,"c2":1,"pred_hit":1}
+{"m":9,"c":409,"Tr_d":1,"Tr_inv_d":1,"perm":1,"apn":1,"reeval_ok":1,"eps_notin_ImK":1,"pprime_2to1":1,"H":1,"rho":117,"B(rho)=1,rho!=1":1,"eps":1,"eps_eq_1":1,"mu":0,"z":0,"deg":384,"nterms":16,"c2":1,"pred_hit":1}
+{"m":9,"c":410,"Tr_d":0,"Tr_inv_d":0,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":411,"Tr_d":1,"Tr_inv_d":1,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":412,"Tr_d":0,"Tr_inv_d":0,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":413,"Tr_d":1,"Tr_inv_d":1,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":414,"Tr_d":0,"Tr_inv_d":0,"perm":1,"apn":1,"reeval_ok":1,"eps_notin_ImK":1,"pprime_2to1":1,"H":1,"rho":20,"B(rho)=1,rho!=1":1,"eps":1,"eps_eq_1":1,"mu":0,"z":0,"deg":384,"nterms":16,"c2":1,"pred_hit":1}
+{"m":9,"c":415,"Tr_d":1,"Tr_inv_d":1,"perm":1,"apn":1,"reeval_ok":1,"eps_notin_ImK":1,"pprime_2to1":1,"H":1,"rho":148,"B(rho)=1,rho!=1":1,"eps":1,"eps_eq_1":1,"mu":0,"z":0,"deg":384,"nterms":16,"c2":1,"pred_hit":1}
+{"m":9,"c":416,"Tr_d":1,"Tr_inv_d":1,"perm":1,"apn":1,"reeval_ok":1,"eps_notin_ImK":1,"pprime_2to1":1,"H":1,"rho":289,"B(rho)=1,rho!=1":1,"eps":1,"eps_eq_1":1,"mu":0,"z":0,"deg":384,"nterms":16,"c2":1,"pred_hit":1}
+{"m":9,"c":417,"Tr_d":0,"Tr_inv_d":0,"perm":1,"apn":1,"reeval_ok":1,"eps_notin_ImK":1,"pprime_2to1":1,"H":1,"rho":272,"B(rho)=1,rho!=1":1,"eps":1,"eps_eq_1":1,"mu":0,"z":0,"deg":384,"nterms":16,"c2":1,"pred_hit":1}
+{"m":9,"c":418,"Tr_d":1,"Tr_inv_d":1,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":419,"Tr_d":0,"Tr_inv_d":1,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":420,"Tr_d":1,"Tr_inv_d":1,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":421,"Tr_d":0,"Tr_inv_d":0,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":422,"Tr_d":1,"Tr_inv_d":0,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":423,"Tr_d":0,"Tr_inv_d":0,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":424,"Tr_d":1,"Tr_inv_d":0,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":425,"Tr_d":0,"Tr_inv_d":0,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":426,"Tr_d":1,"Tr_inv_d":0,"perm":1,"apn":1,"reeval_ok":1,"eps_notin_ImK":1,"pprime_2to1":1,"H":1,"rho":66,"B(rho)=1,rho!=1":1,"eps":1,"eps_eq_1":1,"mu":0,"z":0,"deg":384,"nterms":16,"c2":1,"pred_hit":1}
+{"m":9,"c":427,"Tr_d":0,"Tr_inv_d":0,"perm":1,"apn":1,"reeval_ok":1,"eps_notin_ImK":1,"pprime_2to1":1,"H":1,"rho":365,"B(rho)=1,rho!=1":1,"eps":1,"eps_eq_1":1,"mu":0,"z":0,"deg":384,"nterms":16,"c2":1,"pred_hit":1}
+{"m":9,"c":428,"Tr_d":1,"Tr_inv_d":1,"perm":1,"apn":1,"reeval_ok":1,"eps_notin_ImK":1,"pprime_2to1":1,"H":1,"rho":142,"B(rho)=1,rho!=1":1,"eps":1,"eps_eq_1":1,"mu":0,"z":0,"deg":384,"nterms":16,"c2":1,"pred_hit":1}
+{"m":9,"c":429,"Tr_d":0,"Tr_inv_d":0,"perm":1,"apn":1,"reeval_ok":1,"eps_notin_ImK":1,"pprime_2to1":1,"H":1,"rho":109,"B(rho)=1,rho!=1":1,"eps":1,"eps_eq_1":1,"mu":0,"z":0,"deg":384,"nterms":16,"c2":1,"pred_hit":1}
+{"m":9,"c":430,"Tr_d":1,"Tr_inv_d":0,"perm":1,"apn":1,"reeval_ok":1,"eps_notin_ImK":1,"pprime_2to1":1,"H":1,"rho":177,"B(rho)=1,rho!=1":1,"eps":1,"eps_eq_1":1,"mu":0,"z":0,"deg":384,"nterms":16,"c2":1,"pred_hit":1}
+{"m":9,"c":431,"Tr_d":0,"Tr_inv_d":1,"perm":1,"apn":1,"reeval_ok":1,"eps_notin_ImK":1,"pprime_2to1":1,"H":1,"rho":348,"B(rho)=1,rho!=1":1,"eps":1,"eps_eq_1":1,"mu":0,"z":0,"deg":384,"nterms":16,"c2":1,"pred_hit":1}
+{"m":9,"c":432,"Tr_d":1,"Tr_inv_d":1,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":433,"Tr_d":0,"Tr_inv_d":0,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":434,"Tr_d":1,"Tr_inv_d":0,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":435,"Tr_d":0,"Tr_inv_d":0,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":436,"Tr_d":1,"Tr_inv_d":1,"perm":1,"apn":1,"reeval_ok":1,"eps_notin_ImK":1,"pprime_2to1":1,"H":1,"rho":443,"B(rho)=1,rho!=1":1,"eps":1,"eps_eq_1":1,"mu":0,"z":0,"deg":384,"nterms":16,"c2":1,"pred_hit":1}
+{"m":9,"c":437,"Tr_d":0,"Tr_inv_d":0,"perm":1,"apn":1,"reeval_ok":1,"eps_notin_ImK":1,"pprime_2to1":1,"H":1,"rho":260,"B(rho)=1,rho!=1":1,"eps":1,"eps_eq_1":1,"mu":0,"z":0,"deg":384,"nterms":16,"c2":1,"pred_hit":1}
+{"m":9,"c":438,"Tr_d":1,"Tr_inv_d":0,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":439,"Tr_d":0,"Tr_inv_d":1,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":440,"Tr_d":1,"Tr_inv_d":1,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":441,"Tr_d":0,"Tr_inv_d":1,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":442,"Tr_d":1,"Tr_inv_d":1,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":443,"Tr_d":0,"Tr_inv_d":1,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":444,"Tr_d":1,"Tr_inv_d":1,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":445,"Tr_d":0,"Tr_inv_d":1,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":446,"Tr_d":1,"Tr_inv_d":1,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":447,"Tr_d":0,"Tr_inv_d":0,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":448,"Tr_d":0,"Tr_inv_d":1,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":449,"Tr_d":1,"Tr_inv_d":0,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":450,"Tr_d":0,"Tr_inv_d":1,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":451,"Tr_d":1,"Tr_inv_d":0,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":452,"Tr_d":0,"Tr_inv_d":1,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":453,"Tr_d":1,"Tr_inv_d":1,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":454,"Tr_d":0,"Tr_inv_d":0,"perm":1,"apn":1,"reeval_ok":1,"eps_notin_ImK":1,"pprime_2to1":1,"H":1,"rho":212,"B(rho)=1,rho!=1":1,"eps":1,"eps_eq_1":1,"mu":0,"z":0,"deg":384,"nterms":16,"c2":1,"pred_hit":1}
+{"m":9,"c":455,"Tr_d":1,"Tr_inv_d":1,"perm":1,"apn":1,"reeval_ok":1,"eps_notin_ImK":1,"pprime_2to1":1,"H":1,"rho":402,"B(rho)=1,rho!=1":1,"eps":1,"eps_eq_1":1,"mu":0,"z":0,"deg":384,"nterms":16,"c2":1,"pred_hit":1}
+{"m":9,"c":456,"Tr_d":0,"Tr_inv_d":1,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":457,"Tr_d":1,"Tr_inv_d":0,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":458,"Tr_d":0,"Tr_inv_d":1,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":459,"Tr_d":1,"Tr_inv_d":1,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":460,"Tr_d":0,"Tr_inv_d":1,"perm":1,"apn":1,"reeval_ok":1,"eps_notin_ImK":1,"pprime_2to1":1,"H":1,"rho":489,"B(rho)=1,rho!=1":1,"eps":1,"eps_eq_1":1,"mu":0,"z":0,"deg":384,"nterms":16,"c2":1,"pred_hit":1}
+{"m":9,"c":461,"Tr_d":1,"Tr_inv_d":0,"perm":1,"apn":1,"reeval_ok":1,"eps_notin_ImK":1,"pprime_2to1":1,"H":1,"rho":384,"B(rho)=1,rho!=1":1,"eps":1,"eps_eq_1":1,"mu":0,"z":0,"deg":384,"nterms":16,"c2":1,"pred_hit":1}
+{"m":9,"c":462,"Tr_d":0,"Tr_inv_d":0,"perm":1,"apn":1,"reeval_ok":1,"eps_notin_ImK":1,"pprime_2to1":1,"H":1,"rho":433,"B(rho)=1,rho!=1":1,"eps":1,"eps_eq_1":1,"mu":0,"z":0,"deg":384,"nterms":16,"c2":1,"pred_hit":1}
+{"m":9,"c":463,"Tr_d":1,"Tr_inv_d":0,"perm":1,"apn":1,"reeval_ok":1,"eps_notin_ImK":1,"pprime_2to1":1,"H":1,"rho":235,"B(rho)=1,rho!=1":1,"eps":1,"eps_eq_1":1,"mu":0,"z":0,"deg":384,"nterms":16,"c2":1,"pred_hit":1}
+{"m":9,"c":464,"Tr_d":0,"Tr_inv_d":0,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":465,"Tr_d":1,"Tr_inv_d":0,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":466,"Tr_d":0,"Tr_inv_d":0,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":467,"Tr_d":1,"Tr_inv_d":0,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":468,"Tr_d":0,"Tr_inv_d":1,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":469,"Tr_d":1,"Tr_inv_d":0,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":470,"Tr_d":0,"Tr_inv_d":0,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":471,"Tr_d":1,"Tr_inv_d":1,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":472,"Tr_d":0,"Tr_inv_d":1,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":473,"Tr_d":1,"Tr_inv_d":0,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":474,"Tr_d":0,"Tr_inv_d":0,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":475,"Tr_d":1,"Tr_inv_d":0,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":476,"Tr_d":0,"Tr_inv_d":1,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":477,"Tr_d":1,"Tr_inv_d":1,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":478,"Tr_d":0,"Tr_inv_d":1,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":479,"Tr_d":1,"Tr_inv_d":1,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":480,"Tr_d":1,"Tr_inv_d":1,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":481,"Tr_d":0,"Tr_inv_d":1,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":482,"Tr_d":1,"Tr_inv_d":0,"perm":1,"apn":1,"reeval_ok":1,"eps_notin_ImK":1,"pprime_2to1":1,"H":1,"rho":507,"B(rho)=1,rho!=1":1,"eps":1,"eps_eq_1":1,"mu":0,"z":0,"deg":384,"nterms":16,"c2":1,"pred_hit":1}
+{"m":9,"c":483,"Tr_d":0,"Tr_inv_d":1,"perm":1,"apn":1,"reeval_ok":1,"eps_notin_ImK":1,"pprime_2to1":1,"H":1,"rho":78,"B(rho)=1,rho!=1":1,"eps":1,"eps_eq_1":1,"mu":0,"z":0,"deg":384,"nterms":16,"c2":1,"pred_hit":1}
+{"m":9,"c":484,"Tr_d":1,"Tr_inv_d":1,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":485,"Tr_d":0,"Tr_inv_d":1,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":486,"Tr_d":1,"Tr_inv_d":0,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":487,"Tr_d":0,"Tr_inv_d":0,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":488,"Tr_d":1,"Tr_inv_d":1,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":489,"Tr_d":0,"Tr_inv_d":1,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":490,"Tr_d":1,"Tr_inv_d":0,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":491,"Tr_d":0,"Tr_inv_d":1,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":492,"Tr_d":1,"Tr_inv_d":1,"perm":1,"apn":1,"reeval_ok":1,"eps_notin_ImK":1,"pprime_2to1":1,"H":1,"rho":388,"B(rho)=1,rho!=1":1,"eps":1,"eps_eq_1":1,"mu":0,"z":0,"deg":384,"nterms":16,"c2":1,"pred_hit":1}
+{"m":9,"c":493,"Tr_d":0,"Tr_inv_d":0,"perm":1,"apn":1,"reeval_ok":1,"eps_notin_ImK":1,"pprime_2to1":1,"H":1,"rho":247,"B(rho)=1,rho!=1":1,"eps":1,"eps_eq_1":1,"mu":0,"z":0,"deg":384,"nterms":16,"c2":1,"pred_hit":1}
+{"m":9,"c":494,"Tr_d":1,"Tr_inv_d":1,"perm":1,"apn":1,"reeval_ok":1,"eps_notin_ImK":1,"pprime_2to1":1,"H":1,"rho":49,"B(rho)=1,rho!=1":1,"eps":1,"eps_eq_1":1,"mu":0,"z":0,"deg":384,"nterms":16,"c2":1,"pred_hit":1}
+{"m":9,"c":495,"Tr_d":0,"Tr_inv_d":0,"perm":1,"apn":1,"reeval_ok":1,"eps_notin_ImK":1,"pprime_2to1":1,"H":1,"rho":355,"B(rho)=1,rho!=1":1,"eps":1,"eps_eq_1":1,"mu":0,"z":0,"deg":384,"nterms":16,"c2":1,"pred_hit":1}
+{"m":9,"c":496,"Tr_d":1,"Tr_inv_d":1,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":497,"Tr_d":0,"Tr_inv_d":1,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":498,"Tr_d":1,"Tr_inv_d":0,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":499,"Tr_d":0,"Tr_inv_d":0,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":500,"Tr_d":1,"Tr_inv_d":0,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":501,"Tr_d":0,"Tr_inv_d":1,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":502,"Tr_d":1,"Tr_inv_d":0,"perm":1,"apn":1,"reeval_ok":1,"eps_notin_ImK":1,"pprime_2to1":1,"H":1,"rho":171,"B(rho)=1,rho!=1":1,"eps":1,"eps_eq_1":1,"mu":0,"z":0,"deg":384,"nterms":16,"c2":1,"pred_hit":1}
+{"m":9,"c":503,"Tr_d":0,"Tr_inv_d":0,"perm":1,"apn":1,"reeval_ok":1,"eps_notin_ImK":1,"pprime_2to1":1,"H":1,"rho":379,"B(rho)=1,rho!=1":1,"eps":1,"eps_eq_1":1,"mu":0,"z":0,"deg":384,"nterms":16,"c2":1,"pred_hit":1}
+{"m":9,"c":504,"Tr_d":1,"Tr_inv_d":0,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":505,"Tr_d":0,"Tr_inv_d":1,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":506,"Tr_d":1,"Tr_inv_d":0,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":507,"Tr_d":0,"Tr_inv_d":1,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":508,"Tr_d":1,"Tr_inv_d":0,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":509,"Tr_d":0,"Tr_inv_d":0,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":510,"Tr_d":1,"Tr_inv_d":1,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":9,"c":511,"Tr_d":0,"Tr_inv_d":0,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+SUMMARY {"m":9,"poly":529,"tested":512,"agree_with_theorem":512,"hits":126}

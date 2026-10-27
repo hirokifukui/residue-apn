@@ -1,0 +1,5 @@
+{"file": "rep5_nat.txt", "k": 3, "rho": 4, "mu": 0, "z": 0, "A_zeros": 2, "n_exc_rows": 1024, "pred": null, "exc_hists": [[[32, 960], [1024, 2]]], "exc_status": "BOUND_ONLY"}
+{"file": "rep5_nat.txt", "k": 4, "rho": 4, "mu": 0, "z": 0, "A_zeros": 2, "n_exc_rows": 4, "pred": null, "exc_hists": [[[32, 30720], [2048, 32]]], "exc_status": "BOUND_ONLY", "penult_pred": {"32768": 30, "65536": 1}, "penult_status": "MATCH"}
+{"file": "rep5_A1.txt", "k": 3, "rho": 4, "mu": 0, "z": 0, "A_zeros": 0, "n_exc_rows": 1024, "pred": {"32": 1024}, "exc_hists": [[[32, 1024]]], "exc_status": "MATCH"}
+{"file": "rep5_A1.txt", "k": 4, "rho": 4, "mu": 0, "z": 0, "A_zeros": 0, "n_exc_rows": 4, "pred": {"32": 32768}, "exc_hists": [[[32, 32768]]], "exc_status": "MATCH", "penult_pred": {"32768": 32}, "penult_status": "MATCH"}
+VALIDATE_V3 OK 4 records: 2 MATCH, 2 BOUND_ONLY (lower bound only; not counted as spectrum verification)

@@ -1,0 +1,11 @@
+{"m":11,"d":396,"Tr_d":0,"Tr_inv_d":1,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":11,"d":1903,"Tr_d":0,"Tr_inv_d":0,"perm":1,"apn":1,"reeval_ok":1,"eps_notin_ImK":1,"pprime_2to1":1,"H":1,"rho":881,"rho_eq_dinv4":1,"eps":1147,"eps_eq_(1+d)^2":1,"mu":0,"z":0,"deg":1536,"nterms":30,"c2":1,"pred_hit":1}
+{"m":11,"d":1281,"Tr_d":1,"Tr_inv_d":1,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":11,"d":1755,"Tr_d":0,"Tr_inv_d":1,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":11,"d":1062,"Tr_d":0,"Tr_inv_d":0,"perm":1,"apn":1,"reeval_ok":1,"eps_notin_ImK":1,"pprime_2to1":1,"H":1,"rho":78,"rho_eq_dinv4":1,"eps":1552,"eps_eq_(1+d)^2":1,"mu":0,"z":0,"deg":1536,"nterms":30,"c2":1,"pred_hit":1}
+{"m":11,"d":686,"Tr_d":1,"Tr_inv_d":1,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":11,"d":1707,"Tr_d":0,"Tr_inv_d":0,"perm":1,"apn":1,"reeval_ok":1,"eps_notin_ImK":1,"pprime_2to1":1,"H":1,"rho":1967,"rho_eq_dinv4":1,"eps":1257,"eps_eq_(1+d)^2":1,"mu":0,"z":0,"deg":1536,"nterms":30,"c2":1,"pred_hit":1}
+{"m":11,"d":918,"Tr_d":1,"Tr_inv_d":1,"perm":0,"H":0,"why":"not a permutation","pred_hit":0}
+{"m":11,"d":957,"Tr_d":0,"Tr_inv_d":0,"perm":1,"apn":1,"reeval_ok":1,"eps_notin_ImK":1,"pprime_2to1":1,"H":1,"rho":1268,"rho_eq_dinv4":1,"eps":1880,"eps_eq_(1+d)^2":1,"mu":0,"z":0,"deg":1536,"nterms":30,"c2":1,"pred_hit":1}
+{"m":11,"d":1807,"Tr_d":0,"Tr_inv_d":0,"perm":1,"apn":1,"reeval_ok":1,"eps_notin_ImK":1,"pprime_2to1":1,"H":1,"rho":1428,"rho_eq_dinv4":1,"eps":113,"eps_eq_(1+d)^2":1,"mu":0,"z":0,"deg":1536,"nterms":30,"c2":1,"pred_hit":1}
+SUMMARY {"m":11,"poly":2053,"tested":10,"agree_with_theorem":10,"hits":5}

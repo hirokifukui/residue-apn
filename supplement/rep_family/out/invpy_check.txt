@@ -1,0 +1,9 @@
+terms/fam_m5_d2.txt {"rho": 11, "mu": 0, "Z": [], "A_zero": 4, "pred_k3": null, "pred_k4": null}
+terms/fam_m5_d4.txt {"rho": 15, "mu": 0, "Z": [], "A_zero": 0, "pred_k3": {"32": 1024, "64": 0}, "pred_k4": {"32": 32768, "64": 0}}
+terms/fam_m5_d9.txt {"rho": 13, "mu": 0, "Z": [], "A_zero": 0, "pred_k3": {"32": 1024, "64": 0}, "pred_k4": {"32": 32768, "64": 0}}
+terms/fam_m7_d12.txt {"rho": 26, "mu": 0, "Z": [], "A_zero": 0, "pred_k3": {"128": 16384, "256": 0}, "pred_k4": {"128": 2097152, "256": 0}}
+terms/fam_m7_d26.txt {"rho": 40, "mu": 0, "Z": [], "A_zero": 0, "pred_k3": {"128": 16384, "256": 0}, "pred_k4": {"128": 2097152, "256": 0}}
+terms/fam_m7_d28.txt {"rho": 30, "mu": 0, "Z": [], "A_zero": 0, "pred_k3": {"128": 16384, "256": 0}, "pred_k4": {"128": 2097152, "256": 0}}
+terms/fam_m9_d2.txt {"rho": 33, "mu": 0, "Z": [], "A_zero": 0, "pred_k3": {"512": 262144, "1024": 0}, "pred_k4": {"512": 134217728, "1024": 0}}
+terms/fam_m9_d4.txt {"rho": 35, "mu": 0, "Z": [], "A_zero": 0, "pred_k3": {"512": 262144, "1024": 0}, "pred_k4": {"512": 134217728, "1024": 0}}
+terms/fam_m11_d2.txt {"rho": 641, "mu": 0, "Z": [], "A_zero": 4, "pred_k3": null}

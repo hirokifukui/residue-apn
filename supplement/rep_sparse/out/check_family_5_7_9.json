@@ -1,0 +1,86 @@
+{
+ "5": {
+  "total": 32,
+  "injective": 15,
+  "inj_notF2": 15,
+  "H": 15,
+  "mu0": 15,
+  "Z_empty": 15,
+  "pred_match": 32,
+  "mismatch": 0,
+  "rho_ne1": 15,
+  "nterms": [
+   12
+  ],
+  "degrees": [
+   24
+  ],
+  "admissible_c_sample": [
+   3,
+   5,
+   8,
+   9,
+   10,
+   11,
+   12,
+   14
+  ],
+  "n_admissible": 15
+ },
+ "7": {
+  "total": 128,
+  "injective": 43,
+  "inj_notF2": 42,
+  "H": 42,
+  "mu0": 42,
+  "Z_empty": 42,
+  "pred_match": 128,
+  "mismatch": 0,
+  "rho_ne1": 42,
+  "nterms": [
+   16
+  ],
+  "degrees": [
+   96
+  ],
+  "admissible_c_sample": [
+   9,
+   13,
+   14,
+   28,
+   30,
+   31,
+   34,
+   37
+  ],
+  "n_admissible": 42
+ },
+ "9": {
+  "total": 512,
+  "injective": 127,
+  "inj_notF2": 126,
+  "H": 126,
+  "mu0": 126,
+  "Z_empty": 126,
+  "pred_match": 512,
+  "mismatch": 0,
+  "rho_ne1": 126,
+  "nterms": [
+   16
+  ],
+  "degrees": [
+   384
+  ],
+  "admissible_c_sample": [
+   8,
+   9,
+   10,
+   11,
+   14,
+   15,
+   36,
+   37
+  ],
+  "n_admissible": 126
+ }
+}
