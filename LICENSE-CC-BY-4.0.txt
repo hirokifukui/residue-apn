@@ -1,18 +1,21 @@
 Creative Commons Attribution 4.0 International (CC BY 4.0)
 
-Prose written by Hiroki Fukui in this package (the paper "Explicit reduced APN permutations: ramification and
-optimal Galois-ring lifts", its sources, the blueprint text and the Markdown documents) is licensed under the
-Creative Commons Attribution 4.0 International License. The licence of every file is stated in the `licence`
-column of release/DISTRIBUTION_FILES.tsv; that column is authoritative. The CC BY 4.0 files are the author's
-documents with the extensions .tex, .md and .pdf, in particular:
+Prose written by Hiroki Fukui in this package is licensed under the Creative Commons Attribution 4.0 International
+License. This covers the paper "Coefficient choice in Galois-ring lifts of APN permutations: sharp unit-direction
+spectra and one-term optimal lifts" and the other documents listed below. The licence of every file is stated in the
+`licence` column of release/DISTRIBUTION_FILES.tsv; that column is authoritative. The CC BY 4.0 files are exactly:
 
-- the manuscript sources and PDFs        paper/ (amsart source and PDF, generated elsarticle version)
-- the blueprint text and PDF             blueprint/ (.tex, .pdf)
-- README.md, TRUST.md, REPRODUCE.md, CHANGELOG.md and the other Markdown documents of the author
+- the paper source and PDF               paper/manuscript.tex, paper/manuscript.pdf
+- the blueprint text and PDF             blueprint/blueprint.tex, blueprint/blueprint.pdf
+- every Markdown file (.md) of the package, for example README.md, TRUST.md, REPRODUCE.md, CHANGELOG.md
+- this file
+
+The other PDFs in blueprint/ (the dependency graphs dep_graph.pdf and lean_imports.pdf) are generated from
+machine-readable files and are MIT, as the column states.
 
 You are free to share and adapt this material for any purpose, provided you give appropriate credit (Hiroki Fukui,
-"Explicit reduced APN permutations: ramification and optimal Galois-ring lifts"; the archive identifier is added
-when the package is published), link to the licence, and indicate if changes were made.
+"Coefficient choice in Galois-ring lifts of APN permutations: sharp unit-direction spectra and one-term optimal
+lifts", doi:10.5281/zenodo.23683495), link to the licence, and indicate if changes were made.
 Full legal code: https://creativecommons.org/licenses/by/4.0/legalcode
 
 Code, Lean sources, scripts, checkers, logs and other machine-readable files of the author are licensed under the

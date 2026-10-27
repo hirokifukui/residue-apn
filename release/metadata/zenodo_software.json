@@ -9,8 +9,8 @@
     "affiliation": "Research Institute of Criminal Psychiatry / Sex Offender Medical Center, Tokyo, Japan; Department of Neuropsychiatry, Kyoto University, Kyoto, Japan"
    }
   ],
-  "description": "<p>Package for the paper \"Coefficient choice in Galois-ring lifts of APN permutations: sharp unit-direction spectra and one-term optimal lifts\" (paper version DOI 10.5281/zenodo.23683495). It contains the paper source and PDF, the blueprint of the formalization with its generator, the Lean 4 development (Lean 4.31.0-rc1, Mathlib d568c8c; 55 modules; 150 audited declarations, each depending only on propext, Classical.choice and Quot.sound; no sorry) and the finite computations with replay scripts and negative controls. First command on a copy: python3 release/verify_published.py (expected PUBLISHED_CHECK=PASS); guide REPRODUCE.md.</p><p>Version 2.0.0 is built around a new, substantially revised and extended paper; the material of versions 1.0.x remains in those versions.</p><p>Licences: MIT for code and machine-readable files; CC BY 4.0 for prose by the author (paper source and PDF, blueprint, Markdown); per-file licence in release/DISTRIBUTION_FILES.tsv.</p><p>Status: Version 2.0.0 (software version DOI 10.5281/zenodo.23683493; source repository https://github.com/hirokifukui/residue-apn, tag v2.0.0).</p>",
-  "version": "2.0.0",
+  "description": "<p>Package for the paper \"Coefficient choice in Galois-ring lifts of APN permutations: sharp unit-direction spectra and one-term optimal lifts\" (paper version DOI 10.5281/zenodo.23683495). It contains the paper source and PDF, the blueprint of the formalization with its generator, the Lean 4 development (Lean 4.31.0-rc1, Mathlib d568c8c; 55 modules; 150 audited declarations, each depending only on propext, Classical.choice and Quot.sound; no sorry) and the finite computations with replay scripts and negative controls. First command on a copy: python3 release/verify_published.py (expected PUBLISHED_CHECK=PASS); guide REPRODUCE.md.</p><p>Version 2.0.0 is built around a new, substantially revised and extended paper; the material of versions 1.0.x remains in those versions.</p><p>Licences: MIT for code and machine-readable files; CC BY 4.0 for prose by the author (paper source and PDF, blueprint, Markdown); per-file licence in release/DISTRIBUTION_FILES.tsv.</p><p>Version 2.0.1 corrects the release documents of 2.0.0 (licence notice, manifest script, supplement README, CHANGELOG, TRUST); the paper, the blueprint, the Lean sources and the computations are unchanged. The paper cites version 2.0.0 (doi 10.5281/zenodo.23683493), which stays available.</p><p>Status: Version 2.0.1 (software version DOI 10.5281/zenodo.23684624; source repository https://github.com/hirokifukui/residue-apn, tag v2.0.1).</p>",
+  "version": "2.0.1",
   "license": "mit",
   "keywords": [
    "APN functions",
@@ -30,9 +30,14 @@
     "scheme": "doi"
    },
    {
-    "identifier": "https://github.com/hirokifukui/residue-apn/tree/v2.0.0",
+    "identifier": "https://github.com/hirokifukui/residue-apn/tree/v2.0.1",
     "relation": "isSupplementTo",
     "scheme": "url"
+   },
+   {
+    "identifier": "10.5281/zenodo.23683493",
+    "relation": "isNewVersionOf",
+    "scheme": "doi"
    }
   ],
   "access_right": "open",

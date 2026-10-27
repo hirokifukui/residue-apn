@@ -21,10 +21,11 @@ in Lean are cardinalities of actual finite solution sets.
 | author, cloud container, 2026-10-26/27 | `supplement/replay_core.sh` (stages 0–9) and `replay_full.sh` (F1–F7) from fresh copies, negative controls | CORE REPLAY OK, FULL REPLAY OK; 8 + 12 negative controls behave as expected | `supplement/logs/replay_core_r06.log`, `replay_core_r07.log`, `replay_full_r06.log` |
 | independent reviewer (ChatGPT) | read the sources, re-ran the core replay from the supplementary archive and wrote independent finite checks; **did not run Lean** | replay PASS; Lean: NOT RUN | not part of this package |
 
-No external party has re-run the Lean build. The Lean logs and some research scripts in `supplement/` (for example
-`supplement/rep_sparse/`, `supplement/layers/r05c/`) show the author's working paths; they are records, not entry
-points. Header comments of several source files name the AI tool that drafted them, in line with Appendix A of the
-paper. `supplement/LEAN_SCOPE.md` and one research note are in Japanese; the blueprint is the English account.
+No external party has re-run the Lean build. Seventeen research scripts and outputs in `supplement/rep_sparse/` and
+`supplement/layers/r05c/` show the author's working paths; they are records, not entry points (the Lean logs show
+none). Header comments of 73 files in `supplement/` (the Lean sources, tests, certificates and research scripts)
+name the AI tool that drafted them, in line with Appendix A of the paper. `supplement/LEAN_SCOPE.md` and one research
+note are in Japanese; the blueprint is the English account.
 
 ## Trust boundary
 The meaning of the Lean definitions, the Lean kernel, the pinned Mathlib and the toolchain are trusted. The finite

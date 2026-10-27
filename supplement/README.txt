@@ -1,6 +1,7 @@
 Supplementary material (finite computations and Lean 4 formalization) for
 "Coefficient choice in Galois-ring lifts of APN permutations: sharp unit-direction spectra and one-term optimal lifts"
-by Hiroki Fukui. This directory has the same content as Online Resource 1 of the paper; only this README differs.
+by Hiroki Fukui. The paper refers to this material as Online Resource 1 (archive ESM_1.zip); this directory has the
+same content except this README and mk_manifest.py (a development script; see ../CHANGELOG.md, 2.0.1).
 - replay_core.sh: core replay (about 6 min on 2 cores; gcc, Python 3 with SymPy and NumPy). replay_full.sh: full replay
   (about 1.5 h on 2 cores).
 - tests/: regression tests and negative controls (tests/replay_negatives.sh, tests/replay_scope_negatives.sh).

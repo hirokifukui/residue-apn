@@ -49,8 +49,6 @@ M=[
  ('layers/r05c/ver3b.jsonl','R05c research (container): python3 verify_batch.py gen3b.jsonl ver3b.jsonl',['layers/r05c/gen3b.jsonl','layers/r05c/verify_batch.py']),
  ('layers/r05c/recheck_old.jsonl','R05c research (container): python3 recheck_old.py (691 R05b rows)',['layers/r05c/recheck_old.py']),
  ('tex/apn2_full.pdf','cd tex && pdflatex apn2_full.tex (3 runs)',['tex/apn2_full.tex']),
- ('tex/apn2_aaecc.tex','python3 tools/make_aaecc.py (R08, AAECC, svjour3 smallextended)',['tools/make_aaecc.py','tex/apn2_full.tex']),
- ('tex/apn2_aaecc.pdf','cd tex && pdflatex apn2_aaecc.tex (3 runs; svjour3.cls and svglov3.clo from Springer LaTeX_DL_468198_240419)',['tex/apn2_aaecc.tex','tex/svjour3.cls','tex/svglov3.clo']),
  ('checker_magma_v2.m','python3 mkmagma_v2.py (R03)',['mkmagma_v2.py']),
 ]
 with open('MANIFEST.txt','w') as f:
@@ -60,7 +58,7 @@ with open('MANIFEST.txt','w') as f:
     f.write('# R05c: replay_full_r05c.log (fresh scratch copy, container); the new R05c outputs (stage 9 tests, F6, F7) are taken from that run.\n')
     f.write('# R06: replay_core_r06.log and replay_full_r06.log (fresh scratch copies of r08); new stage 9 outputs tests/hull_layer.out and cert/sparse_cert_r06.out.\n')
     f.write('# R07: no code or Lean change; replay_core_r07.log (fresh scratch copy of r09, container). replay_full_r06.log remains the latest full replay.\n')
-    f.write('# R08: no code or Lean change; AAECC version tex/apn2_aaecc.tex; Online Resource 1 renamed ESM_1.zip with journal header in README.txt.\n')
+    f.write('# R08: no code or Lean change.\n')
     f.write('# The JSON/.out/.log outputs shipped here were regenerated on Mac Studio (Apple clang 21, Python 3.9.6, numpy 2.0.2) from a scratch copy\n')
     f.write('# (stages 0,2-9 and F1-F5, lit/ scripts); cert/identities_cert.out comes from the container run (stage 1 needs sympy). Log: regen_studio_r04.log.\n')
     f.write('# Sampled k>=4 directions come from the C library rand(), so their lists differ between the container (glibc) and macOS; all statuses and counts agree.\n')

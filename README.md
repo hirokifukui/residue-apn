@@ -1,9 +1,10 @@
 # Coefficient choice in Galois-ring lifts of APN permutations — paper, Lean 4 formalization, blueprint and finite computations
 
-**Status: version 2.0.0, released 2026-10-27.** Software (this version): doi:10.5281/zenodo.23683493; all versions:
+**Status: version 2.0.1, released 2026-10-27** (corrections to the release documents of 2.0.0; see `CHANGELOG.md`).
+Software (this version): doi:10.5281/zenodo.23684624; all versions:
 doi:10.5281/zenodo.23232180. Paper (preprint, this version): doi:10.5281/zenodo.23683495; all versions:
 doi:10.5281/zenodo.23232182; arXiv:2610.21178 (its replacement by this paper was submitted on 2026-10-27). Source repository: https://github.com/hirokifukui/residue-apn
-(tag `v2.0.0`).
+(tag `v2.0.1`). The paper cites version 2.0.0 (doi:10.5281/zenodo.23683493, tag `v2.0.0`), which stays available.
 
 Version 2.0.0 replaces the paper of versions 1.0.x ("Explicit reduced APN permutations: ramification and optimal
 Galois-ring lifts") by a substantially revised and extended paper; see `CHANGELOG.md`. Versions 1.0.0 and 1.0.1 stay
